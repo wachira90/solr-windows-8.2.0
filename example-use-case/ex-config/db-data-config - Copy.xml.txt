@@ -1,0 +1,11 @@
+<dataConfig>
+    <dataSource type="JdbcDataSource" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3306/sakila" user="root" password="zxczxc" />
+    <document >
+        <entity pk="id" dataSource="sql" name="post" query="SELECT customer_id, first_name, last_name, email FROM sakila.customer;">
+            <field column="customer_id" name="id" />
+            <field column="first_name" name="first_name" />
+            <field column="last_name" name="last_name" />
+            <field column="email" name="email" />
+        </entity>
+    </document>
+</dataConfig>

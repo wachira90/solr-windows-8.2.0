@@ -1,0 +1,19 @@
+[2021-11-27T21:15:39.081+0700][0.028s] Using G1
+[2021-11-27T21:15:39.736+0700][0.683s] Version: 17.0.1+12-39 (release)
+[2021-11-27T21:15:39.736+0700][0.683s] CPUs: 4 total, 4 available
+[2021-11-27T21:15:39.736+0700][0.683s] Memory: 8112M
+[2021-11-27T21:15:39.736+0700][0.683s] Large Page Support: Disabled
+[2021-11-27T21:15:39.736+0700][0.683s] NUMA Support: Disabled
+[2021-11-27T21:15:39.736+0700][0.684s] Compressed Oops: Enabled (Zero based)
+[2021-11-27T21:15:39.736+0700][0.684s] Heap Region Size: 2M
+[2021-11-27T21:15:39.736+0700][0.684s] Heap Min Capacity: 1G
+[2021-11-27T21:15:39.736+0700][0.684s] Heap Initial Capacity: 1G
+[2021-11-27T21:15:39.736+0700][0.684s] Heap Max Capacity: 4G
+[2021-11-27T21:15:39.736+0700][0.684s] Pre-touch: Enabled
+[2021-11-27T21:15:39.741+0700][0.689s] Parallel Workers: 4
+[2021-11-27T21:15:39.741+0700][0.689s] Concurrent Workers: 1
+[2021-11-27T21:15:39.741+0700][0.689s] Concurrent Refinement Workers: 4
+[2021-11-27T21:15:39.741+0700][0.689s] Periodic GC: Disabled
+[2021-11-27T21:15:39.745+0700][0.692s] CDS archive(s) mapped at: [0x0000000800000000-0x0000000800bc0000-0x0000000800bc0000), size 12320768, SharedBaseAddress: 0x0000000800000000, ArchiveRelocationMode: 0.
+[2021-11-27T21:15:39.745+0700][0.692s] Compressed class space mapped at: 0x0000000800c00000-0x0000000840c00000, reserved size: 1073741824
+[2021-11-27T21:15:39.745+0700][0.692s] Narrow klass base: 0x0000000800000000, Narrow klass shift: 0, Narrow klass range: 0x100000000

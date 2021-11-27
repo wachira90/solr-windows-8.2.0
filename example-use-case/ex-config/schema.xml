@@ -1,0 +1,4 @@
+<field name="tconst" type="string" indexed="true" stored="true" />
+<field name="averageRating" type="tint" indexed="true" stored="true" />
+<field name="numVotes" type="int" indexed="true" stored="true" />
+<field name="id" type="string" indexed="true" stored="true" multiValued="false" />

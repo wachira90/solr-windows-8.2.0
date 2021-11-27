@@ -1,0 +1,11 @@
+<dataConfig>
+	<dataSource type="JdbcDataSource" encoding="UTF-8" name="imdb-title-rating" driver="org.postgresql.Driver" url="jdbc:postgresql://192.168.6.150:5432/weightdb" user="postgres" password="Innovisor#123" />
+	<document>
+		<entity pk="id" dataSource="sql" name="post" query="SELECT id, weight, price, card FROM weightdb.public.order;">
+			<field column="id" name="id" />
+			<field column="weight" name="weight" />
+			<field column="price" name="price"/>
+			<field column="card" name="card"/>
+		</entity>
+	</document>
+</dataConfig> 

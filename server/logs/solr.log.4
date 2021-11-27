@@ -1,0 +1,545 @@
+2021-07-08 18:56:38.561 INFO  (main) [   ] o.e.j.u.log Logging initialized @3589ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-07-08 18:56:38.818 WARN  (main) [   ] o.e.j.x.XmlConfiguration Deprecated method public void org.eclipse.jetty.rewrite.handler.RedirectRegexRule.setReplacement(java.lang.String) in file:///C:/solr-8.2.0/server/etc/jetty.xml
+2021-07-08 18:56:38.987 WARN  (main) [   ] o.e.j.s.AbstractConnector Ignoring deprecated socket close linger time
+2021-07-08 18:56:38.987 WARN  (main) [   ] o.e.j.x.XmlConfiguration Deprecated method public void org.eclipse.jetty.server.ServerConnector.setSoLingerTime(int) in file:///C:/solr-8.2.0/server/etc/jetty-http.xml
+2021-07-08 18:56:39.001 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_261-b12
+2021-07-08 18:56:39.048 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///C:/solr-8.2.0/server/contexts/] at interval 0
+2021-07-08 18:56:40.092 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2021-07-08 18:56:40.113 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2021-07-08 18:56:40.113 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2021-07-08 18:56:40.116 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2021-07-08 18:56:40.302 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2021-07-08 18:56:40.313 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.2.0
+2021-07-08 18:56:40.314 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2021-07-08 18:56:40.315 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: C:\solr-8.2.0
+2021-07-08 18:56:40.317 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2021-07-08T18:56:40.316Z
+2021-07-08 18:56:40.362 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: C:\solr-8.2.0\server\solr
+2021-07-08 18:56:40.378 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\solr-8.2.0\server\solr\solr.xml
+2021-07-08 18:56:40.521 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@691a7f8f, but no JMX reporters were configured - adding default JMX reporter.
+2021-07-08 18:56:41.474 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2021-07-08 18:56:42.756 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@64a8c844[provider=null,keyStore=null,trustStore=null]
+2021-07-08 18:56:42.756 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@64a8c844[provider=null,keyStore=null,trustStore=null]
+2021-07-08 18:56:42.965 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@3c435123[provider=null,keyStore=null,trustStore=null]
+2021-07-08 18:56:42.965 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@3c435123[provider=null,keyStore=null,trustStore=null]
+2021-07-08 18:56:43.581 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2021-07-08 18:56:43.586 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2021-07-08 18:56:43.749 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@691a7f8f
+2021-07-08 18:56:43.750 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@691a7f8f
+2021-07-08 18:56:43.766 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@691a7f8f
+2021-07-08 18:56:43.884 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 4 core definitions underneath C:\solr-8.2.0\server\solr
+2021-07-08 18:56:43.885 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [db, dbmkt, misys, weblogs]
+2021-07-08 18:56:44.191 INFO  (coreLoadExecutor-9-thread-2) [   x:dbmkt] o.a.s.c.SolrResourceLoader [dbmkt] Added 61 libs to classloader, from paths: [/C:/solr-8.2.0/contrib/clustering/lib, /C:/solr-8.2.0/contrib/extraction/lib, /C:/solr-8.2.0/contrib/langid/lib, /C:/solr-8.2.0/contrib/velocity/lib, /C:/solr-8.2.0/dist]
+2021-07-08 18:56:44.201 INFO  (coreLoadExecutor-9-thread-3) [   x:misys] o.a.s.c.SolrResourceLoader [misys] Added 61 libs to classloader, from paths: [/C:/solr-8.2.0/contrib/clustering/lib, /C:/solr-8.2.0/contrib/extraction/lib, /C:/solr-8.2.0/contrib/langid/lib, /C:/solr-8.2.0/contrib/velocity/lib, /C:/solr-8.2.0/dist]
+2021-07-08 18:56:44.221 INFO  (coreLoadExecutor-9-thread-1) [   x:db] o.a.s.c.SolrResourceLoader [db] Added 65 libs to classloader, from paths: [/C:/solr-8.2.0/contrib/clustering/lib, /C:/solr-8.2.0/contrib/extraction/lib, /C:/solr-8.2.0/contrib/langid/lib, /C:/solr-8.2.0/contrib/velocity/lib, /C:/solr-8.2.0/dist]
+2021-07-08 18:56:44.794 INFO  (coreLoadExecutor-9-thread-2) [   x:dbmkt] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.2.0
+2021-07-08 18:56:44.801 INFO  (coreLoadExecutor-9-thread-1) [   x:db] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.2.0
+2021-07-08 18:56:44.825 INFO  (coreLoadExecutor-9-thread-3) [   x:misys] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.2.0
+2021-07-08 18:56:45.680 INFO  (coreLoadExecutor-9-thread-3) [   x:misys] o.a.s.s.IndexSchema [misys] Schema name=default-config
+2021-07-08 18:56:45.702 INFO  (coreLoadExecutor-9-thread-1) [   x:db] o.a.s.s.IndexSchema [db] Schema name=default-config
+2021-07-08 18:56:45.724 INFO  (coreLoadExecutor-9-thread-2) [   x:dbmkt] o.a.s.s.IndexSchema [dbmkt] Schema name=default-config
+2021-07-08 18:56:46.820 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@27ff5d15{/solr,file:///C:/solr-8.2.0/server/solr-webapp/webapp/,AVAILABLE}{C:\solr-8.2.0\server/solr-webapp/webapp}
+2021-07-08 18:56:46.876 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@489115ef{HTTP/1.1,[http/1.1, h2c]}{0.0.0.0:8983}
+2021-07-08 18:56:46.877 INFO  (main) [   ] o.e.j.s.Server Started @11909ms
+2021-07-08 18:56:47.546 INFO  (coreLoadExecutor-9-thread-2) [   x:dbmkt] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2021-07-08 18:56:47.546 INFO  (coreLoadExecutor-9-thread-1) [   x:db] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2021-07-08 18:56:47.569 INFO  (coreLoadExecutor-9-thread-3) [   x:misys] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2021-07-08 18:56:47.901 INFO  (coreLoadExecutor-9-thread-3) [   x:misys] o.a.s.c.CoreContainer Creating SolrCore 'misys' using configuration from instancedir C:\solr-8.2.0\server\solr\misys, trusted=true
+2021-07-08 18:56:47.909 INFO  (coreLoadExecutor-9-thread-2) [   x:dbmkt] o.a.s.c.CoreContainer Creating SolrCore 'dbmkt' using configuration from instancedir C:\solr-8.2.0\server\solr\dbmkt, trusted=true
+2021-07-08 18:56:47.919 INFO  (coreLoadExecutor-9-thread-1) [   x:db] o.a.s.c.CoreContainer Creating SolrCore 'db' using configuration from instancedir C:\solr-8.2.0\server\solr\db, trusted=true
+2021-07-08 18:56:47.933 INFO  (coreLoadExecutor-9-thread-2) [   x:dbmkt] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.dbmkt' (registry 'solr.core.dbmkt') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@691a7f8f
+2021-07-08 18:56:47.936 INFO  (coreLoadExecutor-9-thread-1) [   x:db] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.db' (registry 'solr.core.db') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@691a7f8f
+2021-07-08 18:56:47.937 INFO  (coreLoadExecutor-9-thread-3) [   x:misys] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.misys' (registry 'solr.core.misys') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@691a7f8f
+2021-07-08 18:56:47.980 INFO  (coreLoadExecutor-9-thread-3) [   x:misys] o.a.s.c.SolrCore [[misys] ] Opening new SolrCore at [C:\solr-8.2.0\server\solr\misys], dataDir=[C:\solr-8.2.0\server\solr\misys\data\]
+2021-07-08 18:56:47.980 INFO  (coreLoadExecutor-9-thread-2) [   x:dbmkt] o.a.s.c.SolrCore [[dbmkt] ] Opening new SolrCore at [C:\solr-8.2.0\server\solr\dbmkt], dataDir=[C:\solr-8.2.0\server\solr\dbmkt\data\]
+2021-07-08 18:56:47.980 INFO  (coreLoadExecutor-9-thread-1) [   x:db] o.a.s.c.SolrCore [[db] ] Opening new SolrCore at [C:\solr-8.2.0\server\solr\db], dataDir=[C:\solr-8.2.0\server\solr\db\data\]
+2021-07-08 18:56:48.145 INFO  (coreLoadExecutor-9-thread-3) [   x:misys] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2021-07-08 18:56:48.146 INFO  (coreLoadExecutor-9-thread-1) [   x:db] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2021-07-08 18:56:48.149 INFO  (coreLoadExecutor-9-thread-2) [   x:dbmkt] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2021-07-08 18:56:48.711 INFO  (qtp23211803-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=87
+2021-07-08 18:56:49.889 INFO  (coreLoadExecutor-9-thread-3) [   x:misys] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2021-07-08 18:56:49.889 INFO  (coreLoadExecutor-9-thread-1) [   x:db] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2021-07-08 18:56:49.889 INFO  (coreLoadExecutor-9-thread-2) [   x:dbmkt] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2021-07-08 18:56:49.890 INFO  (coreLoadExecutor-9-thread-2) [   x:dbmkt] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2021-07-08 18:56:49.890 INFO  (coreLoadExecutor-9-thread-3) [   x:misys] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2021-07-08 18:56:49.892 INFO  (coreLoadExecutor-9-thread-1) [   x:db] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2021-07-08 18:56:49.941 INFO  (coreLoadExecutor-9-thread-3) [   x:misys] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2021-07-08 18:56:49.942 INFO  (coreLoadExecutor-9-thread-2) [   x:dbmkt] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2021-07-08 18:56:49.942 INFO  (coreLoadExecutor-9-thread-3) [   x:misys] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2021-07-08 18:56:49.942 INFO  (coreLoadExecutor-9-thread-2) [   x:dbmkt] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2021-07-08 18:56:50.135 INFO  (coreLoadExecutor-9-thread-1) [   x:db] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2021-07-08 18:56:50.135 INFO  (coreLoadExecutor-9-thread-1) [   x:db] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2021-07-08 18:56:50.316 INFO  (coreLoadExecutor-9-thread-3) [   x:misys] o.a.s.s.SolrIndexSearcher Opening [Searcher@5c5f74df[misys] main]
+2021-07-08 18:56:50.323 INFO  (coreLoadExecutor-9-thread-2) [   x:dbmkt] o.a.s.s.SolrIndexSearcher Opening [Searcher@16a8f4a2[dbmkt] main]
+2021-07-08 18:56:50.367 INFO  (coreLoadExecutor-9-thread-3) [   x:misys] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\solr-8.2.0\server\solr\misys\conf
+2021-07-08 18:56:50.367 INFO  (coreLoadExecutor-9-thread-2) [   x:dbmkt] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\solr-8.2.0\server\solr\dbmkt\conf
+2021-07-08 18:56:50.528 INFO  (coreLoadExecutor-9-thread-2) [   x:dbmkt] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2021-07-08 18:56:50.546 INFO  (coreLoadExecutor-9-thread-2) [   x:dbmkt] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2021-07-08 18:56:50.602 INFO  (coreLoadExecutor-9-thread-3) [   x:misys] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2021-07-08 18:56:50.603 INFO  (coreLoadExecutor-9-thread-3) [   x:misys] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2021-07-08 18:56:50.652 INFO  (coreLoadExecutor-9-thread-3) [   x:misys] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2021-07-08 18:56:50.669 INFO  (coreLoadExecutor-9-thread-2) [   x:dbmkt] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2021-07-08 18:56:50.675 INFO  (coreLoadExecutor-9-thread-2) [   x:dbmkt] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1704744043859148800
+2021-07-08 18:56:50.699 INFO  (searcherExecutor-12-thread-1-processing-x:dbmkt) [   x:dbmkt] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@16a8f4a2[dbmkt] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2021-07-08 18:56:50.699 INFO  (searcherExecutor-12-thread-1-processing-x:dbmkt) [   x:dbmkt] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-07-08 18:56:50.699 INFO  (searcherExecutor-12-thread-1-processing-x:dbmkt) [   x:dbmkt] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2021-07-08 18:56:50.732 INFO  (coreLoadExecutor-9-thread-3) [   x:misys] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1704744043918917632
+2021-07-08 18:56:50.744 INFO  (searcherExecutor-11-thread-1-processing-x:misys) [   x:misys] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@5c5f74df[misys] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2021-07-08 18:56:50.745 INFO  (searcherExecutor-11-thread-1-processing-x:misys) [   x:misys] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-07-08 18:56:50.745 INFO  (searcherExecutor-11-thread-1-processing-x:misys) [   x:misys] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2021-07-08 18:56:50.765 INFO  (searcherExecutor-12-thread-1-processing-x:dbmkt) [   x:dbmkt] o.a.s.c.SolrCore [dbmkt] Registered new searcher Searcher@16a8f4a2[dbmkt] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2021-07-08 18:56:50.768 INFO  (searcherExecutor-11-thread-1-processing-x:misys) [   x:misys] o.a.s.c.SolrCore [misys] Registered new searcher Searcher@5c5f74df[misys] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2021-07-08 18:56:50.811 INFO  (coreLoadExecutor-9-thread-1) [   x:db] o.a.s.s.SolrIndexSearcher Opening [Searcher@5f05e676[db] main]
+2021-07-08 18:56:50.818 INFO  (coreLoadExecutor-9-thread-1) [   x:db] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\solr-8.2.0\server\solr\db\conf
+2021-07-08 18:56:50.822 INFO  (coreLoadExecutor-9-thread-1) [   x:db] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2021-07-08 18:56:50.822 INFO  (coreLoadExecutor-9-thread-1) [   x:db] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2021-07-08 18:56:50.827 INFO  (coreLoadExecutor-9-thread-1) [   x:db] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2021-07-08 18:56:50.848 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.c.SolrResourceLoader [weblogs] Added 61 libs to classloader, from paths: [/C:/solr-8.2.0/contrib/clustering/lib, /C:/solr-8.2.0/contrib/extraction/lib, /C:/solr-8.2.0/contrib/langid/lib, /C:/solr-8.2.0/contrib/velocity/lib, /C:/solr-8.2.0/dist]
+2021-07-08 18:56:50.915 INFO  (qtp23211803-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1625770443685} status=0 QTime=1
+2021-07-08 18:56:50.965 INFO  (searcherExecutor-10-thread-1-processing-x:db) [   x:db] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@5f05e676[db] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(8.2.0):C10:[diagnostics={java.vendor=Oracle Corporation, os=Windows 10, java.version=1.8.0_261, java.vm.version=25.261-b12, lucene.version=8.2.0, os.arch=amd64, java.runtime.version=1.8.0_261-b12, source=flush, os.version=10.0, timestamp=1625770490358}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2021-07-08 18:56:50.965 INFO  (searcherExecutor-10-thread-1-processing-x:db) [   x:db] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-07-08 18:56:50.965 INFO  (searcherExecutor-10-thread-1-processing-x:db) [   x:db] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2021-07-08 18:56:50.974 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.2.0
+2021-07-08 18:56:50.990 INFO  (qtp23211803-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1625770443686} status=0 QTime=61
+2021-07-08 18:56:50.996 INFO  (searcherExecutor-10-thread-1-processing-x:db) [   x:db] o.a.s.c.SolrCore [db] Registered new searcher Searcher@5f05e676[db] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(8.2.0):C10:[diagnostics={java.vendor=Oracle Corporation, os=Windows 10, java.version=1.8.0_261, java.vm.version=25.261-b12, lucene.version=8.2.0, os.arch=amd64, java.runtime.version=1.8.0_261-b12, source=flush, os.version=10.0, timestamp=1625770490358}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2021-07-08 18:56:51.003 INFO  (qtp23211803-17) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=2919
+2021-07-08 18:56:51.167 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.s.IndexSchema [weblogs] Schema name=default-config
+2021-07-08 18:56:51.181 INFO  (qtp23211803-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1625770443686} status=0 QTime=126
+2021-07-08 18:56:51.313 INFO  (qtp23211803-17) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:56:51.505 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2021-07-08 18:56:51.557 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.c.CoreContainer Creating SolrCore 'weblogs' using configuration from instancedir C:\solr-8.2.0\server\solr\weblogs, trusted=true
+2021-07-08 18:56:51.557 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.weblogs' (registry 'solr.core.weblogs') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@691a7f8f
+2021-07-08 18:56:51.558 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.c.SolrCore [[weblogs] ] Opening new SolrCore at [C:\solr-8.2.0\server\solr\weblogs], dataDir=[C:\solr-8.2.0\server\solr\weblogs\data\]
+2021-07-08 18:56:51.568 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:56:51.580 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2021-07-08 18:56:51.700 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2021-07-08 18:56:51.700 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2021-07-08 18:56:51.705 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2021-07-08 18:56:51.705 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2021-07-08 18:56:51.755 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@6cbb23d0[weblogs] main]
+2021-07-08 18:56:51.757 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\solr-8.2.0\server\solr\weblogs\conf
+2021-07-08 18:56:51.758 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2021-07-08 18:56:51.758 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2021-07-08 18:56:51.760 INFO  (coreLoadExecutor-9-thread-2) [   ] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2021-07-08 18:56:51.763 INFO  (searcherExecutor-25-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@6cbb23d0[weblogs] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(8.2.0):C1:[diagnostics={java.vendor=Oracle Corporation, os=Windows 10, java.version=1.8.0_261, java.vm.version=25.261-b12, lucene.version=8.2.0, os.arch=amd64, java.runtime.version=1.8.0_261-b12, source=flush, os.version=10.0, timestamp=1604858452699}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]) Uninverting(_1(8.2.0):C1:[diagnostics={java.vendor=Oracle Corporation, os=Windows 10, java.version=1.8.0_261, java.vm.version=25.261-b12, lucene.version=8.2.0, os.arch=amd64, java.runtime.version=1.8.0_261-b12, source=flush, os.version=10.0, timestamp=1604858677065}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]) Uninverting(_2(8.2.0):C1:[diagnostics={java.vendor=Oracle Corporation, os=Windows 10, java.version=1.8.0_261, java.vm.version=25.261-b12, lucene.version=8.2.0, os.arch=amd64, java.runtime.version=1.8.0_261-b12, source=flush, os.version=10.0, timestamp=1604858837617}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2021-07-08 18:56:51.763 INFO  (searcherExecutor-25-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-07-08 18:56:51.763 INFO  (searcherExecutor-25-thread-1) [   ] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2021-07-08 18:56:51.771 INFO  (searcherExecutor-25-thread-1) [   ] o.a.s.c.SolrCore [weblogs] Registered new searcher Searcher@6cbb23d0[weblogs] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(8.2.0):C1:[diagnostics={java.vendor=Oracle Corporation, os=Windows 10, java.version=1.8.0_261, java.vm.version=25.261-b12, lucene.version=8.2.0, os.arch=amd64, java.runtime.version=1.8.0_261-b12, source=flush, os.version=10.0, timestamp=1604858452699}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]) Uninverting(_1(8.2.0):C1:[diagnostics={java.vendor=Oracle Corporation, os=Windows 10, java.version=1.8.0_261, java.vm.version=25.261-b12, lucene.version=8.2.0, os.arch=amd64, java.runtime.version=1.8.0_261-b12, source=flush, os.version=10.0, timestamp=1604858677065}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]) Uninverting(_2(8.2.0):C1:[diagnostics={java.vendor=Oracle Corporation, os=Windows 10, java.version=1.8.0_261, java.vm.version=25.261-b12, lucene.version=8.2.0, os.arch=amd64, java.runtime.version=1.8.0_261-b12, source=flush, os.version=10.0, timestamp=1604858837617}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2021-07-08 18:56:54.563 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:56:55.577 INFO  (qtp23211803-17) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:56:57.567 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:56:58.547 INFO  (qtp23211803-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1625770424522} status=0 QTime=1
+2021-07-08 18:56:58.562 INFO  (qtp23211803-21) [   x:dbmkt] o.a.s.c.S.Request [dbmkt]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1625770427904} status=0 QTime=4
+2021-07-08 18:56:58.592 INFO  (qtp23211803-22) [   x:dbmkt] o.a.s.c.S.Request [dbmkt]  webapp=/solr path=/replication params={wt=json&command=details&_=1625770427904} status=0 QTime=26
+2021-07-08 18:56:58.603 INFO  (qtp23211803-22) [   x:dbmkt] o.a.s.c.S.Request [dbmkt]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1625770424523&ts=1625770424523} status=503 QTime=3
+2021-07-08 18:56:58.650 INFO  (qtp23211803-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1625770424522} status=0 QTime=93
+2021-07-08 18:56:58.658 INFO  (qtp23211803-47) [   x:dbmkt] o.a.s.c.S.Request [dbmkt]  webapp=/solr path=/admin/system params={wt=json&_=1625770427904} status=0 QTime=77
+2021-07-08 18:57:00.397 INFO  (qtp23211803-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1625770424522} status=0 QTime=0
+2021-07-08 18:57:00.410 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/replication params={wt=json&command=details&_=1625770427904} status=0 QTime=3
+2021-07-08 18:57:00.413 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1625770427904} status=0 QTime=2
+2021-07-08 18:57:00.429 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1625770424523&ts=1625770424523} status=503 QTime=0
+2021-07-08 18:57:00.487 INFO  (qtp23211803-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1625770424522} status=0 QTime=85
+2021-07-08 18:57:00.500 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/admin/system params={wt=json&_=1625770427904} status=0 QTime=81
+2021-07-08 18:57:02.373 INFO  (qtp23211803-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1625770424522} status=0 QTime=0
+2021-07-08 18:57:02.374 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1625770429599} status=0 QTime=1
+2021-07-08 18:57:02.434 INFO  (qtp23211803-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1625770424522} status=0 QTime=0
+2021-07-08 18:57:02.438 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1625770429599} status=0 QTime=0
+2021-07-08 18:57:02.447 INFO  (qtp23211803-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1625770424522} status=0 QTime=69
+2021-07-08 18:57:02.448 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=show-config&_=1625770429600} status=0 QTime=8
+2021-07-08 18:57:02.488 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:02.499 INFO  (qtp23211803-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1625770424522} status=0 QTime=44
+2021-07-08 18:57:05.344 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:06.185 INFO  (qtp23211803-21) [   x:db] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2021-07-08 18:57:06.199 INFO  (qtp23211803-21) [   x:db] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2021-07-08 18:57:06.218 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={core=db&indent=on&commit=true&name=dataimport&clean=false&wt=json&command=full-import&_=1625770429600&verbose=false} status=0 QTime=36
+2021-07-08 18:57:06.218 INFO  (Thread-15) [   ] o.a.s.h.d.DataImporter Starting Full Import
+2021-07-08 18:57:06.229 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:06.264 INFO  (Thread-15) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2021-07-08 18:57:06.435 INFO  (Thread-15) [   ] o.a.s.h.d.JdbcDataSource Creating a connection for entity post with URL: jdbc:postgresql://192.168.6.150:5432/weightdb
+2021-07-08 18:57:06.661 INFO  (Thread-15) [   ] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 226
+2021-07-08 18:57:06.823 INFO  (Thread-15) [   ] o.a.s.h.d.DocBuilder Import completed successfully
+2021-07-08 18:57:06.823 INFO  (Thread-15) [   ] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1704744060791554048,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2021-07-08 18:57:06.823 INFO  (Thread-15) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@78e0582c commitCommandVersion:1704744060791554048
+2021-07-08 18:57:07.317 INFO  (Thread-15) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@5b935fd[db] main]
+2021-07-08 18:57:07.320 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@5b935fd[db] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_b(8.2.0):C18:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_261, java.vm.version=25.261-b12, lucene.version=8.2.0, os.arch=amd64, java.runtime.version=1.8.0_261-b12, source=flush, os.version=10.0, timestamp=1625770627007}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2021-07-08 18:57:07.320 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2021-07-08 18:57:07.321 INFO  (Thread-15) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2021-07-08 18:57:07.333 INFO  (searcherExecutor-10-thread-1) [   ] o.a.s.c.SolrCore [db] Registered new searcher Searcher@5b935fd[db] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_b(8.2.0):C18:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_261, java.vm.version=25.261-b12, lucene.version=8.2.0, os.arch=amd64, java.runtime.version=1.8.0_261-b12, source=flush, os.version=10.0, timestamp=1625770627007}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2021-07-08 18:57:07.351 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:07.363 INFO  (Thread-15) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2021-07-08 18:57:07.365 INFO  (Thread-15) [   ] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dataimport.properties
+2021-07-08 18:57:07.365 INFO  (Thread-15) [   ] o.a.s.h.d.DocBuilder Time taken = 0:0:1.99
+2021-07-08 18:57:07.365 INFO  (Thread-15) [   ] o.a.s.u.p.LogUpdateProcessorFactory [db]  webapp=/solr path=/dataimport params={core=db&indent=on&commit=true&name=dataimport&clean=false&wt=json&command=full-import&_=1625770429600&verbose=false} status=0 QTime=36{add=[1 (1704744060682502144), 2 (1704744060762193920), 3 (1704744060765339648), 4 (1704744060767436800), 5 (1704744060768485376), 6 (1704744060770582528), 7 (1704744060771631104), 8 (1704744060773728256), 9 (1704744060775825408), 10 (1704744060776873984), ... (18 adds)],commit=} 0 1184
+2021-07-08 18:57:09.353 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:11.358 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=1
+2021-07-08 18:57:13.352 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:14.520 INFO  (qtp23211803-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1625770634224} status=0 QTime=1
+2021-07-08 18:57:14.591 INFO  (qtp23211803-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1625770634225} status=0 QTime=61
+2021-07-08 18:57:15.609 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:17.586 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=12
+2021-07-08 18:57:18.791 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/select params={q=*:*&_=1625770634444} hits=18 status=0 QTime=57
+2021-07-08 18:57:19.568 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:21.567 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:23.567 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:25.569 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:27.569 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:29.565 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:31.565 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:33.565 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:35.565 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:37.566 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:39.567 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:41.565 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:43.567 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:45.569 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:47.566 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:49.566 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:51.565 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:53.575 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:55.576 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:57.563 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:57:59.577 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:01.565 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:03.565 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:05.564 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:07.567 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:09.565 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:11.567 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=2
+2021-07-08 18:58:13.563 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:15.566 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:17.565 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:19.576 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:21.564 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:23.564 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:25.564 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:27.564 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:29.564 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:31.564 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:33.565 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:35.565 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:37.564 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:39.563 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:41.567 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:43.565 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:45.566 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:47.565 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:49.564 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:51.567 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:53.568 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:55.565 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:57.566 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:58:59.564 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:01.570 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:03.566 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:05.565 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:07.564 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:09.564 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:11.564 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:13.566 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:15.566 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:17.580 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:19.566 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:21.564 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:23.563 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:25.561 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:27.566 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:29.563 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:31.565 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:33.563 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:35.565 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:37.564 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:39.570 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:41.564 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:43.563 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:45.565 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:47.564 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:49.564 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:51.568 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:53.573 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:55.565 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:57.566 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 18:59:59.565 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:01.558 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:03.565 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:05.563 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:07.567 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:09.563 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:11.563 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:13.563 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:15.565 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:17.564 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:19.564 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:21.566 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:23.565 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:25.567 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:27.564 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:29.565 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:31.563 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:33.563 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:35.568 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:37.565 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:39.563 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:41.557 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:43.567 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:45.567 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:47.565 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:49.565 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:51.565 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:53.565 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:55.565 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:57.563 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:00:59.566 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:01.563 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:03.564 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:05.566 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:07.566 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:09.567 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:11.566 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:13.570 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:15.566 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:17.564 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:19.563 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:21.564 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:23.565 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:25.566 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:27.563 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:29.563 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:31.564 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:33.565 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:35.572 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:37.565 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:39.566 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:41.563 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:43.564 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:45.566 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:47.562 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:49.566 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:51.571 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:53.568 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:55.566 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:57.564 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:01:59.567 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:02:01.568 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:02:03.563 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:02:05.564 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:02:07.566 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:02:09.564 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:02:11.565 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:02:13.563 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:02:16.563 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:03:05.458 INFO  (qtp23211803-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1625770634224} status=0 QTime=0
+2021-07-08 19:03:05.507 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/admin/segments params={wt=json&_=1625770985446} status=0 QTime=45
+2021-07-08 19:03:05.521 INFO  (qtp23211803-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1625770634225} status=0 QTime=59
+2021-07-08 19:03:09.301 INFO  (qtp23211803-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1625770634224} status=0 QTime=0
+2021-07-08 19:03:09.315 INFO  (qtp23211803-20) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1625770989289} status=0 QTime=13
+2021-07-08 19:03:09.376 INFO  (qtp23211803-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1625770634225} status=0 QTime=73
+2021-07-08 19:03:10.871 INFO  (qtp23211803-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1625770634224} status=0 QTime=0
+2021-07-08 19:03:10.880 INFO  (qtp23211803-16) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1625770989289} status=0 QTime=0
+2021-07-08 19:03:10.883 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/replication params={wt=json&command=details&_=1625770990861} status=0 QTime=3
+2021-07-08 19:03:10.889 INFO  (qtp23211803-20) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1625770634225&ts=1625770634225} status=503 QTime=0
+2021-07-08 19:03:10.984 INFO  (qtp23211803-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1625770634225} status=0 QTime=96
+2021-07-08 19:03:10.989 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/admin/system params={wt=json&_=1625770990860} status=0 QTime=103
+2021-07-08 19:03:11.769 INFO  (qtp23211803-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1625770634224} status=0 QTime=0
+2021-07-08 19:03:11.775 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1625770989289} status=0 QTime=3
+2021-07-08 19:03:11.826 INFO  (qtp23211803-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1625770634225} status=0 QTime=54
+2021-07-08 19:03:12.522 INFO  (qtp23211803-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1625770634224} status=0 QTime=0
+2021-07-08 19:03:12.559 INFO  (qtp23211803-16) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1625770992507} status=0 QTime=0
+2021-07-08 19:03:12.574 INFO  (qtp23211803-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1625770634225} status=0 QTime=51
+2021-07-08 19:03:12.619 INFO  (qtp23211803-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1625770634224} status=0 QTime=0
+2021-07-08 19:03:12.623 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1625770992507} status=0 QTime=0
+2021-07-08 19:03:12.633 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=show-config&_=1625770992507} status=0 QTime=3
+2021-07-08 19:03:12.672 INFO  (qtp23211803-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1625770634225} status=0 QTime=41
+2021-07-08 19:03:12.702 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770992507} status=0 QTime=0
+2021-07-08 19:03:16.564 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:03:25.929 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:03:27.578 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:03:29.559 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:03:31.565 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:03:33.570 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:03:35.566 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:03:37.569 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:03:39.567 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:03:41.564 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:03:43.567 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:03:45.563 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:03:47.559 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:03:49.560 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:03:51.558 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:03:53.568 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:03:55.569 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:03:57.572 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:03:59.563 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:01.573 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:03.571 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:05.568 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:07.576 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:09.564 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:11.565 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:13.566 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:15.562 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:17.563 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:19.568 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=1
+2021-07-08 19:04:21.566 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:23.567 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:25.563 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:27.565 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:29.561 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:31.569 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:33.562 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:35.557 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:37.562 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:39.593 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:41.558 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:43.559 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:45.568 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:47.558 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:49.567 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:51.565 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:53.569 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:55.564 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:57.560 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:04:59.566 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:01.566 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:03.567 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:05.561 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:07.577 INFO  (qtp23211803-22) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:09.557 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:11.567 INFO  (qtp23211803-16) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:13.562 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:15.563 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:17.558 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:19.565 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:21.563 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:23.570 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:25.580 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:27.568 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:29.562 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:31.567 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:33.562 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:35.567 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:37.564 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:39.557 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:41.562 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:43.564 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:45.565 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:47.564 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:49.570 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:51.566 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:53.562 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:55.564 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:57.567 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:05:59.561 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:01.564 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:03.570 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:05.568 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:07.561 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:09.566 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:11.567 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:13.559 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:15.560 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:17.561 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:19.570 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=1
+2021-07-08 19:06:21.567 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:23.565 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:25.568 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:27.571 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:29.565 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:31.570 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:33.568 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:35.560 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:37.564 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:39.565 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:41.565 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:43.564 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:45.563 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:47.563 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:49.566 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:51.566 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:53.561 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:55.565 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:57.570 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:06:59.562 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:01.563 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:03.566 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:05.565 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:07.569 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:09.565 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:11.566 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:13.566 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:15.565 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:17.564 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:19.570 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:21.564 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:23.565 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:25.564 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:27.563 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:29.568 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:31.565 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:33.570 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:35.566 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:37.565 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:39.572 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:41.563 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:43.568 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:45.570 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:47.562 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:49.566 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:51.570 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:53.565 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:55.571 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:57.571 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:07:59.576 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:08:01.566 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:08:03.565 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:08:05.566 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:08:07.565 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:08:09.566 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:08:11.568 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:08:13.572 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:08:15.566 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:08:17.574 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:08:19.574 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:08:21.560 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:08:23.569 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:08:25.565 INFO  (qtp23211803-21) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:09:16.563 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:10:16.565 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:11:16.568 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:12:16.566 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:13:16.561 INFO  (qtp23211803-23) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:14:16.560 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:15:16.560 INFO  (qtp23211803-47) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:16:16.563 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:17:16.572 INFO  (qtp23211803-47) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:18:16.565 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:19:16.565 INFO  (qtp23211803-19) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:20:16.562 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:21:16.562 INFO  (qtp23211803-47) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:22:16.565 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:23:16.569 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:24:16.567 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:25:16.564 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:26:16.564 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=1
+2021-07-08 19:27:16.566 INFO  (qtp23211803-15) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=1
+2021-07-08 19:28:16.565 INFO  (qtp23211803-24) [   x:db] o.a.s.c.S.Request [db]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1625770429600} status=0 QTime=0
+2021-07-08 19:28:59.049 INFO  (ShutdownMonitor) [   ] o.e.j.s.AbstractConnector Stopped ServerConnector@489115ef{HTTP/1.1,[http/1.1, h2c]}{0.0.0.0:8983}
+2021-07-08 19:28:59.049 INFO  (ShutdownMonitor) [   ] o.e.j.s.session node0 Stopped scavenging
+2021-07-08 19:28:59.053 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1828873985
+2021-07-08 19:28:59.056 INFO  (coreCloseExecutor-30-thread-1) [   x:dbmkt] o.a.s.c.SolrCore [dbmkt]  CLOSING SolrCore org.apache.solr.core.SolrCore@30842c03
+2021-07-08 19:28:59.056 INFO  (coreCloseExecutor-30-thread-1) [   x:dbmkt] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.dbmkt, tag=30842c03
+2021-07-08 19:28:59.057 INFO  (coreCloseExecutor-30-thread-3) [   x:db] o.a.s.c.SolrCore [db]  CLOSING SolrCore org.apache.solr.core.SolrCore@7e83ea61
+2021-07-08 19:28:59.057 INFO  (coreCloseExecutor-30-thread-4) [   x:weblogs] o.a.s.c.SolrCore [weblogs]  CLOSING SolrCore org.apache.solr.core.SolrCore@2fabc039
+2021-07-08 19:28:59.057 INFO  (coreCloseExecutor-30-thread-2) [   x:misys] o.a.s.c.SolrCore [misys]  CLOSING SolrCore org.apache.solr.core.SolrCore@358132a0
+2021-07-08 19:28:59.058 INFO  (coreCloseExecutor-30-thread-1) [   x:dbmkt] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@64b4a0fc: rootName = null, domain = solr.core.dbmkt, service url = null, agent id = null] for registry solr.core.dbmkt / com.codahale.metrics.MetricRegistry@2d139248
+2021-07-08 19:28:59.081 INFO  (coreCloseExecutor-30-thread-4) [   x:weblogs] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.weblogs, tag=2fabc039
+2021-07-08 19:28:59.082 INFO  (coreCloseExecutor-30-thread-4) [   x:weblogs] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@7eb09906: rootName = null, domain = solr.core.weblogs, service url = null, agent id = null] for registry solr.core.weblogs / com.codahale.metrics.MetricRegistry@945097d
+2021-07-08 19:28:59.111 INFO  (coreCloseExecutor-30-thread-3) [   x:db] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.db, tag=7e83ea61
+2021-07-08 19:28:59.111 INFO  (coreCloseExecutor-30-thread-3) [   x:db] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@302fc8f5: rootName = null, domain = solr.core.db, service url = null, agent id = null] for registry solr.core.db / com.codahale.metrics.MetricRegistry@581e748e
+2021-07-08 19:28:59.140 INFO  (coreCloseExecutor-30-thread-2) [   x:misys] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.misys, tag=358132a0
+2021-07-08 19:28:59.140 INFO  (coreCloseExecutor-30-thread-2) [   x:misys] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@331a450: rootName = null, domain = solr.core.misys, service url = null, agent id = null] for registry solr.core.misys / com.codahale.metrics.MetricRegistry@4b2c471e
+2021-07-08 19:28:59.196 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2021-07-08 19:28:59.196 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@687a762c: rootName = null, domain = solr.node, service url = null, agent id = null] for registry solr.node / com.codahale.metrics.MetricRegistry@577a67f
+2021-07-08 19:28:59.200 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2021-07-08 19:28:59.200 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@22c01ab0: rootName = null, domain = solr.jvm, service url = null, agent id = null] for registry solr.jvm / com.codahale.metrics.MetricRegistry@458a4489
+2021-07-08 19:28:59.202 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
+2021-07-08 19:28:59.202 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@411341bd: rootName = null, domain = solr.jetty, service url = null, agent id = null] for registry solr.jetty / com.codahale.metrics.MetricRegistry@49ade0f
+2021-07-08 19:28:59.220 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@27ff5d15{/solr,null,UNAVAILABLE}{C:\solr-8.2.0\server/solr-webapp/webapp}

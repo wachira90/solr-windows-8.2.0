@@ -1,0 +1,1250 @@
+Java HotSpot(TM) 64-Bit Server VM (25.261-b12) for windows-amd64 JRE (1.8.0_261-b12), built on Jun 18 2020 06:56:32 by "" with unknown MS VC++:1916
+Memory: 4k page, physical 8307372k(1141832k free), swap 15123116k(4144908k free)
+CommandLine flags: -XX:+AlwaysPreTouch -XX:GCLogFileSize=20971520 -XX:InitialHeapSize=1073741824 -XX:MaxGCPauseMillis=250 -XX:MaxHeapSize=4294967296 -XX:NumberOfGCLogFiles=9 -XX:+ParallelRefProcEnabled -XX:+PerfDisableSharedMem -XX:+PrintGC -XX:+PrintGCApplicationStoppedTime -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintHeapAtGC -XX:+PrintTenuringDistribution -XX:ThreadStackSize=256 -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseG1GC -XX:+UseGCLogFileRotation -XX:-UseLargePages -XX:-UseLargePagesIndividualAllocation 
+2021-07-10T17:44:44.238+0700: 2.930: Total time for which application threads were stopped: 0.0004215 seconds, Stopping threads took: 0.0000674 seconds
+2021-07-10T17:44:45.239+0700: 3.931: Total time for which application threads were stopped: 0.0001610 seconds, Stopping threads took: 0.0000417 seconds
+2021-07-10T17:44:45.463+0700: 4.155: Total time for which application threads were stopped: 0.0001890 seconds, Stopping threads took: 0.0000498 seconds
+2021-07-10T17:44:46.470+0700: 5.162: Total time for which application threads were stopped: 0.0001044 seconds, Stopping threads took: 0.0000382 seconds
+2021-07-10T17:44:47.411+0700: 6.103: Total time for which application threads were stopped: 0.0001598 seconds, Stopping threads took: 0.0000279 seconds
+2021-07-10T17:44:47.579+0700: 6.271: Total time for which application threads were stopped: 0.0002493 seconds, Stopping threads took: 0.0000533 seconds
+2021-07-10T17:44:47.906+0700: 6.598: Total time for which application threads were stopped: 0.0002930 seconds, Stopping threads took: 0.0001253 seconds
+2021-07-10T17:44:47.981+0700: 6.673: Total time for which application threads were stopped: 0.0001915 seconds, Stopping threads took: 0.0000246 seconds
+2021-07-10T17:44:48.235+0700: 6.927: Total time for which application threads were stopped: 0.0003084 seconds, Stopping threads took: 0.0000394 seconds
+2021-07-10T17:44:48.360+0700: 7.052: Total time for which application threads were stopped: 0.0001728 seconds, Stopping threads took: 0.0000577 seconds
+2021-07-10T17:44:48.360+0700: 7.052: Total time for which application threads were stopped: 0.0001529 seconds, Stopping threads took: 0.0000593 seconds
+{Heap before GC invocations=0 (full 0):
+ garbage-first heap   total 1048576K, used 54272K [0x00000006c0000000, 0x00000006c0102000, 0x00000007c0000000)
+  region size 1024K, 51 young (52224K), 0 survivors (0K)
+ Metaspace       used 16571K, capacity 16904K, committed 17024K, reserved 1064960K
+  class space    used 2017K, capacity 2117K, committed 2176K, reserved 1048576K
+2021-07-10T17:44:48.878+0700: 7.570: [GC pause (G1 Evacuation Pause) (young)
+Desired survivor size 3670016 bytes, new threshold 15 (max 15)
+, 0.0283279 secs]
+   [Parallel Time: 23.1 ms, GC Workers: 4]
+      [GC Worker Start (ms): Min: 7570.6, Avg: 7570.6, Max: 7570.6, Diff: 0.1]
+      [Ext Root Scanning (ms): Min: 0.5, Avg: 1.1, Max: 1.9, Diff: 1.4, Sum: 4.5]
+      [Update RS (ms): Min: 3.1, Avg: 3.5, Max: 4.3, Diff: 1.2, Sum: 14.0]
+         [Processed Buffers: Min: 2, Avg: 2.3, Max: 3, Diff: 1, Sum: 9]
+      [Scan RS (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.1]
+      [Code Root Scanning (ms): Min: 0.0, Avg: 0.3, Max: 0.9, Diff: 0.9, Sum: 1.3]
+      [Object Copy (ms): Min: 17.4, Avg: 17.9, Max: 18.2, Diff: 0.7, Sum: 71.4]
+      [Termination (ms): Min: 0.0, Avg: 0.1, Max: 0.1, Diff: 0.1, Sum: 0.4]
+         [Termination Attempts: Min: 1, Avg: 6.8, Max: 15, Diff: 14, Sum: 27]
+      [GC Worker Other (ms): Min: 0.1, Avg: 0.1, Max: 0.1, Diff: 0.0, Sum: 0.3]
+      [GC Worker Total (ms): Min: 23.0, Avg: 23.0, Max: 23.0, Diff: 0.1, Sum: 92.0]
+      [GC Worker End (ms): Min: 7593.5, Avg: 7593.6, Max: 7593.6, Diff: 0.1]
+   [Code Root Fixup: 0.1 ms]
+   [Code Root Purge: 0.0 ms]
+   [Clear CT: 0.1 ms]
+   [Other: 5.0 ms]
+      [Choose CSet: 0.0 ms]
+      [Ref Proc: 4.3 ms]
+      [Ref Enq: 0.1 ms]
+      [Redirty Cards: 0.1 ms]
+      [Humongous Register: 0.1 ms]
+      [Humongous Reclaim: 0.0 ms]
+      [Free CSet: 0.1 ms]
+   [Eden: 51.0M(51.0M)->0.0B(44.0M) Survivors: 0.0B->7168.0K Heap: 53.0M(1024.0M)->17.1M(1024.0M)]
+Heap after GC invocations=1 (full 0):
+ garbage-first heap   total 1048576K, used 17500K [0x00000006c0000000, 0x00000006c0102000, 0x00000007c0000000)
+  region size 1024K, 7 young (7168K), 7 survivors (7168K)
+ Metaspace       used 16571K, capacity 16904K, committed 17024K, reserved 1064960K
+  class space    used 2017K, capacity 2117K, committed 2176K, reserved 1048576K
+}
+ [Times: user=0.06 sys=0.00, real=0.03 secs] 
+2021-07-10T17:44:48.907+0700: 7.599: Total time for which application threads were stopped: 0.0288823 seconds, Stopping threads took: 0.0000258 seconds
+2021-07-10T17:44:48.912+0700: 7.605: Total time for which application threads were stopped: 0.0001397 seconds, Stopping threads took: 0.0000479 seconds
+2021-07-10T17:44:48.913+0700: 7.605: Total time for which application threads were stopped: 0.0000908 seconds, Stopping threads took: 0.0000277 seconds
+2021-07-10T17:44:48.914+0700: 7.606: Total time for which application threads were stopped: 0.0001451 seconds, Stopping threads took: 0.0000496 seconds
+2021-07-10T17:44:48.915+0700: 7.607: Total time for which application threads were stopped: 0.0002021 seconds, Stopping threads took: 0.0000874 seconds
+2021-07-10T17:44:48.950+0700: 7.642: Total time for which application threads were stopped: 0.0001716 seconds, Stopping threads took: 0.0000480 seconds
+2021-07-10T17:44:48.950+0700: 7.642: Total time for which application threads were stopped: 0.0001145 seconds, Stopping threads took: 0.0000387 seconds
+2021-07-10T17:44:48.951+0700: 7.644: Total time for which application threads were stopped: 0.0001868 seconds, Stopping threads took: 0.0000372 seconds
+2021-07-10T17:44:48.953+0700: 7.645: Total time for which application threads were stopped: 0.0003915 seconds, Stopping threads took: 0.0002946 seconds
+2021-07-10T17:44:48.960+0700: 7.652: Total time for which application threads were stopped: 0.0002523 seconds, Stopping threads took: 0.0000383 seconds
+2021-07-10T17:44:48.970+0700: 7.662: Total time for which application threads were stopped: 0.0002293 seconds, Stopping threads took: 0.0000280 seconds
+2021-07-10T17:44:49.122+0700: 7.814: Total time for which application threads were stopped: 0.0002725 seconds, Stopping threads took: 0.0000307 seconds
+2021-07-10T17:44:50.123+0700: 8.815: Total time for which application threads were stopped: 0.0001477 seconds, Stopping threads took: 0.0000419 seconds
+2021-07-10T17:44:50.141+0700: 8.833: Total time for which application threads were stopped: 0.0003397 seconds, Stopping threads took: 0.0000328 seconds
+2021-07-10T17:44:50.178+0700: 8.870: Total time for which application threads were stopped: 0.0001256 seconds, Stopping threads took: 0.0000355 seconds
+{Heap before GC invocations=1 (full 0):
+ garbage-first heap   total 1048576K, used 62556K [0x00000006c0000000, 0x00000006c0102000, 0x00000007c0000000)
+  region size 1024K, 51 young (52224K), 7 survivors (7168K)
+ Metaspace       used 19057K, capacity 19452K, committed 19584K, reserved 1067008K
+  class space    used 2302K, capacity 2429K, committed 2432K, reserved 1048576K
+2021-07-10T17:44:50.250+0700: 8.942: [GC pause (G1 Evacuation Pause) (young)
+Desired survivor size 3670016 bytes, new threshold 1 (max 15)
+- age   1:    7281208 bytes,    7281208 total
+, 0.0254424 secs]
+   [Parallel Time: 22.6 ms, GC Workers: 4]
+      [GC Worker Start (ms): Min: 8942.5, Avg: 8942.6, Max: 8942.6, Diff: 0.0]
+      [Ext Root Scanning (ms): Min: 0.8, Avg: 1.8, Max: 3.2, Diff: 2.4, Sum: 7.3]
+      [Update RS (ms): Min: 0.0, Avg: 0.6, Max: 1.0, Diff: 1.0, Sum: 2.3]
+         [Processed Buffers: Min: 0, Avg: 2.8, Max: 5, Diff: 5, Sum: 11]
+      [Scan RS (ms): Min: 2.5, Avg: 3.0, Max: 3.2, Diff: 0.7, Sum: 12.0]
+      [Code Root Scanning (ms): Min: 0.0, Avg: 0.5, Max: 1.6, Diff: 1.6, Sum: 2.0]
+      [Object Copy (ms): Min: 15.1, Avg: 16.6, Max: 17.3, Diff: 2.2, Sum: 66.3]
+      [Termination (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.0]
+         [Termination Attempts: Min: 1, Avg: 2.3, Max: 5, Diff: 4, Sum: 9]
+      [GC Worker Other (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.1]
+      [GC Worker Total (ms): Min: 22.5, Avg: 22.5, Max: 22.5, Diff: 0.0, Sum: 89.9]
+      [GC Worker End (ms): Min: 8965.0, Avg: 8965.0, Max: 8965.0, Diff: 0.0]
+   [Code Root Fixup: 0.1 ms]
+   [Code Root Purge: 0.0 ms]
+   [Clear CT: 0.1 ms]
+   [Other: 2.7 ms]
+      [Choose CSet: 0.0 ms]
+      [Ref Proc: 2.1 ms]
+      [Ref Enq: 0.1 ms]
+      [Redirty Cards: 0.0 ms]
+      [Humongous Register: 0.0 ms]
+      [Humongous Reclaim: 0.0 ms]
+      [Free CSet: 0.2 ms]
+   [Eden: 44.0M(44.0M)->0.0B(44.0M) Survivors: 7168.0K->7168.0K Heap: 61.1M(1024.0M)->25.0M(1024.0M)]
+Heap after GC invocations=2 (full 0):
+ garbage-first heap   total 1048576K, used 25600K [0x00000006c0000000, 0x00000006c0102000, 0x00000007c0000000)
+  region size 1024K, 7 young (7168K), 7 survivors (7168K)
+ Metaspace       used 19057K, capacity 19452K, committed 19584K, reserved 1067008K
+  class space    used 2302K, capacity 2429K, committed 2432K, reserved 1048576K
+}
+ [Times: user=0.06 sys=0.00, real=0.03 secs] 
+2021-07-10T17:44:50.276+0700: 8.968: Total time for which application threads were stopped: 0.0259519 seconds, Stopping threads took: 0.0000316 seconds
+2021-07-10T17:44:50.279+0700: 8.971: Total time for which application threads were stopped: 0.0002348 seconds, Stopping threads took: 0.0000774 seconds
+2021-07-10T17:44:50.279+0700: 8.971: Total time for which application threads were stopped: 0.0001411 seconds, Stopping threads took: 0.0000611 seconds
+2021-07-10T17:44:50.279+0700: 8.972: Total time for which application threads were stopped: 0.0001420 seconds, Stopping threads took: 0.0000606 seconds
+2021-07-10T17:44:50.280+0700: 8.972: Total time for which application threads were stopped: 0.0001305 seconds, Stopping threads took: 0.0000595 seconds
+2021-07-10T17:44:50.281+0700: 8.973: Total time for which application threads were stopped: 0.0002520 seconds, Stopping threads took: 0.0001591 seconds
+2021-07-10T17:44:50.281+0700: 8.973: Total time for which application threads were stopped: 0.0001760 seconds, Stopping threads took: 0.0001180 seconds
+2021-07-10T17:44:50.281+0700: 8.973: Total time for which application threads were stopped: 0.0001285 seconds, Stopping threads took: 0.0000516 seconds
+2021-07-10T17:44:50.281+0700: 8.973: Total time for which application threads were stopped: 0.0001701 seconds, Stopping threads took: 0.0000552 seconds
+2021-07-10T17:44:50.281+0700: 8.974: Total time for which application threads were stopped: 0.0001263 seconds, Stopping threads took: 0.0000550 seconds
+2021-07-10T17:44:50.282+0700: 8.974: Total time for which application threads were stopped: 0.0001373 seconds, Stopping threads took: 0.0000649 seconds
+2021-07-10T17:44:50.282+0700: 8.974: Total time for which application threads were stopped: 0.0001706 seconds, Stopping threads took: 0.0000671 seconds
+2021-07-10T17:44:50.282+0700: 8.974: Total time for which application threads were stopped: 0.0001487 seconds, Stopping threads took: 0.0000517 seconds
+2021-07-10T17:44:50.282+0700: 8.974: Total time for which application threads were stopped: 0.0001613 seconds, Stopping threads took: 0.0000548 seconds
+2021-07-10T17:44:50.282+0700: 8.975: Total time for which application threads were stopped: 0.0001519 seconds, Stopping threads took: 0.0000513 seconds
+2021-07-10T17:44:50.283+0700: 8.975: Total time for which application threads were stopped: 0.0002095 seconds, Stopping threads took: 0.0000753 seconds
+2021-07-10T17:44:50.283+0700: 8.975: Total time for which application threads were stopped: 0.0001654 seconds, Stopping threads took: 0.0000632 seconds
+2021-07-10T17:44:50.283+0700: 8.975: Total time for which application threads were stopped: 0.0001221 seconds, Stopping threads took: 0.0000252 seconds
+2021-07-10T17:44:50.283+0700: 8.975: Total time for which application threads were stopped: 0.0001455 seconds, Stopping threads took: 0.0000611 seconds
+2021-07-10T17:44:50.283+0700: 8.976: Total time for which application threads were stopped: 0.0000969 seconds, Stopping threads took: 0.0000295 seconds
+2021-07-10T17:44:50.284+0700: 8.976: Total time for which application threads were stopped: 0.0001249 seconds, Stopping threads took: 0.0000396 seconds
+2021-07-10T17:44:50.284+0700: 8.976: Total time for which application threads were stopped: 0.0001368 seconds, Stopping threads took: 0.0000733 seconds
+2021-07-10T17:44:50.284+0700: 8.976: Total time for which application threads were stopped: 0.0001395 seconds, Stopping threads took: 0.0000689 seconds
+2021-07-10T17:44:50.284+0700: 8.976: Total time for which application threads were stopped: 0.0001819 seconds, Stopping threads took: 0.0000685 seconds
+2021-07-10T17:44:50.299+0700: 8.991: Total time for which application threads were stopped: 0.0001393 seconds, Stopping threads took: 0.0000557 seconds
+2021-07-10T17:44:50.403+0700: 9.095: Total time for which application threads were stopped: 0.0001164 seconds, Stopping threads took: 0.0000393 seconds
+2021-07-10T17:44:50.403+0700: 9.096: Total time for which application threads were stopped: 0.0000707 seconds, Stopping threads took: 0.0000254 seconds
+{Heap before GC invocations=2 (full 0):
+ garbage-first heap   total 1048576K, used 37888K [0x00000006c0000000, 0x00000006c0102000, 0x00000007c0000000)
+  region size 1024K, 20 young (20480K), 7 survivors (7168K)
+ Metaspace       used 20706K, capacity 21100K, committed 21296K, reserved 1069056K
+  class space    used 2502K, capacity 2591K, committed 2608K, reserved 1048576K
+2021-07-10T17:44:50.688+0700: 9.380: [GC pause (Metadata GC Threshold) (young) (initial-mark)
+Desired survivor size 3670016 bytes, new threshold 15 (max 15)
+- age   1:    1942464 bytes,    1942464 total
+, 0.0087656 secs]
+   [Parallel Time: 6.6 ms, GC Workers: 4]
+      [GC Worker Start (ms): Min: 9380.4, Avg: 9380.4, Max: 9380.5, Diff: 0.0]
+      [Ext Root Scanning (ms): Min: 0.9, Avg: 1.0, Max: 1.1, Diff: 0.3, Sum: 4.1]
+      [Update RS (ms): Min: 2.9, Avg: 3.2, Max: 3.6, Diff: 0.7, Sum: 12.7]
+         [Processed Buffers: Min: 3, Avg: 5.0, Max: 7, Diff: 4, Sum: 20]
+      [Scan RS (ms): Min: 0.0, Avg: 0.1, Max: 0.2, Diff: 0.2, Sum: 0.5]
+      [Code Root Scanning (ms): Min: 0.0, Avg: 0.1, Max: 0.2, Diff: 0.2, Sum: 0.4]
+      [Object Copy (ms): Min: 1.8, Avg: 2.0, Max: 2.2, Diff: 0.5, Sum: 8.0]
+      [Termination (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.0]
+         [Termination Attempts: Min: 1, Avg: 1.0, Max: 1, Diff: 0, Sum: 4]
+      [GC Worker Other (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.1]
+      [GC Worker Total (ms): Min: 6.4, Avg: 6.4, Max: 6.5, Diff: 0.0, Sum: 25.7]
+      [GC Worker End (ms): Min: 9386.9, Avg: 9386.9, Max: 9386.9, Diff: 0.0]
+   [Code Root Fixup: 0.0 ms]
+   [Code Root Purge: 0.0 ms]
+   [Clear CT: 0.1 ms]
+   [Other: 2.0 ms]
+      [Choose CSet: 0.0 ms]
+      [Ref Proc: 1.4 ms]
+      [Ref Enq: 0.1 ms]
+      [Redirty Cards: 0.1 ms]
+      [Humongous Register: 0.0 ms]
+      [Humongous Reclaim: 0.0 ms]
+      [Free CSet: 0.0 ms]
+   [Eden: 13.0M(44.0M)->0.0B(91.0M) Survivors: 7168.0K->5120.0K Heap: 38.0M(1024.0M)->23.0M(1024.0M)]
+Heap after GC invocations=3 (full 0):
+ garbage-first heap   total 1048576K, used 23552K [0x00000006c0000000, 0x00000006c0102000, 0x00000007c0000000)
+  region size 1024K, 5 young (5120K), 5 survivors (5120K)
+ Metaspace       used 20706K, capacity 21100K, committed 21296K, reserved 1069056K
+  class space    used 2502K, capacity 2591K, committed 2608K, reserved 1048576K
+}
+ [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2021-07-10T17:44:50.697+0700: 9.389: [GC concurrent-root-region-scan-start]
+2021-07-10T17:44:50.697+0700: 9.389: Total time for which application threads were stopped: 0.0093552 seconds, Stopping threads took: 0.0000290 seconds
+2021-07-10T17:44:50.697+0700: 9.390: Total time for which application threads were stopped: 0.0002349 seconds, Stopping threads took: 0.0001174 seconds
+2021-07-10T17:44:50.698+0700: 9.390: Total time for which application threads were stopped: 0.0001358 seconds, Stopping threads took: 0.0000313 seconds
+2021-07-10T17:44:50.698+0700: 9.390: Total time for which application threads were stopped: 0.0001804 seconds, Stopping threads took: 0.0000730 seconds
+2021-07-10T17:44:50.698+0700: 9.391: Total time for which application threads were stopped: 0.0001299 seconds, Stopping threads took: 0.0000331 seconds
+2021-07-10T17:44:50.698+0700: 9.391: Total time for which application threads were stopped: 0.0001557 seconds, Stopping threads took: 0.0000568 seconds
+2021-07-10T17:44:50.699+0700: 9.391: Total time for which application threads were stopped: 0.0002458 seconds, Stopping threads took: 0.0001427 seconds
+2021-07-10T17:44:50.699+0700: 9.391: Total time for which application threads were stopped: 0.0001295 seconds, Stopping threads took: 0.0000316 seconds
+2021-07-10T17:44:50.699+0700: 9.392: Total time for which application threads were stopped: 0.0002116 seconds, Stopping threads took: 0.0001109 seconds
+2021-07-10T17:44:50.699+0700: 9.392: Total time for which application threads were stopped: 0.0001263 seconds, Stopping threads took: 0.0000297 seconds
+2021-07-10T17:44:50.701+0700: 9.394: [GC concurrent-root-region-scan-end, 0.0043968 secs]
+2021-07-10T17:44:50.701+0700: 9.394: [GC concurrent-mark-start]
+2021-07-10T17:44:50.733+0700: 9.425: Total time for which application threads were stopped: 0.0002669 seconds, Stopping threads took: 0.0000328 seconds
+2021-07-10T17:44:50.760+0700: 9.452: [GC concurrent-mark-end, 0.0580351 secs]
+2021-07-10T17:44:50.760+0700: 9.452: [GC remark 2021-07-10T17:44:50.760+0700: 9.452: [Finalize Marking, 0.0001687 secs] 2021-07-10T17:44:50.760+0700: 9.452: [GC ref-proc, 0.0014394 secs] 2021-07-10T17:44:50.762+0700: 9.454: [Unloading, 0.0039861 secs], 0.0060495 secs]
+ [Times: user=0.06 sys=0.00, real=0.01 secs] 
+2021-07-10T17:44:50.766+0700: 9.458: Total time for which application threads were stopped: 0.0062285 seconds, Stopping threads took: 0.0000648 seconds
+2021-07-10T17:44:50.766+0700: 9.458: [GC cleanup 26M->22M(1024M), 0.0010902 secs]
+ [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2021-07-10T17:44:50.767+0700: 9.459: Total time for which application threads were stopped: 0.0012924 seconds, Stopping threads took: 0.0000707 seconds
+2021-07-10T17:44:50.767+0700: 9.459: [GC concurrent-cleanup-start]
+2021-07-10T17:44:50.767+0700: 9.459: [GC concurrent-cleanup-end, 0.0000257 secs]
+2021-07-10T17:44:50.768+0700: 9.460: Total time for which application threads were stopped: 0.0002056 seconds, Stopping threads took: 0.0000723 seconds
+2021-07-10T17:44:50.768+0700: 9.460: Total time for which application threads were stopped: 0.0001855 seconds, Stopping threads took: 0.0000606 seconds
+2021-07-10T17:44:51.700+0700: 10.392: Total time for which application threads were stopped: 0.0004559 seconds, Stopping threads took: 0.0000579 seconds
+2021-07-10T17:44:51.723+0700: 10.416: Total time for which application threads were stopped: 0.0004359 seconds, Stopping threads took: 0.0000586 seconds
+2021-07-10T17:44:51.725+0700: 10.418: Total time for which application threads were stopped: 0.0004319 seconds, Stopping threads took: 0.0000532 seconds
+2021-07-10T17:44:51.750+0700: 10.442: Total time for which application threads were stopped: 0.0004974 seconds, Stopping threads took: 0.0000486 seconds
+2021-07-10T17:44:51.803+0700: 10.496: Total time for which application threads were stopped: 0.0001201 seconds, Stopping threads took: 0.0000320 seconds
+2021-07-10T17:44:51.864+0700: 10.557: Total time for which application threads were stopped: 0.0003272 seconds, Stopping threads took: 0.0000305 seconds
+2021-07-10T17:44:52.019+0700: 10.711: Total time for which application threads were stopped: 0.0002245 seconds, Stopping threads took: 0.0000783 seconds
+2021-07-10T17:44:52.019+0700: 10.712: Total time for which application threads were stopped: 0.0001967 seconds, Stopping threads took: 0.0000868 seconds
+2021-07-10T17:44:52.019+0700: 10.712: Total time for which application threads were stopped: 0.0001601 seconds, Stopping threads took: 0.0000866 seconds
+2021-07-10T17:44:52.020+0700: 10.712: Total time for which application threads were stopped: 0.0001683 seconds, Stopping threads took: 0.0000866 seconds
+2021-07-10T17:44:52.020+0700: 10.712: Total time for which application threads were stopped: 0.0001925 seconds, Stopping threads took: 0.0000713 seconds
+2021-07-10T17:44:52.021+0700: 10.714: Total time for which application threads were stopped: 0.0014916 seconds, Stopping threads took: 0.0013533 seconds
+2021-07-10T17:44:52.022+0700: 10.714: Total time for which application threads were stopped: 0.0001916 seconds, Stopping threads took: 0.0000618 seconds
+2021-07-10T17:44:52.022+0700: 10.714: Total time for which application threads were stopped: 0.0001287 seconds, Stopping threads took: 0.0000326 seconds
+2021-07-10T17:44:52.022+0700: 10.715: Total time for which application threads were stopped: 0.0000968 seconds, Stopping threads took: 0.0000245 seconds
+2021-07-10T17:44:52.022+0700: 10.715: Total time for which application threads were stopped: 0.0001251 seconds, Stopping threads took: 0.0000517 seconds
+2021-07-10T17:44:52.022+0700: 10.715: Total time for which application threads were stopped: 0.0000898 seconds, Stopping threads took: 0.0000230 seconds
+2021-07-10T17:44:52.023+0700: 10.715: Total time for which application threads were stopped: 0.0001264 seconds, Stopping threads took: 0.0000264 seconds
+2021-07-10T17:44:52.023+0700: 10.715: Total time for which application threads were stopped: 0.0001317 seconds, Stopping threads took: 0.0000586 seconds
+2021-07-10T17:44:52.023+0700: 10.715: Total time for which application threads were stopped: 0.0001301 seconds, Stopping threads took: 0.0000534 seconds
+2021-07-10T17:44:52.023+0700: 10.716: Total time for which application threads were stopped: 0.0001277 seconds, Stopping threads took: 0.0000559 seconds
+2021-07-10T17:44:52.023+0700: 10.716: Total time for which application threads were stopped: 0.0001239 seconds, Stopping threads took: 0.0000540 seconds
+2021-07-10T17:44:52.024+0700: 10.716: Total time for which application threads were stopped: 0.0001532 seconds, Stopping threads took: 0.0000556 seconds
+2021-07-10T17:44:52.024+0700: 10.716: Total time for which application threads were stopped: 0.0001435 seconds, Stopping threads took: 0.0000591 seconds
+2021-07-10T17:44:52.024+0700: 10.716: Total time for which application threads were stopped: 0.0001301 seconds, Stopping threads took: 0.0000574 seconds
+2021-07-10T17:44:52.024+0700: 10.717: Total time for which application threads were stopped: 0.0001145 seconds, Stopping threads took: 0.0000448 seconds
+2021-07-10T17:44:52.024+0700: 10.717: Total time for which application threads were stopped: 0.0001659 seconds, Stopping threads took: 0.0000252 seconds
+2021-07-10T17:44:52.025+0700: 10.717: Total time for which application threads were stopped: 0.0001480 seconds, Stopping threads took: 0.0000607 seconds
+2021-07-10T17:44:52.025+0700: 10.718: Total time for which application threads were stopped: 0.0001336 seconds, Stopping threads took: 0.0000563 seconds
+2021-07-10T17:44:52.025+0700: 10.718: Total time for which application threads were stopped: 0.0001273 seconds, Stopping threads took: 0.0000536 seconds
+2021-07-10T17:44:52.026+0700: 10.718: Total time for which application threads were stopped: 0.0001264 seconds, Stopping threads took: 0.0000526 seconds
+2021-07-10T17:44:52.026+0700: 10.718: Total time for which application threads were stopped: 0.0000867 seconds, Stopping threads took: 0.0000180 seconds
+2021-07-10T17:44:52.026+0700: 10.718: Total time for which application threads were stopped: 0.0000805 seconds, Stopping threads took: 0.0000132 seconds
+2021-07-10T17:44:52.026+0700: 10.718: Total time for which application threads were stopped: 0.0000851 seconds, Stopping threads took: 0.0000168 seconds
+2021-07-10T17:44:52.026+0700: 10.719: Total time for which application threads were stopped: 0.0000889 seconds, Stopping threads took: 0.0000173 seconds
+2021-07-10T17:44:52.028+0700: 10.720: Total time for which application threads were stopped: 0.0001320 seconds, Stopping threads took: 0.0000281 seconds
+2021-07-10T17:44:52.028+0700: 10.721: Total time for which application threads were stopped: 0.0000980 seconds, Stopping threads took: 0.0000216 seconds
+2021-07-10T17:44:52.030+0700: 10.722: Total time for which application threads were stopped: 0.0001363 seconds, Stopping threads took: 0.0000438 seconds
+2021-07-10T17:44:52.030+0700: 10.722: Total time for which application threads were stopped: 0.0001511 seconds, Stopping threads took: 0.0000705 seconds
+2021-07-10T17:44:52.030+0700: 10.723: Total time for which application threads were stopped: 0.0001491 seconds, Stopping threads took: 0.0000754 seconds
+2021-07-10T17:44:52.030+0700: 10.723: Total time for which application threads were stopped: 0.0001065 seconds, Stopping threads took: 0.0000525 seconds
+2021-07-10T17:44:52.031+0700: 10.723: Total time for which application threads were stopped: 0.0001137 seconds, Stopping threads took: 0.0000571 seconds
+2021-07-10T17:44:52.031+0700: 10.723: Total time for which application threads were stopped: 0.0001027 seconds, Stopping threads took: 0.0000572 seconds
+2021-07-10T17:44:52.031+0700: 10.723: Total time for which application threads were stopped: 0.0000995 seconds, Stopping threads took: 0.0000543 seconds
+2021-07-10T17:44:52.031+0700: 10.723: Total time for which application threads were stopped: 0.0001023 seconds, Stopping threads took: 0.0000551 seconds
+2021-07-10T17:44:52.031+0700: 10.724: Total time for which application threads were stopped: 0.0001423 seconds, Stopping threads took: 0.0000714 seconds
+2021-07-10T17:44:52.031+0700: 10.724: Total time for which application threads were stopped: 0.0001332 seconds, Stopping threads took: 0.0000667 seconds
+2021-07-10T17:44:52.032+0700: 10.724: Total time for which application threads were stopped: 0.0001366 seconds, Stopping threads took: 0.0000676 seconds
+2021-07-10T17:44:52.032+0700: 10.724: Total time for which application threads were stopped: 0.0001213 seconds, Stopping threads took: 0.0000532 seconds
+2021-07-10T17:44:52.032+0700: 10.724: Total time for which application threads were stopped: 0.0001272 seconds, Stopping threads took: 0.0000613 seconds
+2021-07-10T17:44:52.032+0700: 10.725: Total time for which application threads were stopped: 0.0001049 seconds, Stopping threads took: 0.0000341 seconds
+2021-07-10T17:44:52.032+0700: 10.725: Total time for which application threads were stopped: 0.0000958 seconds, Stopping threads took: 0.0000286 seconds
+2021-07-10T17:44:52.033+0700: 10.725: Total time for which application threads were stopped: 0.0000947 seconds, Stopping threads took: 0.0000280 seconds
+2021-07-10T17:44:52.033+0700: 10.725: Total time for which application threads were stopped: 0.0001189 seconds, Stopping threads took: 0.0000524 seconds
+2021-07-10T17:44:52.033+0700: 10.725: Total time for which application threads were stopped: 0.0001025 seconds, Stopping threads took: 0.0000503 seconds
+2021-07-10T17:44:52.033+0700: 10.726: Total time for which application threads were stopped: 0.0001030 seconds, Stopping threads took: 0.0000560 seconds
+2021-07-10T17:44:52.033+0700: 10.726: Total time for which application threads were stopped: 0.0001975 seconds, Stopping threads took: 0.0000520 seconds
+2021-07-10T17:44:52.151+0700: 10.843: Total time for which application threads were stopped: 0.0001784 seconds, Stopping threads took: 0.0000291 seconds
+2021-07-10T17:44:52.955+0700: 11.647: Total time for which application threads were stopped: 0.0003631 seconds, Stopping threads took: 0.0000295 seconds
+2021-07-10T17:44:53.396+0700: 12.089: Total time for which application threads were stopped: 0.0002511 seconds, Stopping threads took: 0.0000551 seconds
+2021-07-10T17:44:53.407+0700: 12.100: Total time for which application threads were stopped: 0.0001904 seconds, Stopping threads took: 0.0000585 seconds
+2021-07-10T17:44:53.420+0700: 12.112: Total time for which application threads were stopped: 0.0001846 seconds, Stopping threads took: 0.0000832 seconds
+2021-07-10T17:44:53.567+0700: 12.259: Total time for which application threads were stopped: 0.0002105 seconds, Stopping threads took: 0.0000593 seconds
+2021-07-10T17:44:53.582+0700: 12.274: Total time for which application threads were stopped: 0.0001766 seconds, Stopping threads took: 0.0000464 seconds
+2021-07-10T17:44:53.631+0700: 12.323: Total time for which application threads were stopped: 0.0001808 seconds, Stopping threads took: 0.0000467 seconds
+2021-07-10T17:44:53.644+0700: 12.336: Total time for which application threads were stopped: 0.0001364 seconds, Stopping threads took: 0.0000381 seconds
+2021-07-10T17:44:53.860+0700: 12.552: Total time for which application threads were stopped: 0.0007091 seconds, Stopping threads took: 0.0000493 seconds
+2021-07-10T17:44:54.865+0700: 13.557: Total time for which application threads were stopped: 0.0002359 seconds, Stopping threads took: 0.0000951 seconds
+{Heap before GC invocations=4 (full 0):
+ garbage-first heap   total 1048576K, used 112640K [0x00000006c0000000, 0x00000006c0102000, 0x00000007c0000000)
+  region size 1024K, 96 young (98304K), 5 survivors (5120K)
+ Metaspace       used 27859K, capacity 28574K, committed 28924K, reserved 1075200K
+  class space    used 3373K, capacity 3583K, committed 3632K, reserved 1048576K
+2021-07-10T17:44:58.569+0700: 17.261: [GC pause (G1 Evacuation Pause) (young) (initial-mark)
+Desired survivor size 6291456 bytes, new threshold 15 (max 15)
+- age   1:     241696 bytes,     241696 total
+- age   2:    1874712 bytes,    2116408 total
+, 0.0198059 secs]
+   [Parallel Time: 15.8 ms, GC Workers: 4]
+      [GC Worker Start (ms): Min: 17261.0, Avg: 17261.1, Max: 17261.1, Diff: 0.1]
+      [Ext Root Scanning (ms): Min: 3.2, Avg: 3.9, Max: 4.6, Diff: 1.4, Sum: 15.8]
+      [Update RS (ms): Min: 0.8, Avg: 1.2, Max: 1.4, Diff: 0.6, Sum: 4.6]
+         [Processed Buffers: Min: 1, Avg: 2.8, Max: 5, Diff: 4, Sum: 11]
+      [Scan RS (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.2]
+      [Code Root Scanning (ms): Min: 0.2, Avg: 0.8, Max: 1.1, Diff: 0.9, Sum: 3.1]
+      [Object Copy (ms): Min: 8.9, Avg: 9.7, Max: 10.2, Diff: 1.2, Sum: 38.7]
+      [Termination (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.0]
+         [Termination Attempts: Min: 1, Avg: 1.0, Max: 1, Diff: 0, Sum: 4]
+      [GC Worker Other (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.1]
+      [GC Worker Total (ms): Min: 15.5, Avg: 15.6, Max: 15.7, Diff: 0.1, Sum: 62.4]
+      [GC Worker End (ms): Min: 17276.7, Avg: 17276.7, Max: 17276.7, Diff: 0.0]
+   [Code Root Fixup: 0.0 ms]
+   [Code Root Purge: 0.0 ms]
+   [Clear CT: 0.2 ms]
+   [Other: 3.8 ms]
+      [Choose CSet: 0.0 ms]
+      [Ref Proc: 2.8 ms]
+      [Ref Enq: 0.1 ms]
+      [Redirty Cards: 0.2 ms]
+      [Humongous Register: 0.0 ms]
+      [Humongous Reclaim: 0.0 ms]
+      [Free CSet: 0.1 ms]
+   [Eden: 91.0M(91.0M)->0.0B(355.0M) Survivors: 5120.0K->12.0M Heap: 110.0M(1024.0M)->26.5M(1024.0M)]
+Heap after GC invocations=5 (full 0):
+ garbage-first heap   total 1048576K, used 27136K [0x00000006c0000000, 0x00000006c0102000, 0x00000007c0000000)
+  region size 1024K, 12 young (12288K), 12 survivors (12288K)
+ Metaspace       used 27859K, capacity 28574K, committed 28924K, reserved 1075200K
+  class space    used 3373K, capacity 3583K, committed 3632K, reserved 1048576K
+}
+ [Times: user=0.06 sys=0.00, real=0.02 secs] 
+2021-07-10T17:44:58.589+0700: 17.281: 2021-07-10T17:44:58.589+0700[GC concurrent-root-region-scan-start]
+: 17.281: Total time for which application threads were stopped: 0.0203220 seconds, Stopping threads took: 0.0000570 seconds
+2021-07-10T17:44:58.590+0700: 17.282: Total time for which application threads were stopped: 0.0005956 seconds, Stopping threads took: 0.0003067 seconds
+2021-07-10T17:44:58.595+0700: 17.287: Total time for which application threads were stopped: 0.0002248 seconds, Stopping threads took: 0.0000533 seconds
+2021-07-10T17:44:58.596+0700: 17.287: Total time for which application threads were stopped: 0.0002158 seconds, Stopping threads took: 0.0000406 seconds
+2021-07-10T17:44:58.596+0700: 17.288: Total time for which application threads were stopped: 0.0002103 seconds, Stopping threads took: 0.0000547 seconds
+2021-07-10T17:44:58.597+0700: 17.289: Total time for which application threads were stopped: 0.0004048 seconds, Stopping threads took: 0.0001251 seconds
+2021-07-10T17:44:58.599+0700: 17.291: Total time for which application threads were stopped: 0.0025856 seconds, Stopping threads took: 0.0024488 seconds
+2021-07-10T17:44:58.599+0700: 17.291: Total time for which application threads were stopped: 0.0001235 seconds, Stopping threads took: 0.0000333 seconds
+2021-07-10T17:44:58.600+0700: 17.292: Total time for which application threads were stopped: 0.0001147 seconds, Stopping threads took: 0.0000321 seconds
+2021-07-10T17:44:58.600+0700: 17.292: Total time for which application threads were stopped: 0.0001230 seconds, Stopping threads took: 0.0000404 seconds
+2021-07-10T17:44:58.600+0700: 17.292: Total time for which application threads were stopped: 0.0001260 seconds, Stopping threads took: 0.0000323 seconds
+2021-07-10T17:44:58.601+0700: 17.293: Total time for which application threads were stopped: 0.0002332 seconds, Stopping threads took: 0.0000826 seconds
+2021-07-10T17:44:58.603+0700: 17.295: Total time for which application threads were stopped: 0.0002281 seconds, Stopping threads took: 0.0000827 seconds
+2021-07-10T17:44:58.603+0700: 17.295: Total time for which application threads were stopped: 0.0001520 seconds, Stopping threads took: 0.0000677 seconds
+2021-07-10T17:44:58.603+0700: 17.295: [GC concurrent-root-region-scan-end, 0.0146314 secs]
+2021-07-10T17:44:58.603+0700: 17.295: [GC concurrent-mark-start]
+2021-07-10T17:44:58.604+0700: 17.296: Total time for which application threads were stopped: 0.0001617 seconds, Stopping threads took: 0.0000727 seconds
+2021-07-10T17:44:58.604+0700: 17.296: Total time for which application threads were stopped: 0.0001532 seconds, Stopping threads took: 0.0000680 seconds
+2021-07-10T17:44:58.604+0700: 17.296: Total time for which application threads were stopped: 0.0002870 seconds, Stopping threads took: 0.0001263 seconds
+2021-07-10T17:44:58.605+0700: 17.297: Total time for which application threads were stopped: 0.0001773 seconds, Stopping threads took: 0.0000794 seconds
+2021-07-10T17:44:58.605+0700: 17.297: Total time for which application threads were stopped: 0.0001744 seconds, Stopping threads took: 0.0000879 seconds
+2021-07-10T17:44:58.606+0700: 17.298: Total time for which application threads were stopped: 0.0002278 seconds, Stopping threads took: 0.0000877 seconds
+2021-07-10T17:44:58.606+0700: 17.298: Total time for which application threads were stopped: 0.0001814 seconds, Stopping threads took: 0.0000405 seconds
+2021-07-10T17:44:58.607+0700: 17.299: Total time for which application threads were stopped: 0.0005174 seconds, Stopping threads took: 0.0000532 seconds
+2021-07-10T17:44:58.608+0700: 17.300: Total time for which application threads were stopped: 0.0003630 seconds, Stopping threads took: 0.0001656 seconds
+2021-07-10T17:44:58.608+0700: 17.300: Total time for which application threads were stopped: 0.0002716 seconds, Stopping threads took: 0.0001262 seconds
+2021-07-10T17:44:58.609+0700: 17.301: Total time for which application threads were stopped: 0.0001518 seconds, Stopping threads took: 0.0000761 seconds
+2021-07-10T17:44:58.664+0700: 17.356: [GC concurrent-mark-end, 0.0602073 secs]
+2021-07-10T17:44:58.664+0700: 17.356: [GC remark 2021-07-10T17:44:58.664+0700: 17.356: [Finalize Marking, 0.0001319 secs] 2021-07-10T17:44:58.664+0700: 17.356: [GC ref-proc, 0.0012700 secs] 2021-07-10T17:44:58.665+0700: 17.357: [Unloading, 0.0048623 secs], 0.0066232 secs]
+ [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2021-07-10T17:44:58.671+0700: 17.363: Total time for which application threads were stopped: 0.0068367 seconds, Stopping threads took: 0.0000339 seconds
+2021-07-10T17:44:58.671+0700: 17.363: [GC cleanup 32M->32M(1024M), 0.0010140 secs]
+ [Times: user=0.06 sys=0.00, real=0.00 secs] 
+2021-07-10T17:44:58.672+0700: 17.364: Total time for which application threads were stopped: 0.0012049 seconds, Stopping threads took: 0.0000463 seconds
+2021-07-10T17:44:58.881+0700: 17.573: Total time for which application threads were stopped: 0.0002540 seconds, Stopping threads took: 0.0000866 seconds
+2021-07-10T17:44:58.882+0700: 17.575: Total time for which application threads were stopped: 0.0001808 seconds, Stopping threads took: 0.0000610 seconds
+2021-07-10T17:44:58.883+0700: 17.575: Total time for which application threads were stopped: 0.0001634 seconds, Stopping threads took: 0.0000429 seconds
+2021-07-10T17:44:58.884+0700: 17.576: Total time for which application threads were stopped: 0.0001520 seconds, Stopping threads took: 0.0000425 seconds
+2021-07-10T17:44:59.070+0700: 17.762: Total time for which application threads were stopped: 0.0005230 seconds, Stopping threads took: 0.0003613 seconds
+2021-07-10T17:44:59.071+0700: 17.763: Total time for which application threads were stopped: 0.0002049 seconds, Stopping threads took: 0.0000582 seconds
+2021-07-10T17:44:59.071+0700: 17.763: Total time for which application threads were stopped: 0.0001199 seconds, Stopping threads took: 0.0000362 seconds
+2021-07-10T17:44:59.071+0700: 17.763: Total time for which application threads were stopped: 0.0001311 seconds, Stopping threads took: 0.0000504 seconds
+2021-07-10T17:44:59.072+0700: 17.764: Total time for which application threads were stopped: 0.0001547 seconds, Stopping threads took: 0.0000279 seconds
+2021-07-10T17:44:59.072+0700: 17.764: Total time for which application threads were stopped: 0.0001722 seconds, Stopping threads took: 0.0000334 seconds
+2021-07-10T17:44:59.072+0700: 17.764: Total time for which application threads were stopped: 0.0001241 seconds, Stopping threads took: 0.0000293 seconds
+2021-07-10T17:44:59.072+0700: 17.765: Total time for which application threads were stopped: 0.0001187 seconds, Stopping threads took: 0.0000295 seconds
+2021-07-10T17:44:59.075+0700: 17.767: Total time for which application threads were stopped: 0.0005969 seconds, Stopping threads took: 0.0004699 seconds
+2021-07-10T17:44:59.075+0700: 17.768: Total time for which application threads were stopped: 0.0001324 seconds, Stopping threads took: 0.0000438 seconds
+2021-07-10T17:44:59.076+0700: 17.768: Total time for which application threads were stopped: 0.0001624 seconds, Stopping threads took: 0.0000286 seconds
+2021-07-10T17:44:59.076+0700: 17.768: Total time for which application threads were stopped: 0.0001978 seconds, Stopping threads took: 0.0001082 seconds
+2021-07-10T17:44:59.076+0700: 17.769: Total time for which application threads were stopped: 0.0001556 seconds, Stopping threads took: 0.0000748 seconds
+2021-07-10T17:44:59.079+0700: 17.771: Total time for which application threads were stopped: 0.0007570 seconds, Stopping threads took: 0.0004259 seconds
+2021-07-10T17:44:59.080+0700: 17.772: Total time for which application threads were stopped: 0.0006205 seconds, Stopping threads took: 0.0005101 seconds
+2021-07-10T17:44:59.084+0700: 17.776: Total time for which application threads were stopped: 0.0005161 seconds, Stopping threads took: 0.0002080 seconds
+2021-07-10T17:44:59.084+0700: 17.776: Total time for which application threads were stopped: 0.0002304 seconds, Stopping threads took: 0.0000418 seconds
+2021-07-10T17:44:59.088+0700: 17.780: Total time for which application threads were stopped: 0.0002830 seconds, Stopping threads took: 0.0000832 seconds
+2021-07-10T17:44:59.089+0700: 17.782: Total time for which application threads were stopped: 0.0006006 seconds, Stopping threads took: 0.0000585 seconds
+2021-07-10T17:44:59.091+0700: 17.783: Total time for which application threads were stopped: 0.0002882 seconds, Stopping threads took: 0.0000866 seconds
+2021-07-10T17:44:59.091+0700: 17.783: Total time for which application threads were stopped: 0.0001681 seconds, Stopping threads took: 0.0000810 seconds
+2021-07-10T17:44:59.093+0700: 17.785: Total time for which application threads were stopped: 0.0002966 seconds, Stopping threads took: 0.0000452 seconds
+2021-07-10T17:44:59.095+0700: 17.787: Total time for which application threads were stopped: 0.0003550 seconds, Stopping threads took: 0.0000748 seconds
+2021-07-10T17:44:59.095+0700: 17.787: Total time for which application threads were stopped: 0.0004673 seconds, Stopping threads took: 0.0002434 seconds
+2021-07-10T17:44:59.101+0700: 17.793: Total time for which application threads were stopped: 0.0004907 seconds, Stopping threads took: 0.0000848 seconds
+2021-07-10T17:44:59.107+0700: 17.799: Total time for which application threads were stopped: 0.0002220 seconds, Stopping threads took: 0.0000845 seconds
+2021-07-10T17:44:59.108+0700: 17.800: Total time for which application threads were stopped: 0.0002140 seconds, Stopping threads took: 0.0000881 seconds
+2021-07-10T17:44:59.109+0700: 17.801: Total time for which application threads were stopped: 0.0005959 seconds, Stopping threads took: 0.0000387 seconds
+2021-07-10T17:44:59.110+0700: 17.803: Total time for which application threads were stopped: 0.0002608 seconds, Stopping threads took: 0.0001163 seconds
+2021-07-10T17:44:59.117+0700: 17.809: Total time for which application threads were stopped: 0.0007335 seconds, Stopping threads took: 0.0005739 seconds
+2021-07-10T17:44:59.121+0700: 17.813: Total time for which application threads were stopped: 0.0003883 seconds, Stopping threads took: 0.0002125 seconds
+2021-07-10T17:44:59.123+0700: 17.816: Total time for which application threads were stopped: 0.0002140 seconds, Stopping threads took: 0.0000722 seconds
+2021-07-10T17:44:59.126+0700: 17.818: Total time for which application threads were stopped: 0.0002728 seconds, Stopping threads took: 0.0000647 seconds
+2021-07-10T17:44:59.126+0700: 17.818: Total time for which application threads were stopped: 0.0001560 seconds, Stopping threads took: 0.0000355 seconds
+2021-07-10T17:44:59.151+0700: 17.843: Total time for which application threads were stopped: 0.0004502 seconds, Stopping threads took: 0.0002214 seconds
+2021-07-10T17:44:59.154+0700: 17.846: Total time for which application threads were stopped: 0.0002563 seconds, Stopping threads took: 0.0000909 seconds
+2021-07-10T17:44:59.155+0700: 17.848: Total time for which application threads were stopped: 0.0002614 seconds, Stopping threads took: 0.0000832 seconds
+2021-07-10T17:44:59.158+0700: 17.851: Total time for which application threads were stopped: 0.0006588 seconds, Stopping threads took: 0.0005186 seconds
+2021-07-10T17:44:59.165+0700: 17.857: Total time for which application threads were stopped: 0.0011878 seconds, Stopping threads took: 0.0010150 seconds
+2021-07-10T17:44:59.166+0700: 17.859: Total time for which application threads were stopped: 0.0006051 seconds, Stopping threads took: 0.0001309 seconds
+2021-07-10T17:44:59.189+0700: 17.881: Total time for which application threads were stopped: 0.0003678 seconds, Stopping threads took: 0.0000874 seconds
+2021-07-10T17:44:59.196+0700: 17.888: Total time for which application threads were stopped: 0.0002371 seconds, Stopping threads took: 0.0000798 seconds
+2021-07-10T17:44:59.215+0700: 17.907: Total time for which application threads were stopped: 0.0002189 seconds, Stopping threads took: 0.0000526 seconds
+2021-07-10T17:44:59.224+0700: 17.916: Total time for which application threads were stopped: 0.0002970 seconds, Stopping threads took: 0.0000751 seconds
+2021-07-10T17:44:59.227+0700: 17.919: Total time for which application threads were stopped: 0.0002190 seconds, Stopping threads took: 0.0000671 seconds
+2021-07-10T17:44:59.227+0700: 17.919: Total time for which application threads were stopped: 0.0002324 seconds, Stopping threads took: 0.0000500 seconds
+2021-07-10T17:44:59.228+0700: 17.920: Total time for which application threads were stopped: 0.0002289 seconds, Stopping threads took: 0.0000799 seconds
+2021-07-10T17:44:59.229+0700: 17.921: Total time for which application threads were stopped: 0.0006320 seconds, Stopping threads took: 0.0004272 seconds
+2021-07-10T17:44:59.230+0700: 17.922: Total time for which application threads were stopped: 0.0003236 seconds, Stopping threads took: 0.0001694 seconds
+2021-07-10T17:44:59.230+0700: 17.922: Total time for which application threads were stopped: 0.0002551 seconds, Stopping threads took: 0.0000668 seconds
+2021-07-10T17:44:59.234+0700: 17.926: Total time for which application threads were stopped: 0.0003430 seconds, Stopping threads took: 0.0001030 seconds
+2021-07-10T17:44:59.235+0700: 17.927: Total time for which application threads were stopped: 0.0002464 seconds, Stopping threads took: 0.0000373 seconds
+2021-07-10T17:44:59.270+0700: 17.962: Total time for which application threads were stopped: 0.0002357 seconds, Stopping threads took: 0.0000594 seconds
+2021-07-10T17:44:59.281+0700: 17.973: Total time for which application threads were stopped: 0.0001896 seconds, Stopping threads took: 0.0000757 seconds
+2021-07-10T17:44:59.281+0700: 17.973: Total time for which application threads were stopped: 0.0001840 seconds, Stopping threads took: 0.0000736 seconds
+2021-07-10T17:44:59.282+0700: 17.974: Total time for which application threads were stopped: 0.0001691 seconds, Stopping threads took: 0.0000442 seconds
+2021-07-10T17:44:59.282+0700: 17.974: Total time for which application threads were stopped: 0.0001337 seconds, Stopping threads took: 0.0000326 seconds
+2021-07-10T17:44:59.295+0700: 17.987: Total time for which application threads were stopped: 0.0002205 seconds, Stopping threads took: 0.0000638 seconds
+2021-07-10T17:44:59.295+0700: 17.987: Total time for which application threads were stopped: 0.0001872 seconds, Stopping threads took: 0.0000501 seconds
+2021-07-10T17:44:59.305+0700: 17.997: Total time for which application threads were stopped: 0.0002223 seconds, Stopping threads took: 0.0000664 seconds
+2021-07-10T17:44:59.306+0700: 17.998: Total time for which application threads were stopped: 0.0002125 seconds, Stopping threads took: 0.0000664 seconds
+2021-07-10T17:44:59.315+0700: 18.007: Total time for which application threads were stopped: 0.0001692 seconds, Stopping threads took: 0.0000513 seconds
+2021-07-10T17:44:59.315+0700: 18.007: Total time for which application threads were stopped: 0.0001336 seconds, Stopping threads took: 0.0000378 seconds
+2021-07-10T17:44:59.315+0700: 18.007: Total time for which application threads were stopped: 0.0001595 seconds, Stopping threads took: 0.0000561 seconds
+2021-07-10T17:44:59.317+0700: 18.009: Total time for which application threads were stopped: 0.0001811 seconds, Stopping threads took: 0.0000581 seconds
+2021-07-10T17:44:59.318+0700: 18.010: Total time for which application threads were stopped: 0.0002044 seconds, Stopping threads took: 0.0000706 seconds
+2021-07-10T17:44:59.318+0700: 18.010: Total time for which application threads were stopped: 0.0001752 seconds, Stopping threads took: 0.0000453 seconds
+2021-07-10T17:44:59.319+0700: 18.011: Total time for which application threads were stopped: 0.0001452 seconds, Stopping threads took: 0.0000392 seconds
+2021-07-10T17:44:59.319+0700: 18.011: Total time for which application threads were stopped: 0.0001414 seconds, Stopping threads took: 0.0000534 seconds
+2021-07-10T17:44:59.319+0700: 18.011: Total time for which application threads were stopped: 0.0001657 seconds, Stopping threads took: 0.0000574 seconds
+2021-07-10T17:44:59.320+0700: 18.012: Total time for which application threads were stopped: 0.0001577 seconds, Stopping threads took: 0.0000573 seconds
+2021-07-10T17:44:59.320+0700: 18.012: Total time for which application threads were stopped: 0.0001338 seconds, Stopping threads took: 0.0000452 seconds
+2021-07-10T17:44:59.320+0700: 18.012: Total time for which application threads were stopped: 0.0001446 seconds, Stopping threads took: 0.0000512 seconds
+2021-07-10T17:44:59.320+0700: 18.012: Total time for which application threads were stopped: 0.0001478 seconds, Stopping threads took: 0.0000378 seconds
+2021-07-10T17:44:59.321+0700: 18.013: Total time for which application threads were stopped: 0.0001300 seconds, Stopping threads took: 0.0000264 seconds
+2021-07-10T17:44:59.321+0700: 18.013: Total time for which application threads were stopped: 0.0001334 seconds, Stopping threads took: 0.0000387 seconds
+2021-07-10T17:44:59.321+0700: 18.013: Total time for which application threads were stopped: 0.0001371 seconds, Stopping threads took: 0.0000457 seconds
+2021-07-10T17:44:59.321+0700: 18.013: Total time for which application threads were stopped: 0.0001884 seconds, Stopping threads took: 0.0000873 seconds
+2021-07-10T17:44:59.322+0700: 18.014: Total time for which application threads were stopped: 0.0001648 seconds, Stopping threads took: 0.0000576 seconds
+2021-07-10T17:44:59.323+0700: 18.015: Total time for which application threads were stopped: 0.0002205 seconds, Stopping threads took: 0.0000772 seconds
+2021-07-10T17:44:59.324+0700: 18.016: Total time for which application threads were stopped: 0.0001728 seconds, Stopping threads took: 0.0000415 seconds
+2021-07-10T17:44:59.324+0700: 18.016: Total time for which application threads were stopped: 0.0001518 seconds, Stopping threads took: 0.0000406 seconds
+2021-07-10T17:44:59.324+0700: 18.016: Total time for which application threads were stopped: 0.0001691 seconds, Stopping threads took: 0.0000427 seconds
+2021-07-10T17:44:59.324+0700: 18.016: Total time for which application threads were stopped: 0.0001299 seconds, Stopping threads took: 0.0000307 seconds
+2021-07-10T17:44:59.325+0700: 18.017: Total time for which application threads were stopped: 0.0001585 seconds, Stopping threads took: 0.0000391 seconds
+2021-07-10T17:44:59.325+0700: 18.017: Total time for which application threads were stopped: 0.0001576 seconds, Stopping threads took: 0.0000409 seconds
+2021-07-10T17:44:59.325+0700: 18.017: Total time for which application threads were stopped: 0.0001406 seconds, Stopping threads took: 0.0000326 seconds
+2021-07-10T17:44:59.326+0700: 18.018: Total time for which application threads were stopped: 0.0001561 seconds, Stopping threads took: 0.0000389 seconds
+2021-07-10T17:44:59.326+0700: 18.018: Total time for which application threads were stopped: 0.0002018 seconds, Stopping threads took: 0.0000650 seconds
+2021-07-10T17:44:59.327+0700: 18.019: Total time for which application threads were stopped: 0.0004549 seconds, Stopping threads took: 0.0000483 seconds
+2021-07-10T17:44:59.327+0700: 18.019: Total time for which application threads were stopped: 0.0002028 seconds, Stopping threads took: 0.0000560 seconds
+2021-07-10T17:44:59.328+0700: 18.020: Total time for which application threads were stopped: 0.0001817 seconds, Stopping threads took: 0.0000492 seconds
+2021-07-10T17:44:59.328+0700: 18.020: Total time for which application threads were stopped: 0.0001732 seconds, Stopping threads took: 0.0000415 seconds
+2021-07-10T17:44:59.328+0700: 18.020: Total time for which application threads were stopped: 0.0001346 seconds, Stopping threads took: 0.0000316 seconds
+2021-07-10T17:44:59.329+0700: 18.021: Total time for which application threads were stopped: 0.0004364 seconds, Stopping threads took: 0.0000396 seconds
+2021-07-10T17:44:59.331+0700: 18.023: Total time for which application threads were stopped: 0.0011162 seconds, Stopping threads took: 0.0009651 seconds
+2021-07-10T17:44:59.331+0700: 18.023: Total time for which application threads were stopped: 0.0001409 seconds, Stopping threads took: 0.0000382 seconds
+2021-07-10T17:44:59.331+0700: 18.023: Total time for which application threads were stopped: 0.0001300 seconds, Stopping threads took: 0.0000322 seconds
+2021-07-10T17:44:59.385+0700: 18.077: Total time for which application threads were stopped: 0.0002114 seconds, Stopping threads took: 0.0000775 seconds
+2021-07-10T17:44:59.417+0700: 18.109: Total time for which application threads were stopped: 0.0002810 seconds, Stopping threads took: 0.0000729 seconds
+2021-07-10T17:44:59.418+0700: 18.110: Total time for which application threads were stopped: 0.0003605 seconds, Stopping threads took: 0.0000638 seconds
+2021-07-10T17:44:59.451+0700: 18.143: Total time for which application threads were stopped: 0.0003684 seconds, Stopping threads took: 0.0000913 seconds
+2021-07-10T17:44:59.645+0700: 18.337: Total time for which application threads were stopped: 0.0042781 seconds, Stopping threads took: 0.0040112 seconds
+2021-07-10T17:44:59.652+0700: 18.344: Total time for which application threads were stopped: 0.0002126 seconds, Stopping threads took: 0.0000629 seconds
+2021-07-10T17:44:59.666+0700: 18.358: Total time for which application threads were stopped: 0.0002139 seconds, Stopping threads took: 0.0000472 seconds
+2021-07-10T17:44:59.667+0700: 18.359: Total time for which application threads were stopped: 0.0002299 seconds, Stopping threads took: 0.0000597 seconds
+2021-07-10T17:44:59.668+0700: 18.360: Total time for which application threads were stopped: 0.0002505 seconds, Stopping threads took: 0.0001059 seconds
+2021-07-10T17:44:59.679+0700: 18.371: Total time for which application threads were stopped: 0.0002078 seconds, Stopping threads took: 0.0000634 seconds
+2021-07-10T17:44:59.679+0700: 18.371: Total time for which application threads were stopped: 0.0001384 seconds, Stopping threads took: 0.0000284 seconds
+2021-07-10T17:44:59.680+0700: 18.372: Total time for which application threads were stopped: 0.0001433 seconds, Stopping threads took: 0.0000318 seconds
+2021-07-10T17:44:59.681+0700: 18.373: Total time for which application threads were stopped: 0.0001939 seconds, Stopping threads took: 0.0000415 seconds
+2021-07-10T17:44:59.681+0700: 18.373: Total time for which application threads were stopped: 0.0001283 seconds, Stopping threads took: 0.0000273 seconds
+2021-07-10T17:44:59.681+0700: 18.373: Total time for which application threads were stopped: 0.0001450 seconds, Stopping threads took: 0.0000443 seconds
+2021-07-10T17:44:59.798+0700: 18.490: Total time for which application threads were stopped: 0.0002176 seconds, Stopping threads took: 0.0000403 seconds
+2021-07-10T17:44:59.799+0700: 18.491: Total time for which application threads were stopped: 0.0001836 seconds, Stopping threads took: 0.0000359 seconds
+2021-07-10T17:44:59.801+0700: 18.493: Total time for which application threads were stopped: 0.0001879 seconds, Stopping threads took: 0.0000347 seconds
+2021-07-10T17:44:59.802+0700: 18.494: Total time for which application threads were stopped: 0.0001712 seconds, Stopping threads took: 0.0000312 seconds
+2021-07-10T17:44:59.805+0700: 18.497: Total time for which application threads were stopped: 0.0001869 seconds, Stopping threads took: 0.0000694 seconds
+2021-07-10T17:44:59.817+0700: 18.508: Total time for which application threads were stopped: 0.0005249 seconds, Stopping threads took: 0.0001066 seconds
+2021-07-10T17:44:59.817+0700: 18.509: Total time for which application threads were stopped: 0.0002017 seconds, Stopping threads took: 0.0000615 seconds
+2021-07-10T17:44:59.817+0700: 18.509: Total time for which application threads were stopped: 0.0001871 seconds, Stopping threads took: 0.0000659 seconds
+2021-07-10T17:44:59.818+0700: 18.510: Total time for which application threads were stopped: 0.0002037 seconds, Stopping threads took: 0.0000501 seconds
+2021-07-10T17:44:59.818+0700: 18.510: Total time for which application threads were stopped: 0.0002621 seconds, Stopping threads took: 0.0001493 seconds
+2021-07-10T17:44:59.832+0700: 18.524: Total time for which application threads were stopped: 0.0002500 seconds, Stopping threads took: 0.0000656 seconds
+2021-07-10T17:44:59.838+0700: 18.530: Total time for which application threads were stopped: 0.0002567 seconds, Stopping threads took: 0.0000618 seconds
+2021-07-10T17:44:59.984+0700: 18.676: Total time for which application threads were stopped: 0.0003712 seconds, Stopping threads took: 0.0001052 seconds
+2021-07-10T17:45:00.168+0700: 18.861: Total time for which application threads were stopped: 0.0006618 seconds, Stopping threads took: 0.0000801 seconds
+2021-07-10T17:45:00.395+0700: 19.088: Total time for which application threads were stopped: 0.0002398 seconds, Stopping threads took: 0.0000614 seconds
+2021-07-10T17:45:00.700+0700: 19.392: Total time for which application threads were stopped: 0.0003047 seconds, Stopping threads took: 0.0000734 seconds
+2021-07-10T17:45:00.704+0700: 19.396: Total time for which application threads were stopped: 0.0001933 seconds, Stopping threads took: 0.0000441 seconds
+2021-07-10T17:45:00.728+0700: 19.420: Total time for which application threads were stopped: 0.0002485 seconds, Stopping threads took: 0.0000560 seconds
+2021-07-10T17:45:00.903+0700: 19.595: Total time for which application threads were stopped: 0.0002332 seconds, Stopping threads took: 0.0000479 seconds
+2021-07-10T17:45:00.984+0700: 19.676: Total time for which application threads were stopped: 0.0006528 seconds, Stopping threads took: 0.0000455 seconds
+2021-07-10T17:45:01.029+0700: 19.721: Total time for which application threads were stopped: 0.0002296 seconds, Stopping threads took: 0.0000597 seconds
+2021-07-10T17:45:01.280+0700: 19.972: Total time for which application threads were stopped: 0.0002686 seconds, Stopping threads took: 0.0000528 seconds
+2021-07-10T17:45:01.327+0700: 20.019: Total time for which application threads were stopped: 0.0002149 seconds, Stopping threads took: 0.0000521 seconds
+2021-07-10T17:45:01.387+0700: 20.079: Total time for which application threads were stopped: 0.0002183 seconds, Stopping threads took: 0.0000492 seconds
+2021-07-10T17:45:01.388+0700: 20.080: Total time for which application threads were stopped: 0.0002024 seconds, Stopping threads took: 0.0000631 seconds
+2021-07-10T17:45:01.388+0700: 20.080: Total time for which application threads were stopped: 0.0001852 seconds, Stopping threads took: 0.0000358 seconds
+2021-07-10T17:45:01.400+0700: 20.092: Total time for which application threads were stopped: 0.0002650 seconds, Stopping threads took: 0.0000769 seconds
+2021-07-10T17:45:01.400+0700: 20.092: Total time for which application threads were stopped: 0.0001953 seconds, Stopping threads took: 0.0000478 seconds
+2021-07-10T17:45:01.400+0700: 20.092: Total time for which application threads were stopped: 0.0001842 seconds, Stopping threads took: 0.0000440 seconds
+2021-07-10T17:45:01.401+0700: 20.092: Total time for which application threads were stopped: 0.0001979 seconds, Stopping threads took: 0.0000446 seconds
+2021-07-10T17:45:01.401+0700: 20.093: Total time for which application threads were stopped: 0.0001717 seconds, Stopping threads took: 0.0000482 seconds
+2021-07-10T17:45:01.401+0700: 20.093: Total time for which application threads were stopped: 0.0001847 seconds, Stopping threads took: 0.0000583 seconds
+2021-07-10T17:45:01.402+0700: 20.093: Total time for which application threads were stopped: 0.0002146 seconds, Stopping threads took: 0.0000680 seconds
+2021-07-10T17:45:01.477+0700: 20.169: Total time for which application threads were stopped: 0.0006659 seconds, Stopping threads took: 0.0000478 seconds
+2021-07-10T17:45:01.722+0700: 20.415: Total time for which application threads were stopped: 0.0002230 seconds, Stopping threads took: 0.0000526 seconds
+2021-07-10T17:45:01.882+0700: 20.575: Total time for which application threads were stopped: 0.0003417 seconds, Stopping threads took: 0.0000950 seconds
+2021-07-10T17:45:01.886+0700: 20.578: Total time for which application threads were stopped: 0.0006809 seconds, Stopping threads took: 0.0004366 seconds
+2021-07-10T17:45:01.920+0700: 20.612: Total time for which application threads were stopped: 0.0002119 seconds, Stopping threads took: 0.0000448 seconds
+2021-07-10T17:45:01.920+0700: 20.612: Total time for which application threads were stopped: 0.0001569 seconds, Stopping threads took: 0.0000318 seconds
+2021-07-10T17:45:01.992+0700: 20.684: Total time for which application threads were stopped: 0.0001489 seconds, Stopping threads took: 0.0000473 seconds
+2021-07-10T17:45:02.038+0700: 20.731: Total time for which application threads were stopped: 0.0001967 seconds, Stopping threads took: 0.0000799 seconds
+2021-07-10T17:45:02.137+0700: 20.829: Total time for which application threads were stopped: 0.0001913 seconds, Stopping threads took: 0.0000785 seconds
+2021-07-10T17:45:02.138+0700: 20.830: Total time for which application threads were stopped: 0.0001121 seconds, Stopping threads took: 0.0000394 seconds
+2021-07-10T17:45:02.154+0700: 20.846: Total time for which application threads were stopped: 0.0004765 seconds, Stopping threads took: 0.0000757 seconds
+2021-07-10T17:45:02.331+0700: 21.023: Total time for which application threads were stopped: 0.0001588 seconds, Stopping threads took: 0.0000327 seconds
+2021-07-10T17:45:02.358+0700: 21.051: Total time for which application threads were stopped: 0.0001516 seconds, Stopping threads took: 0.0000394 seconds
+2021-07-10T17:45:02.377+0700: 21.069: Total time for which application threads were stopped: 0.0001154 seconds, Stopping threads took: 0.0000294 seconds
+2021-07-10T17:45:02.378+0700: 21.070: Total time for which application threads were stopped: 0.0000793 seconds, Stopping threads took: 0.0000203 seconds
+2021-07-10T17:45:02.465+0700: 21.157: Total time for which application threads were stopped: 0.0001417 seconds, Stopping threads took: 0.0000392 seconds
+2021-07-10T17:45:02.469+0700: 21.161: Total time for which application threads were stopped: 0.0001126 seconds, Stopping threads took: 0.0000370 seconds
+2021-07-10T17:45:02.472+0700: 21.164: Total time for which application threads were stopped: 0.0002167 seconds, Stopping threads took: 0.0000630 seconds
+2021-07-10T17:45:02.478+0700: 21.170: Total time for which application threads were stopped: 0.0001238 seconds, Stopping threads took: 0.0000336 seconds
+2021-07-10T17:45:02.479+0700: 21.171: Total time for which application threads were stopped: 0.0001745 seconds, Stopping threads took: 0.0000494 seconds
+2021-07-10T17:45:02.498+0700: 21.190: Total time for which application threads were stopped: 0.0005234 seconds, Stopping threads took: 0.0000510 seconds
+2021-07-10T17:45:02.521+0700: 21.213: Total time for which application threads were stopped: 0.0001742 seconds, Stopping threads took: 0.0000459 seconds
+2021-07-10T17:45:02.523+0700: 21.215: Total time for which application threads were stopped: 0.0001854 seconds, Stopping threads took: 0.0000840 seconds
+2021-07-10T17:45:02.524+0700: 21.216: Total time for which application threads were stopped: 0.0001840 seconds, Stopping threads took: 0.0000670 seconds
+2021-07-10T17:45:02.524+0700: 21.216: Total time for which application threads were stopped: 0.0001120 seconds, Stopping threads took: 0.0000434 seconds
+2021-07-10T17:45:02.524+0700: 21.216: Total time for which application threads were stopped: 0.0000788 seconds, Stopping threads took: 0.0000247 seconds
+2021-07-10T17:45:02.524+0700: 21.216: Total time for which application threads were stopped: 0.0000709 seconds, Stopping threads took: 0.0000226 seconds
+2021-07-10T17:45:02.526+0700: 21.218: Total time for which application threads were stopped: 0.0001517 seconds, Stopping threads took: 0.0000455 seconds
+2021-07-10T17:45:02.526+0700: 21.218: Total time for which application threads were stopped: 0.0001027 seconds, Stopping threads took: 0.0000297 seconds
+2021-07-10T17:45:02.526+0700: 21.218: Total time for which application threads were stopped: 0.0001299 seconds, Stopping threads took: 0.0000556 seconds
+2021-07-10T17:45:02.526+0700: 21.218: Total time for which application threads were stopped: 0.0001429 seconds, Stopping threads took: 0.0000563 seconds
+2021-07-10T17:45:02.526+0700: 21.218: Total time for which application threads were stopped: 0.0001319 seconds, Stopping threads took: 0.0000560 seconds
+2021-07-10T17:45:02.527+0700: 21.219: Total time for which application threads were stopped: 0.0001444 seconds, Stopping threads took: 0.0000561 seconds
+2021-07-10T17:45:02.527+0700: 21.219: Total time for which application threads were stopped: 0.0001475 seconds, Stopping threads took: 0.0000656 seconds
+2021-07-10T17:45:02.527+0700: 21.219: Total time for which application threads were stopped: 0.0001448 seconds, Stopping threads took: 0.0000639 seconds
+2021-07-10T17:45:02.664+0700: 21.356: Total time for which application threads were stopped: 0.0002319 seconds, Stopping threads took: 0.0000706 seconds
+2021-07-10T17:45:02.665+0700: 21.357: Total time for which application threads were stopped: 0.0002018 seconds, Stopping threads took: 0.0000712 seconds
+2021-07-10T17:45:02.665+0700: 21.357: Total time for which application threads were stopped: 0.0001603 seconds, Stopping threads took: 0.0000545 seconds
+2021-07-10T17:45:02.665+0700: 21.357: Total time for which application threads were stopped: 0.0001500 seconds, Stopping threads took: 0.0000362 seconds
+2021-07-10T17:45:02.666+0700: 21.357: Total time for which application threads were stopped: 0.0001871 seconds, Stopping threads took: 0.0000524 seconds
+2021-07-10T17:45:02.762+0700: 21.453: Total time for which application threads were stopped: 0.0001886 seconds, Stopping threads took: 0.0000565 seconds
+2021-07-10T17:45:02.762+0700: 21.454: Total time for which application threads were stopped: 0.0001810 seconds, Stopping threads took: 0.0000867 seconds
+2021-07-10T17:45:02.768+0700: 21.460: Total time for which application threads were stopped: 0.0001445 seconds, Stopping threads took: 0.0000390 seconds
+2021-07-10T17:45:02.911+0700: 21.603: Total time for which application threads were stopped: 0.0030948 seconds, Stopping threads took: 0.0029636 seconds
+2021-07-10T17:45:03.051+0700: 21.744: Total time for which application threads were stopped: 0.0002513 seconds, Stopping threads took: 0.0000726 seconds
+2021-07-10T17:45:03.051+0700: 21.744: Total time for which application threads were stopped: 0.0003935 seconds, Stopping threads took: 0.0000591 seconds
+{Heap before GC invocations=6 (full 0):
+ garbage-first heap   total 1048576K, used 390656K [0x00000006c0000000, 0x00000006c0102000, 0x00000007c0000000)
+  region size 1024K, 367 young (375808K), 12 survivors (12288K)
+ Metaspace       used 37908K, capacity 39098K, committed 39292K, reserved 1083392K
+  class space    used 4667K, capacity 4933K, committed 5040K, reserved 1048576K
+2021-07-10T17:45:03.139+0700: 21.831: [GC pause (G1 Evacuation Pause) (young)
+Desired survivor size 24117248 bytes, new threshold 15 (max 15)
+- age   1:    3478456 bytes,    3478456 total
+- age   2:     204968 bytes,    3683424 total
+- age   3:    1862048 bytes,    5545472 total
+, 0.0228305 secs]
+   [Parallel Time: 17.9 ms, GC Workers: 4]
+      [GC Worker Start (ms): Min: 21831.7, Avg: 21831.8, Max: 21832.0, Diff: 0.3]
+      [Ext Root Scanning (ms): Min: 2.3, Avg: 2.6, Max: 2.9, Diff: 0.6, Sum: 10.2]
+      [Update RS (ms): Min: 0.5, Avg: 0.6, Max: 0.7, Diff: 0.1, Sum: 2.3]
+         [Processed Buffers: Min: 1, Avg: 4.0, Max: 8, Diff: 7, Sum: 16]
+      [Scan RS (ms): Min: 0.0, Avg: 0.1, Max: 0.1, Diff: 0.0, Sum: 0.3]
+      [Code Root Scanning (ms): Min: 0.2, Avg: 0.6, Max: 0.8, Diff: 0.6, Sum: 2.5]
+      [Object Copy (ms): Min: 13.4, Avg: 13.9, Max: 14.6, Diff: 1.2, Sum: 55.6]
+      [Termination (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.0]
+         [Termination Attempts: Min: 1, Avg: 1.8, Max: 2, Diff: 1, Sum: 7]
+      [GC Worker Other (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.1]
+      [GC Worker Total (ms): Min: 17.5, Avg: 17.7, Max: 17.8, Diff: 0.3, Sum: 70.9]
+      [GC Worker End (ms): Min: 21849.5, Avg: 21849.5, Max: 21849.5, Diff: 0.0]
+   [Code Root Fixup: 0.1 ms]
+   [Code Root Purge: 0.0 ms]
+   [Clear CT: 0.1 ms]
+   [Other: 4.7 ms]
+      [Choose CSet: 0.0 ms]
+      [Ref Proc: 3.7 ms]
+      [Ref Enq: 0.1 ms]
+      [Redirty Cards: 0.1 ms]
+      [Humongous Register: 0.0 ms]
+      [Humongous Reclaim: 0.0 ms]
+      [Free CSet: 0.5 ms]
+   [Eden: 355.0M(355.0M)->0.0B(592.0M) Survivors: 12.0M->22.0M Heap: 381.5M(1024.0M)->36.0M(1024.0M)]
+Heap after GC invocations=7 (full 0):
+ garbage-first heap   total 1048576K, used 36864K [0x00000006c0000000, 0x00000006c0102000, 0x00000007c0000000)
+  region size 1024K, 22 young (22528K), 22 survivors (22528K)
+ Metaspace       used 37908K, capacity 39098K, committed 39292K, reserved 1083392K
+  class space    used 4667K, capacity 4933K, committed 5040K, reserved 1048576K
+}
+ [Times: user=0.13 sys=0.00, real=0.02 secs] 
+2021-07-10T17:45:03.162+0700: 21.855: Total time for which application threads were stopped: 0.0233148 seconds, Stopping threads took: 0.0000747 seconds
+2021-07-10T17:45:03.286+0700: 21.979: Total time for which application threads were stopped: 0.0001629 seconds, Stopping threads took: 0.0000552 seconds
+2021-07-10T17:45:03.286+0700: 21.979: Total time for which application threads were stopped: 0.0001208 seconds, Stopping threads took: 0.0000504 seconds
+2021-07-10T17:45:03.290+0700: 21.982: Total time for which application threads were stopped: 0.0002310 seconds, Stopping threads took: 0.0000469 seconds
+2021-07-10T17:45:03.292+0700: 21.985: Total time for which application threads were stopped: 0.0002760 seconds, Stopping threads took: 0.0000907 seconds
+2021-07-10T17:45:03.298+0700: 21.991: Total time for which application threads were stopped: 0.0001994 seconds, Stopping threads took: 0.0000767 seconds
+2021-07-10T17:45:03.299+0700: 21.991: Total time for which application threads were stopped: 0.0001342 seconds, Stopping threads took: 0.0000352 seconds
+2021-07-10T17:45:03.299+0700: 21.991: Total time for which application threads were stopped: 0.0001266 seconds, Stopping threads took: 0.0000364 seconds
+2021-07-10T17:45:03.299+0700: 21.992: Total time for which application threads were stopped: 0.0001240 seconds, Stopping threads took: 0.0000322 seconds
+2021-07-10T17:45:03.300+0700: 21.992: Total time for which application threads were stopped: 0.0001971 seconds, Stopping threads took: 0.0000862 seconds
+2021-07-10T17:45:03.300+0700: 21.992: Total time for which application threads were stopped: 0.0001530 seconds, Stopping threads took: 0.0000659 seconds
+2021-07-10T17:45:03.300+0700: 21.993: Total time for which application threads were stopped: 0.0001367 seconds, Stopping threads took: 0.0000539 seconds
+2021-07-10T17:45:03.300+0700: 21.993: Total time for which application threads were stopped: 0.0001171 seconds, Stopping threads took: 0.0000379 seconds
+2021-07-10T17:45:03.313+0700: 22.005: Total time for which application threads were stopped: 0.0001512 seconds, Stopping threads took: 0.0000389 seconds
+2021-07-10T17:45:03.323+0700: 22.016: Total time for which application threads were stopped: 0.0001148 seconds, Stopping threads took: 0.0000413 seconds
+2021-07-10T17:45:03.324+0700: 22.016: Total time for which application threads were stopped: 0.0001306 seconds, Stopping threads took: 0.0000405 seconds
+2021-07-10T17:45:03.324+0700: 22.017: Total time for which application threads were stopped: 0.0001349 seconds, Stopping threads took: 0.0000482 seconds
+2021-07-10T17:45:03.647+0700: 22.339: Total time for which application threads were stopped: 0.0002043 seconds, Stopping threads took: 0.0000332 seconds
+2021-07-10T17:45:03.647+0700: 22.339: Total time for which application threads were stopped: 0.0001039 seconds, Stopping threads took: 0.0000223 seconds
+2021-07-10T17:45:03.648+0700: 22.340: Total time for which application threads were stopped: 0.0000993 seconds, Stopping threads took: 0.0000209 seconds
+2021-07-10T17:45:03.648+0700: 22.340: Total time for which application threads were stopped: 0.0000911 seconds, Stopping threads took: 0.0000193 seconds
+2021-07-10T17:45:03.684+0700: 22.375: Total time for which application threads were stopped: 0.0001481 seconds, Stopping threads took: 0.0000463 seconds
+2021-07-10T17:45:03.684+0700: 22.376: Total time for which application threads were stopped: 0.0001009 seconds, Stopping threads took: 0.0000246 seconds
+2021-07-10T17:45:03.768+0700: 22.461: Total time for which application threads were stopped: 0.0001626 seconds, Stopping threads took: 0.0000629 seconds
+2021-07-10T17:45:03.768+0700: 22.461: Total time for which application threads were stopped: 0.0001010 seconds, Stopping threads took: 0.0000463 seconds
+2021-07-10T17:45:03.846+0700: 22.538: Total time for which application threads were stopped: 0.0007689 seconds, Stopping threads took: 0.0000462 seconds
+2021-07-10T17:45:04.606+0700: 23.299: Total time for which application threads were stopped: 0.0012590 seconds, Stopping threads took: 0.0010124 seconds
+2021-07-10T17:45:04.609+0700: 23.302: Total time for which application threads were stopped: 0.0002041 seconds, Stopping threads took: 0.0000794 seconds
+2021-07-10T17:45:04.654+0700: 23.347: Total time for which application threads were stopped: 0.0003733 seconds, Stopping threads took: 0.0001797 seconds
+2021-07-10T17:45:04.656+0700: 23.348: Total time for which application threads were stopped: 0.0002506 seconds, Stopping threads took: 0.0000820 seconds
+2021-07-10T17:45:04.752+0700: 23.444: Total time for which application threads were stopped: 0.0009868 seconds, Stopping threads took: 0.0008318 seconds
+2021-07-10T17:45:04.776+0700: 23.468: Total time for which application threads were stopped: 0.0003070 seconds, Stopping threads took: 0.0001147 seconds
+2021-07-10T17:45:05.778+0700: 24.470: Total time for which application threads were stopped: 0.0003999 seconds, Stopping threads took: 0.0000890 seconds
+2021-07-10T17:45:07.322+0700: 26.014: Total time for which application threads were stopped: 0.0002654 seconds, Stopping threads took: 0.0000928 seconds
+2021-07-10T17:45:07.354+0700: 26.046: Total time for which application threads were stopped: 0.0005595 seconds, Stopping threads took: 0.0000325 seconds
+2021-07-10T17:45:07.385+0700: 26.077: Total time for which application threads were stopped: 0.0005861 seconds, Stopping threads took: 0.0000338 seconds
+2021-07-10T17:45:07.466+0700: 26.159: Total time for which application threads were stopped: 0.0001775 seconds, Stopping threads took: 0.0000523 seconds
+2021-07-10T17:45:07.469+0700: 26.162: Total time for which application threads were stopped: 0.0002758 seconds, Stopping threads took: 0.0001500 seconds
+2021-07-10T17:45:07.494+0700: 26.187: Total time for which application threads were stopped: 0.0001744 seconds, Stopping threads took: 0.0000503 seconds
+2021-07-10T17:45:08.292+0700: 26.984: Total time for which application threads were stopped: 0.0003193 seconds, Stopping threads took: 0.0001103 seconds
+2021-07-10T17:45:09.294+0700: 27.986: Total time for which application threads were stopped: 0.0001718 seconds, Stopping threads took: 0.0000620 seconds
+2021-07-10T17:45:09.453+0700: 28.145: Total time for which application threads were stopped: 0.0020407 seconds, Stopping threads took: 0.0018843 seconds
+2021-07-10T17:45:09.589+0700: 28.281: Total time for which application threads were stopped: 0.0002435 seconds, Stopping threads took: 0.0000954 seconds
+2021-07-10T17:45:09.589+0700: 28.281: Total time for which application threads were stopped: 0.0003870 seconds, Stopping threads took: 0.0000360 seconds
+2021-07-10T17:45:09.672+0700: 28.364: Total time for which application threads were stopped: 0.0002157 seconds, Stopping threads took: 0.0000595 seconds
+2021-07-10T17:45:09.767+0700: 28.459: Total time for which application threads were stopped: 0.0002334 seconds, Stopping threads took: 0.0000852 seconds
+2021-07-10T17:45:09.833+0700: 28.526: Total time for which application threads were stopped: 0.0001739 seconds, Stopping threads took: 0.0000518 seconds
+2021-07-10T17:45:09.848+0700: 28.541: Total time for which application threads were stopped: 0.0002879 seconds, Stopping threads took: 0.0001918 seconds
+{Heap before GC invocations=7 (full 0):
+ garbage-first heap   total 1048576K, used 643072K [0x00000006c0000000, 0x00000006c0102000, 0x00000007c0000000)
+  region size 1024K, 614 young (628736K), 22 survivors (22528K)
+ Metaspace       used 42602K, capacity 44046K, committed 44284K, reserved 1087488K
+  class space    used 5265K, capacity 5601K, committed 5680K, reserved 1048576K
+2021-07-10T17:45:09.904+0700: 28.597: [GC pause (G1 Evacuation Pause) (young)
+Desired survivor size 40370176 bytes, new threshold 15 (max 15)
+- age   1:    6038536 bytes,    6038536 total
+- age   2:    3325888 bytes,    9364424 total
+- age   3:     193776 bytes,    9558200 total
+- age   4:    1848176 bytes,   11406376 total
+, 0.0360779 secs]
+   [Parallel Time: 30.4 ms, GC Workers: 4]
+      [GC Worker Start (ms): Min: 28596.9, Avg: 28596.9, Max: 28597.0, Diff: 0.1]
+      [Ext Root Scanning (ms): Min: 1.7, Avg: 2.1, Max: 3.5, Diff: 1.8, Sum: 8.6]
+      [Update RS (ms): Min: 0.0, Avg: 0.6, Max: 1.0, Diff: 1.0, Sum: 2.4]
+         [Processed Buffers: Min: 0, Avg: 3.0, Max: 7, Diff: 7, Sum: 12]
+      [Scan RS (ms): Min: 0.1, Avg: 0.1, Max: 0.2, Diff: 0.1, Sum: 0.5]
+      [Code Root Scanning (ms): Min: 0.5, Avg: 0.9, Max: 1.2, Diff: 0.8, Sum: 3.6]
+      [Object Copy (ms): Min: 25.7, Avg: 26.5, Max: 27.2, Diff: 1.5, Sum: 105.9]
+      [Termination (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.0]
+         [Termination Attempts: Min: 1, Avg: 5.0, Max: 11, Diff: 10, Sum: 20]
+      [GC Worker Other (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.1]
+      [GC Worker Total (ms): Min: 30.2, Avg: 30.3, Max: 30.3, Diff: 0.1, Sum: 121.1]
+      [GC Worker End (ms): Min: 28627.2, Avg: 28627.2, Max: 28627.2, Diff: 0.0]
+   [Code Root Fixup: 0.1 ms]
+   [Code Root Purge: 0.0 ms]
+   [Clear CT: 0.2 ms]
+   [Other: 5.4 ms]
+      [Choose CSet: 0.0 ms]
+      [Ref Proc: 4.0 ms]
+      [Ref Enq: 0.1 ms]
+      [Redirty Cards: 0.1 ms]
+      [Humongous Register: 0.1 ms]
+      [Humongous Reclaim: 0.0 ms]
+      [Free CSet: 0.8 ms]
+   [Eden: 592.0M(592.0M)->0.0B(587.0M) Survivors: 22.0M->27.0M Heap: 628.0M(1024.0M)->41.0M(1024.0M)]
+Heap after GC invocations=8 (full 0):
+ garbage-first heap   total 1048576K, used 41984K [0x00000006c0000000, 0x00000006c0102000, 0x00000007c0000000)
+  region size 1024K, 27 young (27648K), 27 survivors (27648K)
+ Metaspace       used 42602K, capacity 44046K, committed 44284K, reserved 1087488K
+  class space    used 5265K, capacity 5601K, committed 5680K, reserved 1048576K
+}
+ [Times: user=0.14 sys=0.05, real=0.04 secs] 
+2021-07-10T17:45:09.940+0700: 28.633: Total time for which application threads were stopped: 0.0366784 seconds, Stopping threads took: 0.0000732 seconds
+2021-07-10T17:45:09.944+0700: 28.637: Total time for which application threads were stopped: 0.0005841 seconds, Stopping threads took: 0.0000647 seconds
+2021-07-10T17:45:09.946+0700: 28.638: Total time for which application threads were stopped: 0.0005890 seconds, Stopping threads took: 0.0004616 seconds
+2021-07-10T17:45:09.946+0700: 28.638: Total time for which application threads were stopped: 0.0001383 seconds, Stopping threads took: 0.0000324 seconds
+2021-07-10T17:45:09.946+0700: 28.639: Total time for which application threads were stopped: 0.0002096 seconds, Stopping threads took: 0.0000783 seconds
+2021-07-10T17:45:10.011+0700: 28.704: Total time for which application threads were stopped: 0.0008119 seconds, Stopping threads took: 0.0000701 seconds
+2021-07-10T17:45:10.086+0700: 28.779: Total time for which application threads were stopped: 0.0009176 seconds, Stopping threads took: 0.0007045 seconds
+2021-07-10T17:45:10.183+0700: 28.875: Total time for which application threads were stopped: 0.0002006 seconds, Stopping threads took: 0.0000590 seconds
+2021-07-10T17:45:10.183+0700: 28.876: Total time for which application threads were stopped: 0.0001688 seconds, Stopping threads took: 0.0000453 seconds
+2021-07-10T17:45:10.184+0700: 28.876: Total time for which application threads were stopped: 0.0001681 seconds, Stopping threads took: 0.0000538 seconds
+2021-07-10T17:45:10.189+0700: 28.881: Total time for which application threads were stopped: 0.0002085 seconds, Stopping threads took: 0.0000732 seconds
+2021-07-10T17:45:12.947+0700: 31.640: Total time for which application threads were stopped: 0.0002356 seconds, Stopping threads took: 0.0001147 seconds
+2021-07-10T17:45:12.958+0700: 31.650: Total time for which application threads were stopped: 0.0003119 seconds, Stopping threads took: 0.0001758 seconds
+2021-07-10T17:45:13.960+0700: 32.652: Total time for which application threads were stopped: 0.0002657 seconds, Stopping threads took: 0.0000921 seconds
+2021-07-10T17:45:14.769+0700: 33.461: Total time for which application threads were stopped: 0.0001594 seconds, Stopping threads took: 0.0000768 seconds
+2021-07-10T17:45:14.769+0700: 33.462: Total time for which application threads were stopped: 0.0001304 seconds, Stopping threads took: 0.0000648 seconds
+2021-07-10T17:45:15.770+0700: 34.463: Total time for which application threads were stopped: 0.0001476 seconds, Stopping threads took: 0.0000492 seconds
+2021-07-10T17:45:23.784+0700: 42.476: Total time for which application threads were stopped: 0.0001774 seconds, Stopping threads took: 0.0000593 seconds
+2021-07-10T17:45:25.931+0700: 44.623: Total time for which application threads were stopped: 0.0001521 seconds, Stopping threads took: 0.0000451 seconds
+2021-07-10T17:45:25.931+0700: 44.624: Total time for which application threads were stopped: 0.0001433 seconds, Stopping threads took: 0.0000544 seconds
+2021-07-10T17:45:25.931+0700: 44.624: Total time for which application threads were stopped: 0.0001231 seconds, Stopping threads took: 0.0000451 seconds
+2021-07-10T17:45:25.932+0700: 44.625: Total time for which application threads were stopped: 0.0001680 seconds, Stopping threads took: 0.0000694 seconds
+2021-07-10T17:45:25.934+0700: 44.627: Total time for which application threads were stopped: 0.0002523 seconds, Stopping threads took: 0.0001325 seconds
+2021-07-10T17:45:25.988+0700: 44.680: Total time for which application threads were stopped: 0.0001371 seconds, Stopping threads took: 0.0000350 seconds
+2021-07-10T17:45:26.991+0700: 45.683: Total time for which application threads were stopped: 0.0002487 seconds, Stopping threads took: 0.0000721 seconds
+2021-07-10T17:45:27.991+0700: 46.683: Total time for which application threads were stopped: 0.0006951 seconds, Stopping threads took: 0.0002157 seconds
+2021-07-10T17:45:28.192+0700: 46.884: Total time for which application threads were stopped: 0.0009669 seconds, Stopping threads took: 0.0000795 seconds
+2021-07-10T17:45:28.308+0700: 47.000: Total time for which application threads were stopped: 0.0002553 seconds, Stopping threads took: 0.0000864 seconds
+2021-07-10T17:45:28.308+0700: 47.000: Total time for which application threads were stopped: 0.0001882 seconds, Stopping threads took: 0.0000423 seconds
+2021-07-10T17:45:28.315+0700: 47.007: Total time for which application threads were stopped: 0.0001800 seconds, Stopping threads took: 0.0000535 seconds
+2021-07-10T17:45:28.316+0700: 47.008: Total time for which application threads were stopped: 0.0001557 seconds, Stopping threads took: 0.0000521 seconds
+2021-07-10T17:45:29.165+0700: 47.857: Total time for which application threads were stopped: 0.0002045 seconds, Stopping threads took: 0.0000543 seconds
+2021-07-10T17:45:29.165+0700: 47.857: Total time for which application threads were stopped: 0.0001784 seconds, Stopping threads took: 0.0000749 seconds
+2021-07-10T17:45:29.165+0700: 47.858: Total time for which application threads were stopped: 0.0001695 seconds, Stopping threads took: 0.0000776 seconds
+2021-07-10T17:45:29.166+0700: 47.858: Total time for which application threads were stopped: 0.0001588 seconds, Stopping threads took: 0.0000679 seconds
+2021-07-10T17:45:29.166+0700: 47.858: Total time for which application threads were stopped: 0.0001427 seconds, Stopping threads took: 0.0000612 seconds
+2021-07-10T17:45:29.169+0700: 47.861: Total time for which application threads were stopped: 0.0002053 seconds, Stopping threads took: 0.0001167 seconds
+2021-07-10T17:45:29.169+0700: 47.862: Total time for which application threads were stopped: 0.0005603 seconds, Stopping threads took: 0.0001154 seconds
+2021-07-10T17:45:29.269+0700: 47.961: Total time for which application threads were stopped: 0.0002949 seconds, Stopping threads took: 0.0001307 seconds
+2021-07-10T17:45:29.270+0700: 47.962: Total time for which application threads were stopped: 0.0001845 seconds, Stopping threads took: 0.0000577 seconds
+2021-07-10T17:45:29.272+0700: 47.964: Total time for which application threads were stopped: 0.0002210 seconds, Stopping threads took: 0.0000716 seconds
+2021-07-10T17:45:29.274+0700: 47.966: Total time for which application threads were stopped: 0.0004265 seconds, Stopping threads took: 0.0000720 seconds
+2021-07-10T17:45:29.274+0700: 47.967: Total time for which application threads were stopped: 0.0002156 seconds, Stopping threads took: 0.0000645 seconds
+2021-07-10T17:45:29.275+0700: 47.967: Total time for which application threads were stopped: 0.0001754 seconds, Stopping threads took: 0.0000446 seconds
+2021-07-10T17:45:29.275+0700: 47.967: Total time for which application threads were stopped: 0.0002221 seconds, Stopping threads took: 0.0000875 seconds
+2021-07-10T17:45:30.276+0700: 48.968: Total time for which application threads were stopped: 0.0001749 seconds, Stopping threads took: 0.0000559 seconds
+2021-07-10T17:45:33.284+0700: 51.976: Total time for which application threads were stopped: 0.0002726 seconds, Stopping threads took: 0.0001026 seconds
+2021-07-10T17:45:37.313+0700: 56.005: Total time for which application threads were stopped: 0.0007608 seconds, Stopping threads took: 0.0000494 seconds
+2021-07-10T17:45:37.314+0700: 56.006: Total time for which application threads were stopped: 0.0003001 seconds, Stopping threads took: 0.0001081 seconds
+2021-07-10T17:45:37.315+0700: 56.007: Total time for which application threads were stopped: 0.0002943 seconds, Stopping threads took: 0.0001216 seconds
+2021-07-10T17:45:37.315+0700: 56.007: Total time for which application threads were stopped: 0.0002311 seconds, Stopping threads took: 0.0000867 seconds
+2021-07-10T17:45:37.317+0700: 56.009: Total time for which application threads were stopped: 0.0020819 seconds, Stopping threads took: 0.0018939 seconds
+2021-07-10T17:45:37.317+0700: 56.010: Total time for which application threads were stopped: 0.0002530 seconds, Stopping threads took: 0.0000903 seconds
+2021-07-10T17:45:37.320+0700: 56.012: Total time for which application threads were stopped: 0.0003399 seconds, Stopping threads took: 0.0001188 seconds
+2021-07-10T17:45:37.331+0700: 56.023: Total time for which application threads were stopped: 0.0002792 seconds, Stopping threads took: 0.0000936 seconds
+2021-07-10T17:45:37.339+0700: 56.031: Total time for which application threads were stopped: 0.0021381 seconds, Stopping threads took: 0.0019547 seconds
+2021-07-10T17:45:37.339+0700: 56.032: Total time for which application threads were stopped: 0.0001950 seconds, Stopping threads took: 0.0000537 seconds
+2021-07-10T17:45:38.341+0700: 57.033: Total time for which application threads were stopped: 0.0002600 seconds, Stopping threads took: 0.0000860 seconds
+2021-07-10T17:45:40.904+0700: 59.596: Total time for which application threads were stopped: 0.0002155 seconds, Stopping threads took: 0.0000719 seconds
+2021-07-10T17:45:40.904+0700: 59.596: Total time for which application threads were stopped: 0.0001478 seconds, Stopping threads took: 0.0000502 seconds
+2021-07-10T17:45:40.905+0700: 59.597: Total time for which application threads were stopped: 0.0002184 seconds, Stopping threads took: 0.0000961 seconds
+2021-07-10T17:45:40.906+0700: 59.598: Total time for which application threads were stopped: 0.0001725 seconds, Stopping threads took: 0.0000566 seconds
+2021-07-10T17:45:40.906+0700: 59.598: Total time for which application threads were stopped: 0.0001913 seconds, Stopping threads took: 0.0000621 seconds
+2021-07-10T17:45:41.906+0700: 60.598: Total time for which application threads were stopped: 0.0003510 seconds, Stopping threads took: 0.0001774 seconds
+2021-07-10T17:45:42.908+0700: 61.600: Total time for which application threads were stopped: 0.0001774 seconds, Stopping threads took: 0.0000618 seconds
+2021-07-10T17:45:43.560+0700: 62.253: Total time for which application threads were stopped: 0.0001213 seconds, Stopping threads took: 0.0000310 seconds
+2021-07-10T17:45:43.880+0700: 62.572: Total time for which application threads were stopped: 0.0005300 seconds, Stopping threads took: 0.0000504 seconds
+2021-07-10T17:45:45.480+0700: 64.173: Total time for which application threads were stopped: 0.0001421 seconds, Stopping threads took: 0.0000353 seconds
+2021-07-10T17:45:45.508+0700: 64.200: Total time for which application threads were stopped: 0.0002441 seconds, Stopping threads took: 0.0001457 seconds
+2021-07-10T17:45:45.531+0700: 64.224: Total time for which application threads were stopped: 0.0001302 seconds, Stopping threads took: 0.0000381 seconds
+2021-07-10T17:45:45.624+0700: 64.316: Total time for which application threads were stopped: 0.0006903 seconds, Stopping threads took: 0.0000359 seconds
+2021-07-10T17:45:45.634+0700: 64.326: Total time for which application threads were stopped: 0.0007879 seconds, Stopping threads took: 0.0000455 seconds
+2021-07-10T17:45:45.635+0700: 64.327: Total time for which application threads were stopped: 0.0001055 seconds, Stopping threads took: 0.0000342 seconds
+2021-07-10T17:45:45.635+0700: 64.327: Total time for which application threads were stopped: 0.0001035 seconds, Stopping threads took: 0.0000248 seconds
+2021-07-10T17:45:45.641+0700: 64.333: Total time for which application threads were stopped: 0.0001245 seconds, Stopping threads took: 0.0000408 seconds
+2021-07-10T17:45:45.641+0700: 64.333: Total time for which application threads were stopped: 0.0001228 seconds, Stopping threads took: 0.0000351 seconds
+2021-07-10T17:45:45.641+0700: 64.333: Total time for which application threads were stopped: 0.0001030 seconds, Stopping threads took: 0.0000295 seconds
+2021-07-10T17:45:45.749+0700: 64.442: Total time for which application threads were stopped: 0.0011104 seconds, Stopping threads took: 0.0000712 seconds
+2021-07-10T17:45:45.759+0700: 64.451: Total time for which application threads were stopped: 0.0002187 seconds, Stopping threads took: 0.0000629 seconds
+2021-07-10T17:45:45.762+0700: 64.454: Total time for which application threads were stopped: 0.0003202 seconds, Stopping threads took: 0.0001594 seconds
+2021-07-10T17:45:45.763+0700: 64.455: Total time for which application threads were stopped: 0.0002235 seconds, Stopping threads took: 0.0000741 seconds
+2021-07-10T17:45:45.763+0700: 64.456: Total time for which application threads were stopped: 0.0001903 seconds, Stopping threads took: 0.0000504 seconds
+2021-07-10T17:45:45.764+0700: 64.457: Total time for which application threads were stopped: 0.0001819 seconds, Stopping threads took: 0.0000481 seconds
+2021-07-10T17:45:45.779+0700: 64.472: Total time for which application threads were stopped: 0.0008701 seconds, Stopping threads took: 0.0000461 seconds
+2021-07-10T17:45:45.782+0700: 64.474: Total time for which application threads were stopped: 0.0002108 seconds, Stopping threads took: 0.0000574 seconds
+2021-07-10T17:45:45.836+0700: 64.528: Total time for which application threads were stopped: 0.0006932 seconds, Stopping threads took: 0.0000387 seconds
+2021-07-10T17:45:45.840+0700: 64.533: Total time for which application threads were stopped: 0.0001360 seconds, Stopping threads took: 0.0000366 seconds
+2021-07-10T17:45:45.849+0700: 64.541: Total time for which application threads were stopped: 0.0001339 seconds, Stopping threads took: 0.0000342 seconds
+2021-07-10T17:45:45.849+0700: 64.542: Total time for which application threads were stopped: 0.0001062 seconds, Stopping threads took: 0.0000282 seconds
+2021-07-10T17:45:45.855+0700: 64.547: Total time for which application threads were stopped: 0.0009766 seconds, Stopping threads took: 0.0000484 seconds
+2021-07-10T17:45:45.877+0700: 64.569: Total time for which application threads were stopped: 0.0001706 seconds, Stopping threads took: 0.0000465 seconds
+2021-07-10T17:45:45.955+0700: 64.647: Total time for which application threads were stopped: 0.0002341 seconds, Stopping threads took: 0.0001411 seconds
+2021-07-10T17:45:45.955+0700: 64.648: Total time for which application threads were stopped: 0.0000748 seconds, Stopping threads took: 0.0000230 seconds
+2021-07-10T17:45:45.955+0700: 64.648: Total time for which application threads were stopped: 0.0000727 seconds, Stopping threads took: 0.0000240 seconds
+2021-07-10T17:45:45.956+0700: 64.648: Total time for which application threads were stopped: 0.0000760 seconds, Stopping threads took: 0.0000274 seconds
+2021-07-10T17:45:45.956+0700: 64.648: Total time for which application threads were stopped: 0.0001034 seconds, Stopping threads took: 0.0000518 seconds
+2021-07-10T17:45:45.956+0700: 64.648: Total time for which application threads were stopped: 0.0001042 seconds, Stopping threads took: 0.0000525 seconds
+2021-07-10T17:45:45.956+0700: 64.649: Total time for which application threads were stopped: 0.0001024 seconds, Stopping threads took: 0.0000511 seconds
+2021-07-10T17:45:45.956+0700: 64.649: Total time for which application threads were stopped: 0.0001029 seconds, Stopping threads took: 0.0000515 seconds
+2021-07-10T17:45:45.957+0700: 64.649: Total time for which application threads were stopped: 0.0001398 seconds, Stopping threads took: 0.0000675 seconds
+2021-07-10T17:45:45.957+0700: 64.649: Total time for which application threads were stopped: 0.0001182 seconds, Stopping threads took: 0.0000593 seconds
+2021-07-10T17:45:45.957+0700: 64.650: Total time for which application threads were stopped: 0.0001951 seconds, Stopping threads took: 0.0001331 seconds
+2021-07-10T17:45:45.958+0700: 64.650: Total time for which application threads were stopped: 0.0004104 seconds, Stopping threads took: 0.0001426 seconds
+2021-07-10T17:45:45.975+0700: 64.667: Total time for which application threads were stopped: 0.0001348 seconds, Stopping threads took: 0.0000370 seconds
+2021-07-10T17:45:45.975+0700: 64.668: Total time for which application threads were stopped: 0.0000771 seconds, Stopping threads took: 0.0000249 seconds
+2021-07-10T17:45:45.975+0700: 64.668: Total time for which application threads were stopped: 0.0000802 seconds, Stopping threads took: 0.0000251 seconds
+2021-07-10T17:45:45.976+0700: 64.668: Total time for which application threads were stopped: 0.0001102 seconds, Stopping threads took: 0.0000280 seconds
+2021-07-10T17:45:45.976+0700: 64.668: Total time for which application threads were stopped: 0.0001481 seconds, Stopping threads took: 0.0000310 seconds
+2021-07-10T17:45:45.976+0700: 64.668: Total time for which application threads were stopped: 0.0000729 seconds, Stopping threads took: 0.0000225 seconds
+2021-07-10T17:45:45.976+0700: 64.669: Total time for which application threads were stopped: 0.0000687 seconds, Stopping threads took: 0.0000217 seconds
+2021-07-10T17:45:45.976+0700: 64.669: Total time for which application threads were stopped: 0.0000688 seconds, Stopping threads took: 0.0000218 seconds
+2021-07-10T17:45:45.976+0700: 64.669: Total time for which application threads were stopped: 0.0000683 seconds, Stopping threads took: 0.0000213 seconds
+2021-07-10T17:45:45.977+0700: 64.669: Total time for which application threads were stopped: 0.0001383 seconds, Stopping threads took: 0.0000386 seconds
+2021-07-10T17:45:45.977+0700: 64.669: Total time for which application threads were stopped: 0.0000783 seconds, Stopping threads took: 0.0000255 seconds
+2021-07-10T17:45:45.977+0700: 64.670: Total time for which application threads were stopped: 0.0000702 seconds, Stopping threads took: 0.0000220 seconds
+2021-07-10T17:45:45.977+0700: 64.670: Total time for which application threads were stopped: 0.0000689 seconds, Stopping threads took: 0.0000217 seconds
+2021-07-10T17:45:45.977+0700: 64.670: Total time for which application threads were stopped: 0.0000687 seconds, Stopping threads took: 0.0000216 seconds
+2021-07-10T17:45:45.978+0700: 64.670: Total time for which application threads were stopped: 0.0000787 seconds, Stopping threads took: 0.0000212 seconds
+2021-07-10T17:45:45.978+0700: 64.670: Total time for which application threads were stopped: 0.0000760 seconds, Stopping threads took: 0.0000250 seconds
+2021-07-10T17:45:45.978+0700: 64.670: Total time for which application threads were stopped: 0.0000706 seconds, Stopping threads took: 0.0000225 seconds
+2021-07-10T17:45:45.978+0700: 64.671: Total time for which application threads were stopped: 0.0002756 seconds, Stopping threads took: 0.0000222 seconds
+2021-07-10T17:45:46.049+0700: 64.741: Total time for which application threads were stopped: 0.0001941 seconds, Stopping threads took: 0.0000561 seconds
+2021-07-10T17:45:46.172+0700: 64.865: Total time for which application threads were stopped: 0.0001630 seconds, Stopping threads took: 0.0000350 seconds
+2021-07-10T17:45:47.177+0700: 65.869: Total time for which application threads were stopped: 0.0006741 seconds, Stopping threads took: 0.0000339 seconds
+2021-07-10T17:45:47.183+0700: 65.875: Total time for which application threads were stopped: 0.0006963 seconds, Stopping threads took: 0.0000356 seconds
+{Heap before GC invocations=8 (full 0):
+ garbage-first heap   total 1048576K, used 157824K [0x00000006c0000000, 0x00000006c0102000, 0x00000007c0000000)
+  region size 1024K, 139 young (142336K), 27 survivors (27648K)
+ Metaspace       used 46793K, capacity 48136K, committed 48208K, reserved 1091584K
+  class space    used 5736K, capacity 6020K, committed 6064K, reserved 1048576K
+2021-07-10T17:45:47.262+0700: 65.954: [GC pause (Metadata GC Threshold) (young) (initial-mark)
+Desired survivor size 40370176 bytes, new threshold 15 (max 15)
+- age   1:    9496800 bytes,    9496800 total
+- age   2:    4055328 bytes,   13552128 total
+- age   3:    3320872 bytes,   16873000 total
+- age   4:     192432 bytes,   17065432 total
+- age   5:    1843488 bytes,   18908920 total
+, 0.0382224 secs]
+   [Parallel Time: 34.9 ms, GC Workers: 4]
+      [GC Worker Start (ms): Min: 65954.3, Avg: 65954.6, Max: 65955.1, Diff: 0.8]
+      [Ext Root Scanning (ms): Min: 1.5, Avg: 2.7, Max: 3.7, Diff: 2.2, Sum: 10.7]
+      [Update RS (ms): Min: 0.5, Avg: 0.7, Max: 0.8, Diff: 0.2, Sum: 2.7]
+         [Processed Buffers: Min: 2, Avg: 5.3, Max: 10, Diff: 8, Sum: 21]
+      [Scan RS (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.1]
+      [Code Root Scanning (ms): Min: 0.3, Avg: 1.2, Max: 2.1, Diff: 1.9, Sum: 4.8]
+      [Object Copy (ms): Min: 28.2, Avg: 29.9, Max: 31.7, Diff: 3.5, Sum: 119.5]
+      [Termination (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.0]
+         [Termination Attempts: Min: 1, Avg: 1.0, Max: 1, Diff: 0, Sum: 4]
+      [GC Worker Other (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.1]
+      [GC Worker Total (ms): Min: 34.0, Avg: 34.5, Max: 34.8, Diff: 0.7, Sum: 137.9]
+      [GC Worker End (ms): Min: 65989.1, Avg: 65989.1, Max: 65989.1, Diff: 0.0]
+   [Code Root Fixup: 0.1 ms]
+   [Code Root Purge: 0.1 ms]
+   [Clear CT: 0.1 ms]
+   [Other: 3.0 ms]
+      [Choose CSet: 0.0 ms]
+      [Ref Proc: 2.0 ms]
+      [Ref Enq: 0.1 ms]
+      [Redirty Cards: 0.1 ms]
+      [Humongous Register: 0.0 ms]
+      [Humongous Reclaim: 0.0 ms]
+      [Free CSet: 0.4 ms]
+   [Eden: 112.0M(587.0M)->0.0B(587.0M) Survivors: 27.0M->27.0M Heap: 155.1M(1024.0M)->43.1M(1024.0M)]
+Heap after GC invocations=9 (full 0):
+ garbage-first heap   total 1048576K, used 44160K [0x00000006c0000000, 0x00000006c0102000, 0x00000007c0000000)
+  region size 1024K, 27 young (27648K), 27 survivors (27648K)
+ Metaspace       used 46793K, capacity 48136K, committed 48208K, reserved 1091584K
+  class space    used 5736K, capacity 6020K, committed 6064K, reserved 1048576K
+}
+ [Times: user=0.19 sys=0.00, real=0.04 secs] 
+2021-07-10T17:45:47.301+0700: 65.993: [GC concurrent-root-region-scan-start]
+2021-07-10T17:45:47.301+0700: 65.993: Total time for which application threads were stopped: 0.0392218 seconds, Stopping threads took: 0.0002181 seconds
+2021-07-10T17:45:47.304+0700: 65.996: Total time for which application threads were stopped: 0.0002522 seconds, Stopping threads took: 0.0001183 seconds
+2021-07-10T17:45:47.305+0700: 65.997: Total time for which application threads were stopped: 0.0002141 seconds, Stopping threads took: 0.0001083 seconds
+2021-07-10T17:45:47.307+0700: 65.999: Total time for which application threads were stopped: 0.0005679 seconds, Stopping threads took: 0.0004262 seconds
+2021-07-10T17:45:47.352+0700: 66.044: [GC concurrent-root-region-scan-end, 0.0513297 secs]
+2021-07-10T17:45:47.352+0700: 66.044: [GC concurrent-mark-start]
+2021-07-10T17:45:47.414+0700: 66.106: [GC concurrent-mark-end, 0.0623901 secs]
+2021-07-10T17:45:47.416+0700: 66.108: [GC remark 2021-07-10T17:45:47.416+0700: 66.108: [Finalize Marking, 0.0001749 secs] 2021-07-10T17:45:47.416+0700: 66.108: [GC ref-proc, 0.0015168 secs] 2021-07-10T17:45:47.418+0700: 66.110: [Unloading, 0.0099603 secs], 0.0120846 secs]
+ [Times: user=0.06 sys=0.00, real=0.01 secs] 
+2021-07-10T17:45:47.428+0700: 66.120: Total time for which application threads were stopped: 0.0139030 seconds, Stopping threads took: 0.0016700 seconds
+2021-07-10T17:45:47.429+0700: 66.121: [GC cleanup 49M->49M(1024M), 0.0008447 secs]
+ [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2021-07-10T17:45:47.430+0700: 66.122: Total time for which application threads were stopped: 0.0010591 seconds, Stopping threads took: 0.0000685 seconds
+2021-07-10T17:45:47.486+0700: 66.177: Total time for which application threads were stopped: 0.0001618 seconds, Stopping threads took: 0.0000487 seconds
+2021-07-10T17:45:47.522+0700: 66.214: Total time for which application threads were stopped: 0.0001201 seconds, Stopping threads took: 0.0000353 seconds
+2021-07-10T17:45:47.544+0700: 66.237: Total time for which application threads were stopped: 0.0001131 seconds, Stopping threads took: 0.0000352 seconds
+2021-07-10T17:45:47.564+0700: 66.256: Total time for which application threads were stopped: 0.0001311 seconds, Stopping threads took: 0.0000370 seconds
+2021-07-10T17:45:47.645+0700: 66.337: Total time for which application threads were stopped: 0.0001328 seconds, Stopping threads took: 0.0000409 seconds
+2021-07-10T17:45:48.080+0700: 66.772: Total time for which application threads were stopped: 0.0003214 seconds, Stopping threads took: 0.0000878 seconds
+2021-07-10T17:45:48.081+0700: 66.773: Total time for which application threads were stopped: 0.0002413 seconds, Stopping threads took: 0.0000900 seconds
+2021-07-10T17:45:48.081+0700: 66.773: Total time for which application threads were stopped: 0.0002935 seconds, Stopping threads took: 0.0001677 seconds
+2021-07-10T17:45:48.111+0700: 66.804: Total time for which application threads were stopped: 0.0008922 seconds, Stopping threads took: 0.0000560 seconds
+2021-07-10T17:45:48.301+0700: 66.993: Total time for which application threads were stopped: 0.0002233 seconds, Stopping threads took: 0.0000505 seconds
+2021-07-10T17:45:48.357+0700: 67.049: Total time for which application threads were stopped: 0.0002155 seconds, Stopping threads took: 0.0000898 seconds
+2021-07-10T17:45:48.357+0700: 67.049: Total time for which application threads were stopped: 0.0001433 seconds, Stopping threads took: 0.0000468 seconds
+2021-07-10T17:45:48.364+0700: 67.056: Total time for which application threads were stopped: 0.0001587 seconds, Stopping threads took: 0.0000498 seconds
+2021-07-10T17:45:48.375+0700: 67.067: Total time for which application threads were stopped: 0.0007470 seconds, Stopping threads took: 0.0000412 seconds
+2021-07-10T17:45:49.377+0700: 68.069: Total time for which application threads were stopped: 0.0002502 seconds, Stopping threads took: 0.0000585 seconds
+2021-07-10T17:45:50.379+0700: 69.071: Total time for which application threads were stopped: 0.0003415 seconds, Stopping threads took: 0.0000945 seconds
+2021-07-10T17:45:52.376+0700: 71.068: Total time for which application threads were stopped: 0.0002107 seconds, Stopping threads took: 0.0000626 seconds
+2021-07-10T17:45:52.376+0700: 71.068: Total time for which application threads were stopped: 0.0001643 seconds, Stopping threads took: 0.0000482 seconds
+2021-07-10T17:45:54.379+0700: 73.071: Total time for which application threads were stopped: 0.0002487 seconds, Stopping threads took: 0.0000953 seconds
+2021-07-10T17:45:55.339+0700: 74.031: Total time for which application threads were stopped: 0.0002133 seconds, Stopping threads took: 0.0000738 seconds
+2021-07-10T17:45:55.339+0700: 74.031: Total time for which application threads were stopped: 0.0001535 seconds, Stopping threads took: 0.0000322 seconds
+2021-07-10T17:45:55.339+0700: 74.031: Total time for which application threads were stopped: 0.0001915 seconds, Stopping threads took: 0.0001091 seconds
+2021-07-10T17:45:55.339+0700: 74.031: Total time for which application threads were stopped: 0.0001320 seconds, Stopping threads took: 0.0000580 seconds
+2021-07-10T17:45:55.340+0700: 74.032: Total time for which application threads were stopped: 0.0001643 seconds, Stopping threads took: 0.0000579 seconds
+2021-07-10T17:45:55.340+0700: 74.032: Total time for which application threads were stopped: 0.0001323 seconds, Stopping threads took: 0.0000528 seconds
+2021-07-10T17:45:55.340+0700: 74.032: Total time for which application threads were stopped: 0.0001275 seconds, Stopping threads took: 0.0000555 seconds
+2021-07-10T17:45:56.343+0700: 75.035: Total time for which application threads were stopped: 0.0002550 seconds, Stopping threads took: 0.0000869 seconds
+2021-07-10T17:45:56.979+0700: 75.671: Total time for which application threads were stopped: 0.0001459 seconds, Stopping threads took: 0.0000337 seconds
+2021-07-10T17:45:56.986+0700: 75.678: Total time for which application threads were stopped: 0.0007390 seconds, Stopping threads took: 0.0000339 seconds
+2021-07-10T17:45:57.379+0700: 76.071: Total time for which application threads were stopped: 0.0002525 seconds, Stopping threads took: 0.0000620 seconds
+2021-07-10T17:45:57.381+0700: 76.073: Total time for which application threads were stopped: 0.0001974 seconds, Stopping threads took: 0.0000524 seconds
+2021-07-10T17:45:57.381+0700: 76.073: Total time for which application threads were stopped: 0.0001647 seconds, Stopping threads took: 0.0000483 seconds
+2021-07-10T17:45:57.382+0700: 76.074: Total time for which application threads were stopped: 0.0001773 seconds, Stopping threads took: 0.0000480 seconds
+2021-07-10T17:45:57.382+0700: 76.074: Total time for which application threads were stopped: 0.0001857 seconds, Stopping threads took: 0.0000573 seconds
+2021-07-10T17:45:58.748+0700: 77.440: Total time for which application threads were stopped: 0.0012386 seconds, Stopping threads took: 0.0000611 seconds
+2021-07-10T17:45:58.776+0700: 77.468: Total time for which application threads were stopped: 0.0004581 seconds, Stopping threads took: 0.0001745 seconds
+2021-07-10T17:45:58.808+0700: 77.500: Total time for which application threads were stopped: 0.0001390 seconds, Stopping threads took: 0.0000463 seconds
+2021-07-10T17:45:58.847+0700: 77.539: Total time for which application threads were stopped: 0.0009333 seconds, Stopping threads took: 0.0000504 seconds
+2021-07-10T17:45:58.878+0700: 77.570: Total time for which application threads were stopped: 0.0001896 seconds, Stopping threads took: 0.0000698 seconds
+2021-07-10T17:45:58.887+0700: 77.579: Total time for which application threads were stopped: 0.0002794 seconds, Stopping threads took: 0.0001375 seconds
+2021-07-10T17:45:58.891+0700: 77.583: Total time for which application threads were stopped: 0.0001836 seconds, Stopping threads took: 0.0000507 seconds
+2021-07-10T17:45:58.894+0700: 77.586: Total time for which application threads were stopped: 0.0001453 seconds, Stopping threads took: 0.0000437 seconds
+2021-07-10T17:45:59.896+0700: 78.588: Total time for which application threads were stopped: 0.0002905 seconds, Stopping threads took: 0.0000809 seconds
+2021-07-10T17:46:59.023+0700: 137.715: Total time for which application threads were stopped: 0.0001714 seconds, Stopping threads took: 0.0000531 seconds
+2021-07-10T17:47:20.700+0700: 159.393: Total time for which application threads were stopped: 0.0004939 seconds, Stopping threads took: 0.0003407 seconds
+2021-07-10T17:47:20.701+0700: 159.393: Total time for which application threads were stopped: 0.0001794 seconds, Stopping threads took: 0.0000446 seconds
+2021-07-10T17:47:20.709+0700: 159.402: Total time for which application threads were stopped: 0.0003242 seconds, Stopping threads took: 0.0000747 seconds
+2021-07-10T17:47:20.720+0700: 159.412: Total time for which application threads were stopped: 0.0002633 seconds, Stopping threads took: 0.0000847 seconds
+2021-07-10T17:47:20.720+0700: 159.413: Total time for which application threads were stopped: 0.0002197 seconds, Stopping threads took: 0.0000821 seconds
+2021-07-10T17:47:20.721+0700: 159.413: Total time for which application threads were stopped: 0.0001861 seconds, Stopping threads took: 0.0000457 seconds
+2021-07-10T17:47:20.721+0700: 159.414: Total time for which application threads were stopped: 0.0001451 seconds, Stopping threads took: 0.0000406 seconds
+2021-07-10T17:47:20.723+0700: 159.415: Total time for which application threads were stopped: 0.0002312 seconds, Stopping threads took: 0.0000832 seconds
+2021-07-10T17:47:20.723+0700: 159.416: Total time for which application threads were stopped: 0.0003272 seconds, Stopping threads took: 0.0001879 seconds
+2021-07-10T17:47:20.724+0700: 159.416: Total time for which application threads were stopped: 0.0001815 seconds, Stopping threads took: 0.0000569 seconds
+2021-07-10T17:47:20.725+0700: 159.418: Total time for which application threads were stopped: 0.0002527 seconds, Stopping threads took: 0.0000913 seconds
+2021-07-10T17:47:20.726+0700: 159.418: Total time for which application threads were stopped: 0.0002035 seconds, Stopping threads took: 0.0000807 seconds
+2021-07-10T17:47:20.726+0700: 159.419: Total time for which application threads were stopped: 0.0001976 seconds, Stopping threads took: 0.0000681 seconds
+2021-07-10T17:47:20.727+0700: 159.419: Total time for which application threads were stopped: 0.0006181 seconds, Stopping threads took: 0.0000589 seconds
+2021-07-10T17:47:20.730+0700: 159.422: Total time for which application threads were stopped: 0.0002365 seconds, Stopping threads took: 0.0000516 seconds
+2021-07-10T17:47:21.731+0700: 160.423: Total time for which application threads were stopped: 0.0002344 seconds, Stopping threads took: 0.0000770 seconds
+2021-07-10T17:47:22.731+0700: 161.423: Total time for which application threads were stopped: 0.0005459 seconds, Stopping threads took: 0.0000882 seconds
+2021-07-10T17:47:23.371+0700: 162.064: Total time for which application threads were stopped: 0.0002670 seconds, Stopping threads took: 0.0000577 seconds
+2021-07-10T17:47:23.372+0700: 162.064: Total time for which application threads were stopped: 0.0002138 seconds, Stopping threads took: 0.0000447 seconds
+2021-07-10T17:47:23.372+0700: 162.064: Total time for which application threads were stopped: 0.0001616 seconds, Stopping threads took: 0.0000410 seconds
+2021-07-10T17:47:23.373+0700: 162.065: Total time for which application threads were stopped: 0.0002112 seconds, Stopping threads took: 0.0000512 seconds
+2021-07-10T17:47:24.376+0700: 163.068: Total time for which application threads were stopped: 0.0002320 seconds, Stopping threads took: 0.0000930 seconds
+2021-07-10T17:47:24.849+0700: 163.541: Total time for which application threads were stopped: 0.0002576 seconds, Stopping threads took: 0.0000971 seconds
+2021-07-10T17:47:25.849+0700: 164.541: Total time for which application threads were stopped: 0.0002992 seconds, Stopping threads took: 0.0000843 seconds
+2021-07-10T17:47:26.153+0700: 164.845: Total time for which application threads were stopped: 0.0001587 seconds, Stopping threads took: 0.0000404 seconds
+2021-07-10T17:47:26.202+0700: 164.894: Total time for which application threads were stopped: 0.0002017 seconds, Stopping threads took: 0.0000673 seconds
+2021-07-10T17:47:26.507+0700: 165.199: Total time for which application threads were stopped: 0.0007907 seconds, Stopping threads took: 0.0000428 seconds
+2021-07-10T17:47:26.512+0700: 165.204: Total time for which application threads were stopped: 0.0008843 seconds, Stopping threads took: 0.0000401 seconds
+2021-07-10T17:47:26.885+0700: 165.578: Total time for which application threads were stopped: 0.0068834 seconds, Stopping threads took: 0.0066898 seconds
+2021-07-10T17:47:27.218+0700: 165.910: Total time for which application threads were stopped: 0.0008107 seconds, Stopping threads took: 0.0000346 seconds
+2021-07-10T17:47:27.251+0700: 165.943: Total time for which application threads were stopped: 0.0002514 seconds, Stopping threads took: 0.0000594 seconds
+2021-07-10T17:47:27.368+0700: 166.060: Total time for which application threads were stopped: 0.0007694 seconds, Stopping threads took: 0.0000360 seconds
+2021-07-10T17:47:27.439+0700: 166.131: Total time for which application threads were stopped: 0.0001657 seconds, Stopping threads took: 0.0000384 seconds
+2021-07-10T17:47:27.439+0700: 166.131: Total time for which application threads were stopped: 0.0002002 seconds, Stopping threads took: 0.0000702 seconds
+2021-07-10T17:47:27.462+0700: 166.154: Total time for which application threads were stopped: 0.0007995 seconds, Stopping threads took: 0.0000340 seconds
+2021-07-10T17:47:27.473+0700: 166.165: Total time for which application threads were stopped: 0.0001682 seconds, Stopping threads took: 0.0000351 seconds
+2021-07-10T17:47:27.473+0700: 166.165: Total time for which application threads were stopped: 0.0001037 seconds, Stopping threads took: 0.0000329 seconds
+2021-07-10T17:47:27.474+0700: 166.166: Total time for which application threads were stopped: 0.0002138 seconds, Stopping threads took: 0.0001530 seconds
+2021-07-10T17:47:27.478+0700: 166.170: Total time for which application threads were stopped: 0.0001180 seconds, Stopping threads took: 0.0000336 seconds
+2021-07-10T17:47:27.478+0700: 166.170: Total time for which application threads were stopped: 0.0000780 seconds, Stopping threads took: 0.0000186 seconds
+2021-07-10T17:47:27.479+0700: 166.171: Total time for which application threads were stopped: 0.0001127 seconds, Stopping threads took: 0.0000230 seconds
+2021-07-10T17:47:27.486+0700: 166.178: Total time for which application threads were stopped: 0.0001285 seconds, Stopping threads took: 0.0000390 seconds
+2021-07-10T17:47:27.506+0700: 166.199: Total time for which application threads were stopped: 0.0001341 seconds, Stopping threads took: 0.0000494 seconds
+2021-07-10T17:47:27.512+0700: 166.204: Total time for which application threads were stopped: 0.0002070 seconds, Stopping threads took: 0.0000808 seconds
+2021-07-10T17:47:27.517+0700: 166.210: Total time for which application threads were stopped: 0.0002044 seconds, Stopping threads took: 0.0000709 seconds
+2021-07-10T17:47:27.526+0700: 166.219: Total time for which application threads were stopped: 0.0002186 seconds, Stopping threads took: 0.0000725 seconds
+2021-07-10T17:47:27.534+0700: 166.226: Total time for which application threads were stopped: 0.0002538 seconds, Stopping threads took: 0.0001182 seconds
+2021-07-10T17:47:27.539+0700: 166.232: Total time for which application threads were stopped: 0.0002544 seconds, Stopping threads took: 0.0001138 seconds
+2021-07-10T17:47:27.546+0700: 166.239: Total time for which application threads were stopped: 0.0002305 seconds, Stopping threads took: 0.0000993 seconds
+2021-07-10T17:47:27.556+0700: 166.248: Total time for which application threads were stopped: 0.0002227 seconds, Stopping threads took: 0.0000853 seconds
+2021-07-10T17:47:27.565+0700: 166.258: Total time for which application threads were stopped: 0.0001896 seconds, Stopping threads took: 0.0000653 seconds
+2021-07-10T17:47:27.575+0700: 166.267: Total time for which application threads were stopped: 0.0004131 seconds, Stopping threads took: 0.0001682 seconds
+2021-07-10T17:47:27.583+0700: 166.275: Total time for which application threads were stopped: 0.0002223 seconds, Stopping threads took: 0.0000910 seconds
+2021-07-10T17:47:27.591+0700: 166.284: Total time for which application threads were stopped: 0.0002092 seconds, Stopping threads took: 0.0000657 seconds
+2021-07-10T17:47:27.600+0700: 166.293: Total time for which application threads were stopped: 0.0002014 seconds, Stopping threads took: 0.0000690 seconds
+2021-07-10T17:47:27.607+0700: 166.300: Total time for which application threads were stopped: 0.0001975 seconds, Stopping threads took: 0.0000668 seconds
+2021-07-10T17:47:27.614+0700: 166.306: Total time for which application threads were stopped: 0.0001861 seconds, Stopping threads took: 0.0000547 seconds
+2021-07-10T17:47:27.616+0700: 166.309: Total time for which application threads were stopped: 0.0001943 seconds, Stopping threads took: 0.0000680 seconds
+2021-07-10T17:47:27.617+0700: 166.309: Total time for which application threads were stopped: 0.0002073 seconds, Stopping threads took: 0.0000828 seconds
+2021-07-10T17:47:27.645+0700: 166.337: Total time for which application threads were stopped: 0.0002301 seconds, Stopping threads took: 0.0000699 seconds
+2021-07-10T17:47:27.711+0700: 166.403: Total time for which application threads were stopped: 0.0001790 seconds, Stopping threads took: 0.0000524 seconds
+2021-07-10T17:47:27.711+0700: 166.404: Total time for which application threads were stopped: 0.0001145 seconds, Stopping threads took: 0.0000370 seconds
+2021-07-10T17:47:27.715+0700: 166.408: Total time for which application threads were stopped: 0.0001899 seconds, Stopping threads took: 0.0000530 seconds
+2021-07-10T17:47:28.716+0700: 167.408: Total time for which application threads were stopped: 0.0003599 seconds, Stopping threads took: 0.0001205 seconds
+2021-07-10T17:47:29.719+0700: 168.411: Total time for which application threads were stopped: 0.0003356 seconds, Stopping threads took: 0.0000921 seconds
+2021-07-10T17:47:32.723+0700: 171.416: Total time for which application threads were stopped: 0.0003801 seconds, Stopping threads took: 0.0001389 seconds
+2021-07-10T17:47:33.750+0700: 172.442: Total time for which application threads were stopped: 0.0002100 seconds, Stopping threads took: 0.0000644 seconds
+2021-07-10T17:47:33.751+0700: 172.443: Total time for which application threads were stopped: 0.0002023 seconds, Stopping threads took: 0.0000663 seconds
+2021-07-10T17:47:34.754+0700: 173.447: Total time for which application threads were stopped: 0.0005054 seconds, Stopping threads took: 0.0001908 seconds
+2021-07-10T17:47:59.806+0700: 198.498: Total time for which application threads were stopped: 0.0002328 seconds, Stopping threads took: 0.0000691 seconds
+2021-07-10T17:48:20.029+0700: 218.722: Total time for which application threads were stopped: 0.0002274 seconds, Stopping threads took: 0.0000835 seconds
+2021-07-10T17:48:21.034+0700: 219.726: Total time for which application threads were stopped: 0.0004261 seconds, Stopping threads took: 0.0000844 seconds
+2021-07-10T17:48:22.035+0700: 220.727: Total time for which application threads were stopped: 0.0002664 seconds, Stopping threads took: 0.0000933 seconds
+2021-07-10T17:48:24.123+0700: 222.815: Total time for which application threads were stopped: 0.0005749 seconds, Stopping threads took: 0.0004149 seconds
+2021-07-10T17:48:24.123+0700: 222.815: Total time for which application threads were stopped: 0.0002075 seconds, Stopping threads took: 0.0000686 seconds
+2021-07-10T17:48:25.123+0700: 223.815: Total time for which application threads were stopped: 0.0003119 seconds, Stopping threads took: 0.0000835 seconds
+2021-07-10T17:48:25.235+0700: 223.927: Total time for which application threads were stopped: 0.0002430 seconds, Stopping threads took: 0.0000543 seconds
+2021-07-10T17:48:25.236+0700: 223.928: Total time for which application threads were stopped: 0.0002142 seconds, Stopping threads took: 0.0000489 seconds
+2021-07-10T17:48:25.236+0700: 223.928: Total time for which application threads were stopped: 0.0001864 seconds, Stopping threads took: 0.0000493 seconds
+2021-07-10T17:48:25.237+0700: 223.929: Total time for which application threads were stopped: 0.0001936 seconds, Stopping threads took: 0.0000498 seconds
+2021-07-10T17:48:26.237+0700: 224.929: Total time for which application threads were stopped: 0.0003760 seconds, Stopping threads took: 0.0001072 seconds
+2021-07-10T17:48:28.203+0700: 226.895: Total time for which application threads were stopped: 0.0002102 seconds, Stopping threads took: 0.0000734 seconds
+2021-07-10T17:48:28.211+0700: 226.903: Total time for which application threads were stopped: 0.0006316 seconds, Stopping threads took: 0.0004580 seconds
+2021-07-10T17:48:28.233+0700: 226.924: Total time for which application threads were stopped: 0.0004721 seconds, Stopping threads took: 0.0002680 seconds
+2021-07-10T17:48:28.403+0700: 227.094: Total time for which application threads were stopped: 0.0003494 seconds, Stopping threads took: 0.0000775 seconds
+2021-07-10T17:48:28.425+0700: 227.117: Total time for which application threads were stopped: 0.0003284 seconds, Stopping threads took: 0.0000927 seconds
+2021-07-10T17:48:28.512+0700: 227.204: Total time for which application threads were stopped: 0.0001342 seconds, Stopping threads took: 0.0000354 seconds
+2021-07-10T17:48:28.557+0700: 227.249: Total time for which application threads were stopped: 0.0001661 seconds, Stopping threads took: 0.0000439 seconds
+2021-07-10T17:48:28.645+0700: 227.337: Total time for which application threads were stopped: 0.0002344 seconds, Stopping threads took: 0.0000740 seconds
+2021-07-10T17:48:29.453+0700: 228.145: Total time for which application threads were stopped: 0.0003235 seconds, Stopping threads took: 0.0000843 seconds
+2021-07-10T17:48:29.563+0700: 228.255: Total time for which application threads were stopped: 0.0003652 seconds, Stopping threads took: 0.0001609 seconds
+2021-07-10T17:48:29.568+0700: 228.260: Total time for which application threads were stopped: 0.0002527 seconds, Stopping threads took: 0.0000734 seconds
+2021-07-10T17:48:29.568+0700: 228.260: Total time for which application threads were stopped: 0.0002978 seconds, Stopping threads took: 0.0001479 seconds
+2021-07-10T17:48:29.569+0700: 228.261: Total time for which application threads were stopped: 0.0002770 seconds, Stopping threads took: 0.0001289 seconds
+2021-07-10T17:48:29.569+0700: 228.261: Total time for which application threads were stopped: 0.0003015 seconds, Stopping threads took: 0.0001533 seconds
+2021-07-10T17:48:29.570+0700: 228.262: Total time for which application threads were stopped: 0.0003513 seconds, Stopping threads took: 0.0001596 seconds
+2021-07-10T17:48:29.571+0700: 228.263: Total time for which application threads were stopped: 0.0003034 seconds, Stopping threads took: 0.0001517 seconds
+2021-07-10T17:48:29.583+0700: 228.275: Total time for which application threads were stopped: 0.0005127 seconds, Stopping threads took: 0.0002452 seconds
+2021-07-10T17:48:29.583+0700: 228.275: Total time for which application threads were stopped: 0.0004562 seconds, Stopping threads took: 0.0002300 seconds
+2021-07-10T17:48:29.585+0700: 228.277: Total time for which application threads were stopped: 0.0004526 seconds, Stopping threads took: 0.0002553 seconds
+2021-07-10T17:48:33.592+0700: 232.284: Total time for which application threads were stopped: 0.0003607 seconds, Stopping threads took: 0.0000813 seconds
+2021-07-10T17:48:37.599+0700: 236.291: Total time for which application threads were stopped: 0.0002348 seconds, Stopping threads took: 0.0000761 seconds
+2021-07-10T17:48:40.580+0700: 239.272: Total time for which application threads were stopped: 0.0003230 seconds, Stopping threads took: 0.0001841 seconds
+2021-07-10T17:48:40.580+0700: 239.272: Total time for which application threads were stopped: 0.0001903 seconds, Stopping threads took: 0.0000711 seconds
+2021-07-10T17:48:41.581+0700: 240.273: Total time for which application threads were stopped: 0.0004064 seconds, Stopping threads took: 0.0001122 seconds
+2021-07-10T17:48:42.582+0700: 241.274: Total time for which application threads were stopped: 0.0002691 seconds, Stopping threads took: 0.0000941 seconds
+2021-07-10T17:48:43.925+0700: 242.618: Total time for which application threads were stopped: 0.0002213 seconds, Stopping threads took: 0.0000572 seconds
+2021-07-10T17:48:43.926+0700: 242.618: Total time for which application threads were stopped: 0.0001362 seconds, Stopping threads took: 0.0000276 seconds
+2021-07-10T17:48:43.926+0700: 242.618: Total time for which application threads were stopped: 0.0001951 seconds, Stopping threads took: 0.0000377 seconds
+2021-07-10T17:48:43.926+0700: 242.619: Total time for which application threads were stopped: 0.0001634 seconds, Stopping threads took: 0.0000355 seconds
+2021-07-10T17:48:43.927+0700: 242.619: Total time for which application threads were stopped: 0.0001967 seconds, Stopping threads took: 0.0000471 seconds
+2021-07-10T17:48:44.930+0700: 243.622: Total time for which application threads were stopped: 0.0002015 seconds, Stopping threads took: 0.0000592 seconds
+2021-07-10T17:48:45.491+0700: 244.184: Total time for which application threads were stopped: 0.0002011 seconds, Stopping threads took: 0.0000488 seconds
+2021-07-10T17:48:46.841+0700: 245.534: Total time for which application threads were stopped: 0.0003773 seconds, Stopping threads took: 0.0000359 seconds
+2021-07-10T17:48:46.850+0700: 245.542: Total time for which application threads were stopped: 0.0001609 seconds, Stopping threads took: 0.0000386 seconds
+2021-07-10T17:48:46.869+0700: 245.561: Total time for which application threads were stopped: 0.0002080 seconds, Stopping threads took: 0.0000529 seconds
+2021-07-10T17:48:46.934+0700: 245.627: Total time for which application threads were stopped: 0.0001352 seconds, Stopping threads took: 0.0000330 seconds
+2021-07-10T17:48:47.067+0700: 245.760: Total time for which application threads were stopped: 0.0001725 seconds, Stopping threads took: 0.0000500 seconds
+2021-07-10T17:48:47.067+0700: 245.760: Total time for which application threads were stopped: 0.0001263 seconds, Stopping threads took: 0.0000338 seconds
+2021-07-10T17:48:47.068+0700: 245.760: Total time for which application threads were stopped: 0.0001149 seconds, Stopping threads took: 0.0000370 seconds
+2021-07-10T17:48:47.068+0700: 245.761: Total time for which application threads were stopped: 0.0001844 seconds, Stopping threads took: 0.0000739 seconds
+2021-07-10T17:48:47.069+0700: 245.761: Total time for which application threads were stopped: 0.0001741 seconds, Stopping threads took: 0.0000616 seconds
+2021-07-10T17:48:47.070+0700: 245.763: Total time for which application threads were stopped: 0.0002646 seconds, Stopping threads took: 0.0001374 seconds
+2021-07-10T17:48:47.074+0700: 245.767: Total time for which application threads were stopped: 0.0013383 seconds, Stopping threads took: 0.0012110 seconds
+2021-07-10T17:48:47.076+0700: 245.769: Total time for which application threads were stopped: 0.0001634 seconds, Stopping threads took: 0.0000516 seconds
+2021-07-10T17:48:47.078+0700: 245.770: Total time for which application threads were stopped: 0.0004960 seconds, Stopping threads took: 0.0000725 seconds
+2021-07-10T17:48:47.095+0700: 245.787: Total time for which application threads were stopped: 0.0002866 seconds, Stopping threads took: 0.0001357 seconds
+2021-07-10T17:48:47.095+0700: 245.788: Total time for which application threads were stopped: 0.0001712 seconds, Stopping threads took: 0.0000854 seconds
+2021-07-10T17:48:47.103+0700: 245.796: Total time for which application threads were stopped: 0.0002070 seconds, Stopping threads took: 0.0000837 seconds
+2021-07-10T17:48:47.138+0700: 245.830: Total time for which application threads were stopped: 0.0001233 seconds, Stopping threads took: 0.0000364 seconds
+2021-07-10T17:48:47.139+0700: 245.830: Total time for which application threads were stopped: 0.0001286 seconds, Stopping threads took: 0.0000267 seconds
+2021-07-10T17:48:47.141+0700: 245.832: Total time for which application threads were stopped: 0.0001369 seconds, Stopping threads took: 0.0000361 seconds
+2021-07-10T17:48:47.243+0700: 245.934: Total time for which application threads were stopped: 0.0002717 seconds, Stopping threads took: 0.0000514 seconds
+2021-07-10T17:48:47.496+0700: 246.189: Total time for which application threads were stopped: 0.0003205 seconds, Stopping threads took: 0.0001492 seconds
+2021-07-10T17:48:50.500+0700: 249.192: Total time for which application threads were stopped: 0.0002202 seconds, Stopping threads took: 0.0000662 seconds
+2021-07-10T17:48:52.630+0700: 251.322: Total time for which application threads were stopped: 0.0002732 seconds, Stopping threads took: 0.0000902 seconds
+2021-07-10T17:48:52.632+0700: 251.325: Total time for which application threads were stopped: 0.0002037 seconds, Stopping threads took: 0.0000512 seconds
+2021-07-10T17:48:53.634+0700: 252.326: Total time for which application threads were stopped: 0.0002496 seconds, Stopping threads took: 0.0000884 seconds
+2021-07-10T17:48:58.263+0700: 256.955: Total time for which application threads were stopped: 0.0002607 seconds, Stopping threads took: 0.0000902 seconds
+2021-07-10T17:48:58.263+0700: 256.955: Total time for which application threads were stopped: 0.0004900 seconds, Stopping threads took: 0.0003395 seconds
+2021-07-10T17:48:59.266+0700: 257.958: Total time for which application threads were stopped: 0.0001442 seconds, Stopping threads took: 0.0000399 seconds
+2021-07-10T17:49:00.404+0700: 259.097: Total time for which application threads were stopped: 0.0002161 seconds, Stopping threads took: 0.0000536 seconds
+2021-07-10T17:49:00.405+0700: 259.097: Total time for which application threads were stopped: 0.0002044 seconds, Stopping threads took: 0.0000498 seconds
+2021-07-10T17:49:00.405+0700: 259.098: Total time for which application threads were stopped: 0.0001905 seconds, Stopping threads took: 0.0000429 seconds
+2021-07-10T17:49:00.406+0700: 259.098: Total time for which application threads were stopped: 0.0002076 seconds, Stopping threads took: 0.0000607 seconds
+2021-07-10T17:49:00.406+0700: 259.099: Total time for which application threads were stopped: 0.0002377 seconds, Stopping threads took: 0.0000514 seconds
+2021-07-10T17:49:01.408+0700: 260.100: Total time for which application threads were stopped: 0.0002813 seconds, Stopping threads took: 0.0000871 seconds
+2021-07-10T17:49:02.402+0700: 261.094: Total time for which application threads were stopped: 0.0001481 seconds, Stopping threads took: 0.0000359 seconds
+2021-07-10T17:49:03.356+0700: 262.048: Total time for which application threads were stopped: 0.0002058 seconds, Stopping threads took: 0.0000561 seconds
+2021-07-10T17:49:03.391+0700: 262.083: Total time for which application threads were stopped: 0.0001774 seconds, Stopping threads took: 0.0000425 seconds
+2021-07-10T17:49:03.428+0700: 262.120: Total time for which application threads were stopped: 0.0001584 seconds, Stopping threads took: 0.0000408 seconds
+2021-07-10T17:49:03.434+0700: 262.126: Total time for which application threads were stopped: 0.0001446 seconds, Stopping threads took: 0.0000404 seconds
+2021-07-10T17:49:03.436+0700: 262.128: Total time for which application threads were stopped: 0.0007989 seconds, Stopping threads took: 0.0000308 seconds
+2021-07-10T17:49:03.487+0700: 262.178: Total time for which application threads were stopped: 0.0002091 seconds, Stopping threads took: 0.0000744 seconds
+2021-07-10T17:49:03.576+0700: 262.268: Total time for which application threads were stopped: 0.0008025 seconds, Stopping threads took: 0.0000351 seconds
+2021-07-10T17:49:03.685+0700: 262.376: Total time for which application threads were stopped: 0.0002321 seconds, Stopping threads took: 0.0000510 seconds
+2021-07-10T17:49:03.687+0700: 262.379: Total time for which application threads were stopped: 0.0001772 seconds, Stopping threads took: 0.0000471 seconds
+2021-07-10T17:49:03.702+0700: 262.393: Total time for which application threads were stopped: 0.0002295 seconds, Stopping threads took: 0.0000856 seconds
+2021-07-10T17:49:03.705+0700: 262.397: Total time for which application threads were stopped: 0.0001405 seconds, Stopping threads took: 0.0000390 seconds
+2021-07-10T17:49:03.710+0700: 262.402: Total time for which application threads were stopped: 0.0002048 seconds, Stopping threads took: 0.0000833 seconds
+2021-07-10T17:49:03.787+0700: 262.478: Total time for which application threads were stopped: 0.0002092 seconds, Stopping threads took: 0.0000578 seconds
+2021-07-10T17:49:03.862+0700: 262.554: Total time for which application threads were stopped: 0.0002198 seconds, Stopping threads took: 0.0000648 seconds
+2021-07-10T17:49:03.871+0700: 262.563: Total time for which application threads were stopped: 0.0001796 seconds, Stopping threads took: 0.0000492 seconds
+2021-07-10T17:49:03.932+0700: 262.624: Total time for which application threads were stopped: 0.0001879 seconds, Stopping threads took: 0.0000491 seconds
+2021-07-10T17:49:03.941+0700: 262.633: Total time for which application threads were stopped: 0.0005082 seconds, Stopping threads took: 0.0000532 seconds
+2021-07-10T17:49:03.988+0700: 262.680: Total time for which application threads were stopped: 0.0009056 seconds, Stopping threads took: 0.0000448 seconds
+2021-07-10T17:49:04.315+0700: 263.007: Total time for which application threads were stopped: 0.0008347 seconds, Stopping threads took: 0.0000362 seconds
+2021-07-10T17:49:04.344+0700: 263.037: Total time for which application threads were stopped: 0.0009752 seconds, Stopping threads took: 0.0000483 seconds
+2021-07-10T17:49:04.346+0700: 263.038: Total time for which application threads were stopped: 0.0009021 seconds, Stopping threads took: 0.0000258 seconds
+2021-07-10T17:49:04.408+0700: 263.101: Total time for which application threads were stopped: 0.0003056 seconds, Stopping threads took: 0.0001234 seconds
+2021-07-10T17:49:04.646+0700: 263.338: Total time for which application threads were stopped: 0.0008739 seconds, Stopping threads took: 0.0000458 seconds
+2021-07-10T17:49:04.912+0700: 263.604: Total time for which application threads were stopped: 0.0009226 seconds, Stopping threads took: 0.0000403 seconds
+2021-07-10T17:49:05.480+0700: 264.172: Total time for which application threads were stopped: 0.0001651 seconds, Stopping threads took: 0.0000343 seconds
+2021-07-10T17:49:05.481+0700: 264.173: Total time for which application threads were stopped: 0.0000768 seconds, Stopping threads took: 0.0000193 seconds
+2021-07-10T17:49:05.481+0700: 264.173: Total time for which application threads were stopped: 0.0000775 seconds, Stopping threads took: 0.0000186 seconds
+2021-07-10T17:49:05.482+0700: 264.174: Total time for which application threads were stopped: 0.0001226 seconds, Stopping threads took: 0.0000309 seconds
+2021-07-10T17:49:05.482+0700: 264.174: Total time for which application threads were stopped: 0.0001389 seconds, Stopping threads took: 0.0000617 seconds
+2021-07-10T17:49:05.483+0700: 264.175: Total time for which application threads were stopped: 0.0001608 seconds, Stopping threads took: 0.0000680 seconds
+2021-07-10T17:49:05.483+0700: 264.175: Total time for which application threads were stopped: 0.0001268 seconds, Stopping threads took: 0.0000518 seconds
+2021-07-10T17:49:05.486+0700: 264.178: Total time for which application threads were stopped: 0.0001752 seconds, Stopping threads took: 0.0000728 seconds
+2021-07-10T17:49:05.512+0700: 264.204: Total time for which application threads were stopped: 0.0002246 seconds, Stopping threads took: 0.0000766 seconds
+2021-07-10T17:49:05.513+0700: 264.205: Total time for which application threads were stopped: 0.0002303 seconds, Stopping threads took: 0.0000894 seconds
+2021-07-10T17:49:05.516+0700: 264.208: Total time for which application threads were stopped: 0.0001796 seconds, Stopping threads took: 0.0000546 seconds
+2021-07-10T17:49:06.516+0700: 265.208: Total time for which application threads were stopped: 0.0002999 seconds, Stopping threads took: 0.0000824 seconds
+2021-07-10T17:49:20.540+0700: 279.232: Total time for which application threads were stopped: 0.0002050 seconds, Stopping threads took: 0.0001003 seconds
+2021-07-10T17:49:28.553+0700: 287.245: Total time for which application threads were stopped: 0.0003688 seconds, Stopping threads took: 0.0000790 seconds
+2021-07-10T17:49:29.554+0700: 288.246: Total time for which application threads were stopped: 0.0002366 seconds, Stopping threads took: 0.0000683 seconds
+2021-07-10T17:49:38.576+0700: 297.268: Total time for which application threads were stopped: 0.0002671 seconds, Stopping threads took: 0.0001172 seconds
+2021-07-10T17:49:44.588+0700: 303.280: Total time for which application threads were stopped: 0.0002502 seconds, Stopping threads took: 0.0000550 seconds
+2021-07-10T17:49:46.592+0700: 305.284: Total time for which application threads were stopped: 0.0003303 seconds, Stopping threads took: 0.0000941 seconds
+2021-07-10T17:49:54.608+0700: 313.300: Total time for which application threads were stopped: 0.0003446 seconds, Stopping threads took: 0.0000986 seconds
+2021-07-10T17:49:59.618+0700: 318.310: Total time for which application threads were stopped: 0.0001546 seconds, Stopping threads took: 0.0000383 seconds
+2021-07-10T17:50:10.638+0700: 329.330: Total time for which application threads were stopped: 0.0002429 seconds, Stopping threads took: 0.0000677 seconds
+2021-07-10T17:50:22.672+0700: 341.364: Total time for which application threads were stopped: 0.0002514 seconds, Stopping threads took: 0.0000890 seconds
+2021-07-10T17:50:59.744+0700: 378.436: Total time for which application threads were stopped: 0.0002662 seconds, Stopping threads took: 0.0000986 seconds
+2021-07-10T17:51:00.746+0700: 379.438: Total time for which application threads were stopped: 0.0002696 seconds, Stopping threads took: 0.0000910 seconds
+2021-07-10T17:51:12.766+0700: 391.458: Total time for which application threads were stopped: 0.0003930 seconds, Stopping threads took: 0.0001214 seconds
+2021-07-10T17:51:14.768+0700: 393.460: Total time for which application threads were stopped: 0.0004665 seconds, Stopping threads took: 0.0001465 seconds
+2021-07-10T17:51:16.773+0700: 395.464: Total time for which application threads were stopped: 0.0001260 seconds, Stopping threads took: 0.0000372 seconds
+2021-07-10T17:51:18.774+0700: 397.466: Total time for which application threads were stopped: 0.0002343 seconds, Stopping threads took: 0.0000646 seconds
+2021-07-10T17:51:22.782+0700: 401.474: Total time for which application threads were stopped: 0.0003878 seconds, Stopping threads took: 0.0001084 seconds
+2021-07-10T17:51:23.235+0700: 401.926: Total time for which application threads were stopped: 0.0003264 seconds, Stopping threads took: 0.0001586 seconds
+2021-07-10T17:51:24.236+0700: 402.928: Total time for which application threads were stopped: 0.0002458 seconds, Stopping threads took: 0.0000801 seconds
+2021-07-10T17:51:25.239+0700: 403.931: Total time for which application threads were stopped: 0.0002330 seconds, Stopping threads took: 0.0000659 seconds
+2021-07-10T17:51:29.079+0700: 407.772: Total time for which application threads were stopped: 0.0002446 seconds, Stopping threads took: 0.0000681 seconds
+2021-07-10T17:51:30.082+0700: 408.775: Total time for which application threads were stopped: 0.0003982 seconds, Stopping threads took: 0.0001974 seconds
+2021-07-10T17:51:33.089+0700: 411.781: Total time for which application threads were stopped: 0.0002340 seconds, Stopping threads took: 0.0000670 seconds
+2021-07-10T17:51:40.095+0700: 418.787: Total time for which application threads were stopped: 0.0001551 seconds, Stopping threads took: 0.0000552 seconds
+2021-07-10T17:51:42.502+0700: 421.194: Total time for which application threads were stopped: 0.0001530 seconds, Stopping threads took: 0.0000536 seconds
+2021-07-10T17:51:42.503+0700: 421.195: Total time for which application threads were stopped: 0.0001398 seconds, Stopping threads took: 0.0000388 seconds
+2021-07-10T17:51:42.504+0700: 421.196: Total time for which application threads were stopped: 0.0001512 seconds, Stopping threads took: 0.0000414 seconds
+2021-07-10T17:51:42.505+0700: 421.197: Total time for which application threads were stopped: 0.0001383 seconds, Stopping threads took: 0.0000393 seconds
+2021-07-10T17:51:42.508+0700: 421.200: Total time for which application threads were stopped: 0.0001283 seconds, Stopping threads took: 0.0000388 seconds
+2021-07-10T17:51:42.516+0700: 421.208: Total time for which application threads were stopped: 0.0001498 seconds, Stopping threads took: 0.0000457 seconds
+2021-07-10T17:51:42.519+0700: 421.211: Total time for which application threads were stopped: 0.0001812 seconds, Stopping threads took: 0.0000634 seconds
+2021-07-10T17:51:42.540+0700: 421.232: Total time for which application threads were stopped: 0.0001278 seconds, Stopping threads took: 0.0000360 seconds
+2021-07-10T17:51:42.541+0700: 421.233: Total time for which application threads were stopped: 0.0001070 seconds, Stopping threads took: 0.0000288 seconds
+2021-07-10T17:51:42.541+0700: 421.233: Total time for which application threads were stopped: 0.0000800 seconds, Stopping threads took: 0.0000219 seconds
+2021-07-10T17:51:42.541+0700: 421.233: Total time for which application threads were stopped: 0.0000747 seconds, Stopping threads took: 0.0000211 seconds
+2021-07-10T17:51:42.542+0700: 421.234: Total time for which application threads were stopped: 0.0000971 seconds, Stopping threads took: 0.0000212 seconds
+2021-07-10T17:51:42.542+0700: 421.234: Total time for which application threads were stopped: 0.0000756 seconds, Stopping threads took: 0.0000220 seconds
+2021-07-10T17:51:42.542+0700: 421.234: Total time for which application threads were stopped: 0.0000717 seconds, Stopping threads took: 0.0000202 seconds
+2021-07-10T17:51:42.542+0700: 421.234: Total time for which application threads were stopped: 0.0000676 seconds, Stopping threads took: 0.0000186 seconds
+2021-07-10T17:51:42.542+0700: 421.234: Total time for which application threads were stopped: 0.0000684 seconds, Stopping threads took: 0.0000193 seconds
+2021-07-10T17:51:42.542+0700: 421.234: Total time for which application threads were stopped: 0.0000667 seconds, Stopping threads took: 0.0000185 seconds
+2021-07-10T17:51:42.543+0700: 421.235: Total time for which application threads were stopped: 0.0000769 seconds, Stopping threads took: 0.0000214 seconds
+2021-07-10T17:51:42.543+0700: 421.235: Total time for which application threads were stopped: 0.0000733 seconds, Stopping threads took: 0.0000208 seconds
+2021-07-10T17:51:42.543+0700: 421.235: Total time for which application threads were stopped: 0.0000728 seconds, Stopping threads took: 0.0000205 seconds
+2021-07-10T17:51:42.543+0700: 421.235: Total time for which application threads were stopped: 0.0000739 seconds, Stopping threads took: 0.0000217 seconds
+2021-07-10T17:51:42.544+0700: 421.236: Total time for which application threads were stopped: 0.0000780 seconds, Stopping threads took: 0.0000203 seconds
+2021-07-10T17:51:42.544+0700: 421.236: Total time for which application threads were stopped: 0.0000730 seconds, Stopping threads took: 0.0000206 seconds
+2021-07-10T17:51:42.544+0700: 421.236: Total time for which application threads were stopped: 0.0000728 seconds, Stopping threads took: 0.0000207 seconds
+2021-07-10T17:51:42.544+0700: 421.236: Total time for which application threads were stopped: 0.0000731 seconds, Stopping threads took: 0.0000205 seconds
+2021-07-10T17:51:42.544+0700: 421.236: Total time for which application threads were stopped: 0.0000731 seconds, Stopping threads took: 0.0000207 seconds
+2021-07-10T17:51:42.545+0700: 421.237: Total time for which application threads were stopped: 0.0001121 seconds, Stopping threads took: 0.0000323 seconds
+2021-07-10T17:51:42.545+0700: 421.237: Total time for which application threads were stopped: 0.0002746 seconds, Stopping threads took: 0.0000208 seconds
+2021-07-10T17:51:42.556+0700: 421.248: Total time for which application threads were stopped: 0.0002963 seconds, Stopping threads took: 0.0001314 seconds
+2021-07-10T17:51:42.570+0700: 421.262: Total time for which application threads were stopped: 0.0002156 seconds, Stopping threads took: 0.0000582 seconds
+2021-07-10T17:51:42.571+0700: 421.263: Total time for which application threads were stopped: 0.0002038 seconds, Stopping threads took: 0.0000905 seconds
+2021-07-10T17:51:42.573+0700: 421.265: Total time for which application threads were stopped: 0.0002250 seconds, Stopping threads took: 0.0000935 seconds
+2021-07-10T17:51:42.574+0700: 421.266: Total time for which application threads were stopped: 0.0002572 seconds, Stopping threads took: 0.0001100 seconds
+2021-07-10T17:51:42.575+0700: 421.266: Total time for which application threads were stopped: 0.0002242 seconds, Stopping threads took: 0.0001013 seconds
+2021-07-10T17:51:42.575+0700: 421.267: Total time for which application threads were stopped: 0.0001345 seconds, Stopping threads took: 0.0000354 seconds
+2021-07-10T17:51:42.581+0700: 421.273: Total time for which application threads were stopped: 0.0002335 seconds, Stopping threads took: 0.0000994 seconds
+2021-07-10T17:51:42.623+0700: 421.315: Total time for which application threads were stopped: 0.0001893 seconds, Stopping threads took: 0.0000451 seconds
+2021-07-10T17:51:42.719+0700: 421.411: Total time for which application threads were stopped: 0.0001495 seconds, Stopping threads took: 0.0000599 seconds
+2021-07-10T17:51:42.719+0700: 421.411: Total time for which application threads were stopped: 0.0001025 seconds, Stopping threads took: 0.0000457 seconds
+2021-07-10T17:51:42.719+0700: 421.411: Total time for which application threads were stopped: 0.0000961 seconds, Stopping threads took: 0.0000433 seconds
+2021-07-10T17:51:42.720+0700: 421.411: Total time for which application threads were stopped: 0.0000820 seconds, Stopping threads took: 0.0000305 seconds
+2021-07-10T17:51:43.419+0700: 422.111: Total time for which application threads were stopped: 0.0001921 seconds, Stopping threads took: 0.0000471 seconds
+2021-07-10T17:51:44.423+0700: 423.115: Total time for which application threads were stopped: 0.0002318 seconds, Stopping threads took: 0.0000643 seconds
+2021-07-10T17:51:49.431+0700: 428.123: Total time for which application threads were stopped: 0.0003305 seconds, Stopping threads took: 0.0000832 seconds
+2021-07-10T17:51:59.445+0700: 438.137: Total time for which application threads were stopped: 0.0003857 seconds, Stopping threads took: 0.0001008 seconds
+2021-07-10T17:52:01.447+0700: 440.139: Total time for which application threads were stopped: 0.0005011 seconds, Stopping threads took: 0.0000940 seconds
+2021-07-10T17:52:07.458+0700: 446.150: Total time for which application threads were stopped: 0.0002123 seconds, Stopping threads took: 0.0000548 seconds
+2021-07-10T17:52:09.460+0700: 448.152: Total time for which application threads were stopped: 0.0001471 seconds, Stopping threads took: 0.0000460 seconds
+2021-07-10T17:52:11.464+0700: 450.156: Total time for which application threads were stopped: 0.0001505 seconds, Stopping threads took: 0.0000471 seconds
+2021-07-10T17:52:13.469+0700: 452.161: Total time for which application threads were stopped: 0.0002929 seconds, Stopping threads took: 0.0001987 seconds
+2021-07-10T17:52:15.473+0700: 454.165: Total time for which application threads were stopped: 0.0001770 seconds, Stopping threads took: 0.0000805 seconds
+2021-07-10T17:52:19.476+0700: 458.169: Total time for which application threads were stopped: 0.0002578 seconds, Stopping threads took: 0.0000895 seconds
+2021-07-10T17:52:20.478+0700: 459.170: Total time for which application threads were stopped: 0.0002252 seconds, Stopping threads took: 0.0000623 seconds
+2021-07-10T17:54:59.795+0700: 618.487: Total time for which application threads were stopped: 0.0002593 seconds, Stopping threads took: 0.0000685 seconds
+2021-07-10T17:55:40.890+0700: 659.582: Total time for which application threads were stopped: 0.0001385 seconds, Stopping threads took: 0.0000461 seconds
+2021-07-10T17:55:59.925+0700: 678.617: Total time for which application threads were stopped: 0.0002494 seconds, Stopping threads took: 0.0000890 seconds
+2021-07-10T17:58:00.171+0700: 798.863: Total time for which application threads were stopped: 0.0003075 seconds, Stopping threads took: 0.0001596 seconds
+2021-07-10T17:59:54.900+0700: 913.592: Total time for which application threads were stopped: 0.0001952 seconds, Stopping threads took: 0.0000633 seconds
+2021-07-10T17:59:54.912+0700: 913.604: Total time for which application threads were stopped: 0.0002613 seconds, Stopping threads took: 0.0000744 seconds
+2021-07-10T17:59:54.913+0700: 913.604: Total time for which application threads were stopped: 0.0001221 seconds, Stopping threads took: 0.0000371 seconds
+2021-07-10T17:59:54.916+0700: 913.607: Total time for which application threads were stopped: 0.0001820 seconds, Stopping threads took: 0.0000837 seconds
+2021-07-10T17:59:54.921+0700: 913.612: Total time for which application threads were stopped: 0.0009638 seconds, Stopping threads took: 0.0008607 seconds
+2021-07-10T17:59:54.934+0700: 913.625: Total time for which application threads were stopped: 0.0001913 seconds, Stopping threads took: 0.0000485 seconds
+2021-07-10T17:59:54.943+0700: 913.635: Total time for which application threads were stopped: 0.0002244 seconds, Stopping threads took: 0.0000910 seconds
+2021-07-10T17:59:54.950+0700: 913.641: Total time for which application threads were stopped: 0.0002162 seconds, Stopping threads took: 0.0000729 seconds
+2021-07-10T17:59:54.950+0700: 913.642: Total time for which application threads were stopped: 0.0002203 seconds, Stopping threads took: 0.0000852 seconds
+2021-07-10T17:59:54.950+0700: 913.642: Total time for which application threads were stopped: 0.0001653 seconds, Stopping threads took: 0.0000650 seconds
+2021-07-10T17:59:54.954+0700: 913.646: Total time for which application threads were stopped: 0.0002381 seconds, Stopping threads took: 0.0001023 seconds
+2021-07-10T17:59:54.954+0700: 913.647: Total time for which application threads were stopped: 0.0002755 seconds, Stopping threads took: 0.0001453 seconds
+2021-07-10T17:59:54.957+0700: 913.649: Total time for which application threads were stopped: 0.0002592 seconds, Stopping threads took: 0.0000879 seconds
+2021-07-10T17:59:54.957+0700: 913.649: Total time for which application threads were stopped: 0.0002134 seconds, Stopping threads took: 0.0000759 seconds
+2021-07-10T17:59:54.963+0700: 913.656: Total time for which application threads were stopped: 0.0017125 seconds, Stopping threads took: 0.0015285 seconds
+2021-07-10T17:59:54.964+0700: 913.657: Total time for which application threads were stopped: 0.0001880 seconds, Stopping threads took: 0.0000624 seconds
+2021-07-10T17:59:54.972+0700: 913.665: Total time for which application threads were stopped: 0.0002546 seconds, Stopping threads took: 0.0001139 seconds
+2021-07-10T17:59:54.972+0700: 913.665: Total time for which application threads were stopped: 0.0001872 seconds, Stopping threads took: 0.0000757 seconds
+2021-07-10T17:59:54.973+0700: 913.666: Total time for which application threads were stopped: 0.0002061 seconds, Stopping threads took: 0.0000855 seconds
+2021-07-10T17:59:54.973+0700: 913.666: Total time for which application threads were stopped: 0.0002359 seconds, Stopping threads took: 0.0001002 seconds
+2021-07-10T17:59:54.974+0700: 913.667: Total time for which application threads were stopped: 0.0002070 seconds, Stopping threads took: 0.0000918 seconds
+2021-07-10T17:59:54.975+0700: 913.667: Total time for which application threads were stopped: 0.0001673 seconds, Stopping threads took: 0.0000514 seconds
+2021-07-10T17:59:54.976+0700: 913.669: Total time for which application threads were stopped: 0.0002178 seconds, Stopping threads took: 0.0000775 seconds
+2021-07-10T17:59:54.989+0700: 913.682: Total time for which application threads were stopped: 0.0002356 seconds, Stopping threads took: 0.0000877 seconds
+2021-07-10T17:59:54.989+0700: 913.682: Total time for which application threads were stopped: 0.0002173 seconds, Stopping threads took: 0.0000880 seconds
+2021-07-10T17:59:55.006+0700: 913.699: Total time for which application threads were stopped: 0.0041292 seconds, Stopping threads took: 0.0039443 seconds
+2021-07-10T17:59:55.009+0700: 913.701: Total time for which application threads were stopped: 0.0006698 seconds, Stopping threads took: 0.0005326 seconds
+2021-07-10T17:59:55.018+0700: 913.710: Total time for which application threads were stopped: 0.0067411 seconds, Stopping threads took: 0.0065891 seconds
+2021-07-10T17:59:55.027+0700: 913.720: Total time for which application threads were stopped: 0.0013961 seconds, Stopping threads took: 0.0012580 seconds
+2021-07-10T17:59:55.028+0700: 913.721: Total time for which application threads were stopped: 0.0003657 seconds, Stopping threads took: 0.0002550 seconds
+2021-07-10T17:59:55.028+0700: 913.721: Total time for which application threads were stopped: 0.0001694 seconds, Stopping threads took: 0.0000652 seconds
+2021-07-10T17:59:55.029+0700: 913.722: Total time for which application threads were stopped: 0.0004157 seconds, Stopping threads took: 0.0003033 seconds
+2021-07-10T17:59:55.029+0700: 913.722: Total time for which application threads were stopped: 0.0001809 seconds, Stopping threads took: 0.0000765 seconds
+2021-07-10T17:59:55.031+0700: 913.724: Total time for which application threads were stopped: 0.0014145 seconds, Stopping threads took: 0.0012843 seconds
+2021-07-10T17:59:55.032+0700: 913.725: Total time for which application threads were stopped: 0.0001930 seconds, Stopping threads took: 0.0000830 seconds
+2021-07-10T17:59:55.032+0700: 913.725: Total time for which application threads were stopped: 0.0001754 seconds, Stopping threads took: 0.0000742 seconds
+2021-07-10T17:59:55.034+0700: 913.727: Total time for which application threads were stopped: 0.0002483 seconds, Stopping threads took: 0.0001017 seconds
+2021-07-10T17:59:55.035+0700: 913.728: Total time for which application threads were stopped: 0.0001971 seconds, Stopping threads took: 0.0000762 seconds
+2021-07-10T17:59:55.036+0700: 913.729: Total time for which application threads were stopped: 0.0001932 seconds, Stopping threads took: 0.0000653 seconds
+2021-07-10T17:59:55.036+0700: 913.729: Total time for which application threads were stopped: 0.0001657 seconds, Stopping threads took: 0.0000541 seconds
+2021-07-10T17:59:55.036+0700: 913.729: Total time for which application threads were stopped: 0.0001361 seconds, Stopping threads took: 0.0000394 seconds
+2021-07-10T17:59:55.037+0700: 913.729: Total time for which application threads were stopped: 0.0001660 seconds, Stopping threads took: 0.0000502 seconds
+2021-07-10T17:59:55.037+0700: 913.730: Total time for which application threads were stopped: 0.0001863 seconds, Stopping threads took: 0.0000774 seconds
+2021-07-10T17:59:55.039+0700: 913.731: Total time for which application threads were stopped: 0.0001915 seconds, Stopping threads took: 0.0000938 seconds
+2021-07-10T17:59:55.039+0700: 913.732: Total time for which application threads were stopped: 0.0001509 seconds, Stopping threads took: 0.0000643 seconds
+2021-07-10T17:59:55.040+0700: 913.733: Total time for which application threads were stopped: 0.0005069 seconds, Stopping threads took: 0.0004218 seconds
+2021-07-10T17:59:55.042+0700: 913.734: Total time for which application threads were stopped: 0.0001921 seconds, Stopping threads took: 0.0000890 seconds
+2021-07-10T17:59:55.042+0700: 913.735: Total time for which application threads were stopped: 0.0002097 seconds, Stopping threads took: 0.0000433 seconds
+2021-07-10T17:59:55.044+0700: 913.737: Total time for which application threads were stopped: 0.0003454 seconds, Stopping threads took: 0.0002352 seconds
+2021-07-10T17:59:55.045+0700: 913.737: Total time for which application threads were stopped: 0.0001353 seconds, Stopping threads took: 0.0000511 seconds
+2021-07-10T17:59:55.045+0700: 913.737: Total time for which application threads were stopped: 0.0000924 seconds, Stopping threads took: 0.0000267 seconds
+2021-07-10T17:59:55.045+0700: 913.738: Total time for which application threads were stopped: 0.0001464 seconds, Stopping threads took: 0.0000396 seconds
+2021-07-10T17:59:55.046+0700: 913.738: Total time for which application threads were stopped: 0.0003393 seconds, Stopping threads took: 0.0000319 seconds
+2021-07-10T17:59:55.046+0700: 913.739: Total time for which application threads were stopped: 0.0001121 seconds, Stopping threads took: 0.0000591 seconds
+2021-07-10T17:59:55.046+0700: 913.739: Total time for which application threads were stopped: 0.0000606 seconds, Stopping threads took: 0.0000206 seconds
+2021-07-10T17:59:55.046+0700: 913.739: Total time for which application threads were stopped: 0.0000603 seconds, Stopping threads took: 0.0000209 seconds
+2021-07-10T17:59:55.046+0700: 913.739: Total time for which application threads were stopped: 0.0000605 seconds, Stopping threads took: 0.0000207 seconds
+2021-07-10T17:59:55.048+0700: 913.741: Total time for which application threads were stopped: 0.0003018 seconds, Stopping threads took: 0.0002202 seconds
+2021-07-10T17:59:55.049+0700: 913.742: Total time for which application threads were stopped: 0.0002046 seconds, Stopping threads took: 0.0001268 seconds
+2021-07-10T17:59:55.052+0700: 913.745: Total time for which application threads were stopped: 0.0003532 seconds, Stopping threads took: 0.0002678 seconds
+2021-07-10T17:59:55.053+0700: 913.745: Total time for which application threads were stopped: 0.0001505 seconds, Stopping threads took: 0.0000394 seconds
+2021-07-10T17:59:55.056+0700: 913.748: Total time for which application threads were stopped: 0.0001178 seconds, Stopping threads took: 0.0000474 seconds
+2021-07-10T17:59:55.069+0700: 913.761: Total time for which application threads were stopped: 0.0002049 seconds, Stopping threads took: 0.0000857 seconds
+2021-07-10T17:59:55.073+0700: 913.766: Total time for which application threads were stopped: 0.0001283 seconds, Stopping threads took: 0.0000652 seconds
+2021-07-10T17:59:55.074+0700: 913.766: Total time for which application threads were stopped: 0.0001080 seconds, Stopping threads took: 0.0000666 seconds
+2021-07-10T17:59:55.074+0700: 913.766: Total time for which application threads were stopped: 0.0001052 seconds, Stopping threads took: 0.0000520 seconds
+2021-07-10T17:59:55.074+0700: 913.767: Total time for which application threads were stopped: 0.0000965 seconds, Stopping threads took: 0.0000455 seconds
+2021-07-10T17:59:55.074+0700: 913.767: Total time for which application threads were stopped: 0.0000956 seconds, Stopping threads took: 0.0000452 seconds
+2021-07-10T17:59:55.074+0700: 913.767: Total time for which application threads were stopped: 0.0001033 seconds, Stopping threads took: 0.0000500 seconds
+2021-07-10T17:59:55.075+0700: 913.768: Total time for which application threads were stopped: 0.0001101 seconds, Stopping threads took: 0.0000490 seconds
+2021-07-10T17:59:55.076+0700: 913.768: Total time for which application threads were stopped: 0.0001168 seconds, Stopping threads took: 0.0000699 seconds
+2021-07-10T17:59:55.077+0700: 913.770: Total time for which application threads were stopped: 0.0001599 seconds, Stopping threads took: 0.0001165 seconds
+2021-07-10T17:59:55.078+0700: 913.771: Total time for which application threads were stopped: 0.0001543 seconds, Stopping threads took: 0.0000957 seconds
+Heap
+ garbage-first heap   total 1048576K, used 427602K [0x00000006c0000000, 0x00000006c0102000, 0x00000007c0000000)
+  region size 1024K, 383 young (392192K), 27 survivors (27648K)
+ Metaspace       used 62880K, capacity 64940K, committed 65104K, reserved 1105920K
+  class space    used 7315K, capacity 7751K, committed 7856K, reserved 1048576K
